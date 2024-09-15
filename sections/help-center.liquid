@@ -1,0 +1,173 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class='color-{{ section.settings.color_scheme }} gradient'>
+  <div class='page-width isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding twcss-grid twcss-gap-32'>
+    {%- if section.settings.heading != blank -%}
+      <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
+        {{ section.settings.heading }}
+      </h2>
+    {%- else -%}
+      <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+
+    <div class='twcss-grid twcss-grid-cols-12 twcss-divide-x twcss-divide-wintermorgen'>
+      <aside class='twcss-self-start twcss-sticky twcss-top-8 twcss-col-span-3 twcss-py-16 twcss-pr-16'>
+        <ul role='list'>
+          {%- for block in section.blocks -%}
+            {% if block.type == 'block__title' %}
+              <li class='twcss-py-4'>
+                <a href='#{{ block.settings.section_title }}'>{{ block.settings.section_title }}</a>
+              </li>
+            {% endif %}
+          {%- endfor -%}
+        </ul>
+      </aside>
+
+      <div class='twcss-col-span-9 twcss-py-16 twcss-pl-16 twcss-grid twcss-gap-8'>
+        {%- for block in section.blocks -%}
+          {% if block.type == 'block__title' %}
+            <div class='section-{{ block.settings.section_title }}' id='{{ block.settings.section_title }}'>
+              <h3>{{ block.settings.section_title }}</h3>
+            </div>
+          {% endif %}
+          {%- if block.type == 'block__section' -%}
+            <div class='twcss-grid twcss-gap-2'>
+              <strong> {{ block.settings.question_title }}</strong>
+              {{ block.settings.content }}
+            </div>
+          {%- endif -%}
+          {%- if block.type == 'block__divider' -%}
+            <div class='twcss-my-40' />
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Help Center",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "t:sections.contact-form.settings.title.default",
+      "label": "t:sections.contact-form.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "block__title",
+      "name": "Überschrift",
+      "settings": [
+        {
+          "type": "text",
+          "id": "section_title",
+          "label": "Section Title",
+          "default": "Section Title"
+        }
+      ]
+    },
+    {
+      "type": "block__section",
+      "name": "FAQ",
+      "settings": [
+        {
+          "type": "text",
+          "id": "question_title",
+          "label": "Question Title",
+          "default": "question Title"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Answer Content",
+          "default": "This is the content of the answer."
+        }
+      ]
+    },
+    {
+      "type": "block__divider",
+      "name": "Divider"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Help Center"
+    }
+  ]
+}
+{% endschema %}

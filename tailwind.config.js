@@ -9,7 +9,9 @@ module.exports = {
   ],
   theme: {
     colors: {
-      turbo: '#f90',
+      tiefsee: '1A2B3C',
+      wintermorgen: '#EAEDF2',
+      terra: '#A78C59',
     },
     fontFamily: {
       chaney: ['CHANEY'],
