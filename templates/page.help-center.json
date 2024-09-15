@@ -52,8 +52,8 @@
         "column_DN9kNx": {
           "type": "column",
           "settings": {
-            "bg_color": "",
-            "opacity": 0.5,
+            "bg_color": "#e9e1d9",
+            "opacity": 1,
             "color": "",
             "title": "Spalte",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
@@ -64,8 +64,8 @@
         "column_6LXqWr": {
           "type": "column",
           "settings": {
-            "bg_color": "#a78c59",
-            "opacity": 0.4,
+            "bg_color": "#d1ba9d",
+            "opacity": 0.6,
             "color": "#1a2b3c",
             "title": "Spalte",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
@@ -76,8 +76,8 @@
         "column_pgPkej": {
           "type": "column",
           "settings": {
-            "bg_color": "",
-            "opacity": 0.5,
+            "bg_color": "#ae9174",
+            "opacity": 0.4,
             "color": "",
             "title": "Spalte",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
@@ -88,8 +88,8 @@
         "column_JaF4EC": {
           "type": "column",
           "settings": {
-            "bg_color": "",
-            "opacity": 0.5,
+            "bg_color": "#cfaf96",
+            "opacity": 0.4,
             "color": "",
             "title": "Spalte",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
@@ -100,8 +100,8 @@
         "column_amGRbf": {
           "type": "column",
           "settings": {
-            "bg_color": "",
-            "opacity": 0.5,
+            "bg_color": "#be896f",
+            "opacity": 0.3,
             "color": "",
             "title": "Spalte",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
@@ -112,8 +112,8 @@
         "column_N499gT": {
           "type": "column",
           "settings": {
-            "bg_color": "",
-            "opacity": 0.5,
+            "bg_color": "#a9644c",
+            "opacity": 0.3,
             "color": "",
             "title": "Spalte",
             "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
@@ -160,14 +160,14 @@
           "type": "block__section",
           "settings": {
             "question_title": "question Title",
-            "content": "This is the content of the section."
+            "content": "Dolore excepteur enim do. In aute ad sint et velit laborum laborum quis do incididunt. Voluptate ut magna excepteur minim dolore aute cupidatat. <strong>Ex mollit consequat<\/strong> dolor consequat sit tempor ad eiusmod consectetur minim adipisicing dolore proident. Amet sunt ut esse ad anim mollit pariatur amet minim do. Cillum laboris voluptate aute ipsum occaecat nisi sit mollit. Nostrud incididunt tempor velit consectetur incididunt."
           }
         },
         "block_section_nVMjPV": {
           "type": "block__section",
           "settings": {
             "question_title": "question Title",
-            "content": "This is the content of the section."
+            "content": "Dolore excepteur enim do. In aute ad sint et velit laborum laborum quis do incididunt. Voluptate ut magna excepteur minim dolore aute cupidatat. Ex mollit consequat dolor consequat sit tempor ad eiusmod consectetur minim adipisicing dolore proident. Amet sunt ut esse ad anim mollit pariatur amet minim do. Cillum laboris voluptate aute ipsum occaecat nisi sit mollit. Nostrud incididunt tempor velit consectetur incididunt."
           }
         },
         "block_section_UUMjJF": {
@@ -175,11 +175,6 @@
           "settings": {
             "question_title": "question Title",
             "content": "This is the content of the section."
-          }
-        },
-        "block_divider_Ekxc9U": {
-          "type": "block__divider",
-          "settings": {
           }
         },
         "block_title_VXwY7j": {
@@ -192,7 +187,7 @@
           "type": "block__section",
           "settings": {
             "question_title": "question Title",
-            "content": "This is the content of the section."
+            "content": "Dolore excepteur enim do. In aute ad sint et velit laborum laborum quis do incididunt. Voluptate ut magna excepteur minim dolore aute cupidatat. Ex mollit consequat dolor consequat sit tempor ad eiusmod consectetur minim adipisicing dolore proident."
           }
         }
       },
@@ -201,16 +196,15 @@
         "block_section_FNPE66",
         "block_section_nVMjPV",
         "block_section_UUMjJF",
-        "block_divider_Ekxc9U",
         "block_title_VXwY7j",
         "block_section_89tkXV"
       ],
       "settings": {
-        "heading": "",
+        "heading": "Häufige Fragen",
         "heading_size": "h1",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
