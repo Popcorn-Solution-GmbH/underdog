@@ -14,6 +14,9 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  .footer__content-top {
+    padding-bottom: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+  }
 
   @media screen and (min-width: 750px) {
     .footer {
@@ -23,6 +26,9 @@
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+    .footer__content-top {
+      padding-bottom: {{ section.settings.padding_top }}px;
     }
   }
 {%- endstyle -%}
@@ -236,6 +242,14 @@
                 {{ shop | login_button: action: 'follow' }}
               </div>
             {%- endif -%}
+
+            <div>
+              <img
+                src='{{ "sab-logo.avif" | asset_url }}'
+                height='auto'
+                width='400'
+              >
+            </div>
 
             {%- if section.settings.show_social and has_social_icons -%}
               {%- render 'social-icons', class: 'footer__list-social' -%}

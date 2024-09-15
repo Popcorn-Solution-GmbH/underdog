@@ -77,7 +77,8 @@
 
 /* base */
 
-.page-width {
+.page-width,
+.shopify-policy__container {
   max-width: var(--page-width);
   margin: 0 auto;
   padding: 0 1.5rem;
@@ -102,7 +103,8 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 }
 
 @media screen and (min-width: 750px) {
-  .page-width {
+  .page-width,
+  .shopify-policy__container {
     padding: 0 5rem;
   }
 
@@ -3583,4 +3585,13 @@ CUSTOM
 
 .vertical-margin-top {
   margin-top: var(--spacing-sections-mobile) !important;
+}
+
+.shopify-policy__container {
+  margin-top: 4rem;
+}
+
+.shopify-policy__container .shopify-policy__title {
+  text-align: left !important;
+  margin-bottom: 2rem;
 }
