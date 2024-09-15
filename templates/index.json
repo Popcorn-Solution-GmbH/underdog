@@ -113,7 +113,7 @@
           "type": "button",
           "settings": {
             "button_label": "Zur Story",
-            "button_link": "shopify:\/\/blogs\/news\/die-story-hinter-chuck",
+            "button_link": "shopify:\/\/pages\/die-story-hinter-chuck",
             "button_style_secondary": false,
             "button_label_2": "Zum Proudukt",
             "button_link_2": "shopify:\/\/collections\/all",
@@ -263,7 +263,9 @@
         "image_behavior": "ambient",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": false,
+        "margin_top": 36,
+        "margin_bottom": 36
       }
     },
     "newsletter_gLEN43": {

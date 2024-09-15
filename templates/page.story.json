@@ -1,0 +1,100 @@
+{
+  "sections": {
+    "image_banner_erWNKa": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_aHy7e9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Die Story hinter CHUCK",
+            "heading_size": "h1"
+          }
+        },
+        "text_K9mJww": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Stelle Kunden Details zu Banner-Bildern oder Inhalt auf der Vorlage zur Verfügung.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aHy7e9",
+        "text_K9mJww"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DSCF8566.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 36,
+        "margin_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 120
+      }
+    },
+    "rich_text_fxNkzL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_jEWD6z": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jetzt den Sound entdecken",
+            "heading_size": "h1"
+          }
+        },
+        "text_yF9mbt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"
+          }
+        },
+        "button_d4XXCa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zu unserem CHUCK",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jEWD6z",
+        "text_yF9mbt",
+        "button_d4XXCa"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": false,
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "image_banner_erWNKa",
+    "main",
+    "rich_text_fxNkzL"
+  ]
+}
