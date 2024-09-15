@@ -18,8 +18,6 @@
       <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         {{ section.settings.heading }}
       </h2>
-    {%- else -%}
-      <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
 
     <div class='twcss-grid twcss-grid-cols-12 twcss-divide-x twcss-divide-wintermorgen'>
@@ -35,21 +33,18 @@
         </ul>
       </aside>
 
-      <div class='twcss-col-span-9 twcss-py-16 twcss-pl-16 twcss-grid twcss-gap-8'>
+      <div class='twcss-col-span-9 twcss-pb-16 twcss-pl-16 twcss-grid twcss-gap-8'>
         {%- for block in section.blocks -%}
           {% if block.type == 'block__title' %}
-            <div class='section-{{ block.settings.section_title }}' id='{{ block.settings.section_title }}'>
-              <h3>{{ block.settings.section_title }}</h3>
+            <div class='section-{{ block.settings.section_title }} twcss-pt-16' id='{{ block.settings.section_title }}'>
+              <strong>{{ block.settings.section_title }}</strong>
             </div>
           {% endif %}
           {%- if block.type == 'block__section' -%}
             <div class='twcss-grid twcss-gap-2'>
-              <strong> {{ block.settings.question_title }}</strong>
-              {{ block.settings.content }}
+              <p class='twcss-underline'>{{ block.settings.question_title }}</p>
+              <p>{{ block.settings.content }}</p>
             </div>
-          {%- endif -%}
-          {%- if block.type == 'block__divider' -%}
-            <div class='twcss-my-40' />
           {%- endif -%}
         {%- endfor -%}
       </div>
@@ -158,10 +153,6 @@
           "default": "This is the content of the answer."
         }
       ]
-    },
-    {
-      "type": "block__divider",
-      "name": "Divider"
     }
   ],
   "presets": [
