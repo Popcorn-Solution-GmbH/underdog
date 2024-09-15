@@ -6,37 +6,26 @@
         "heading_q7rkTw": {
           "type": "heading",
           "settings": {
-            "heading": "Bild-Banner",
+            "heading": "Unsere Antworten, eure Fragen",
             "heading_size": "h1"
           }
         },
         "text_KK3dXY": {
           "type": "text",
           "settings": {
-            "text": "Stelle Kunden Details zu Banner-Bildern oder Inhalt auf der Vorlage zur Verfügung.",
+            "text": "In unserem Help Center findet ihr alles was ist braucht.",
             "text_style": "body"
-          }
-        },
-        "buttons_BWaegj": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Schaltflächenbeschriftung",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Schaltflächenbeschriftung",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_q7rkTw",
-        "text_KK3dXY",
-        "buttons_BWaegj"
+        "text_KK3dXY"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/DSCF8351.jpg",
         "image_overlay_opacity": 20,
-        "image_height": "medium",
+        "image_height": "large",
         "desktop_content_position": "bottom-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
@@ -58,6 +47,18 @@
     "multicolumn_7pq4HK": {
       "type": "multicolumn",
       "blocks": {
+        "column_DN9kNx": {
+          "type": "column",
+          "settings": {
+            "bg_color": "",
+            "opacity": 0.5,
+            "color": "",
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_6LXqWr": {
           "type": "column",
           "settings": {
@@ -93,12 +94,39 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_amGRbf": {
+          "type": "column",
+          "settings": {
+            "bg_color": "",
+            "opacity": 0.5,
+            "color": "",
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_N499gT": {
+          "type": "column",
+          "settings": {
+            "bg_color": "",
+            "opacity": 0.5,
+            "color": "",
+            "title": "Spalte",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
+        "column_DN9kNx",
         "column_6LXqWr",
         "column_pgPkej",
-        "column_JaF4EC"
+        "column_JaF4EC",
+        "column_amGRbf",
+        "column_N499gT"
       ],
       "settings": {
         "title": "",
@@ -116,11 +144,73 @@
         "padding_top": 120,
         "padding_bottom": 240
       }
+    },
+    "collapsible_content_tyfCKf": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_tzyqfF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_tihePP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_B8BKYz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_BGXYEg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Einklappbare Reihe",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_tzyqfF",
+        "collapsible_row_tihePP",
+        "collapsible_row_B8BKYz",
+        "collapsible_row_BGXYEg"
+      ],
+      "settings": {
+        "caption": "Unsere Antworten, eure Fragen",
+        "heading": "Einklappbarer Inhalt",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "image_banner_gTREA7",
     "main",
-    "multicolumn_7pq4HK"
+    "multicolumn_7pq4HK",
+    "collapsible_content_tyfCKf"
   ]
 }

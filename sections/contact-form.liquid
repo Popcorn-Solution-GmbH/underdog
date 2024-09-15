@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 <div class='color-{{ section.settings.color_scheme }} gradient'>
-  <div class='contact page-width page-width--narrow section-{{ section.id }}-padding'>
+  <div class='contact page-width section-{{ section.id }}-padding'>
     {%- if section.settings.heading != blank -%}
       <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         {{ section.settings.heading }}
@@ -115,13 +115,13 @@
           rows='10'
           id='ContactForm-body'
           class='text-area field__input'
-          name='contact[{{ 'templates.contact.form.comment' | t }}]'
-          placeholder='{{ 'templates.contact.form.comment' | t }}'
+          name='contact[{{ 'templates.contact.form.message' | t }}]'
+          placeholder='{{ 'templates.contact.form.message' | t }}'
         >
           {{- form.body -}}
         </textarea>
         <label class='form__label field__label' for='ContactForm-body'>
-          {{- 'templates.contact.form.comment' | t -}}
+          {{- 'templates.contact.form.message' | t -}}
         </label>
       </div>
       <div class='contact__button'>
@@ -190,7 +190,7 @@
       "type": "range",
       "id": "padding_top",
       "min": 0,
-      "max": 100,
+      "max": 400,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",
@@ -200,7 +200,7 @@
       "type": "range",
       "id": "padding_bottom",
       "min": 0,
-      "max": 100,
+      "max": 400,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",

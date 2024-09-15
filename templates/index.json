@@ -46,7 +46,7 @@
         "video": "shopify:\/\/files\/videos\/Teaser.mp4",
         "video_url": "",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

@@ -2976,7 +2976,6 @@ details-disclosure > details {
   border-radius: 0;
   border-left: none;
   border-right: none;
-  width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -3569,4 +3568,19 @@ details-disclosure > details {
   100% {
     transform: translateX(100%) scaleX(0);
   }
+}
+
+/* 
+CUSTOM 
+*/
+.full-width-narrow {
+  max-width: calc(var(--page-width) + 100px);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: var(--media-radius);
+  overflow: hidden;
+}
+
+.vertical-margin-top {
+  margin-top: var(--spacing-sections-mobile) !important;
 }
