@@ -1,6 +1,9 @@
 {
-  "printWidth": 120,
+  "trailingComma": "es5",
+  "semi": false,
   "singleQuote": true,
+  "arrowParens": "always",
+  "printWidth": 100,
   "overrides": [
     {
       "files": "*.liquid",

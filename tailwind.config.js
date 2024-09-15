@@ -8,6 +8,22 @@ module.exports = {
     './snippets/*.liquid',
   ],
   theme: {
+    colors: {
+      turbo: '#f90',
+    },
+    fontFamily: {
+      chaney: ['CHANEY'],
+      archivo: ['ArchivoNarrow'],
+    },
+    fontSize: {
+      sm: '16px',
+      base: '20px',
+      xl: '31.25px',
+      '2xl': '39.06px',
+      '3xl': '48.83px',
+      '4xl': '61.04px',
+      '5xl': '76.29px',
+    },
     screens: {
       sm: '320px',
       md: '750px',

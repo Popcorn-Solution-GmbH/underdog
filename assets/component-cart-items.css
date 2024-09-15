@@ -98,7 +98,6 @@ cart-items .title-wrapper-with-link {
 }
 
 .cart-item__discounted-prices .cart-item__old-price {
-  font-size: 1.4rem;
 }
 
 .cart-item__old-price {
@@ -110,7 +109,6 @@ cart-items .title-wrapper-with-link {
 }
 
 .product-option {
-  font-size: 1.4rem;
   word-break: break-word;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
 }
@@ -184,7 +182,6 @@ cart-remove-button .icon-remove {
 }
 
 .cart-item__error-text {
-  font-size: 1.3rem;
   line-height: 1.4;
   letter-spacing: 0.04rem;
   order: 1;

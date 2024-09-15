@@ -242,7 +242,6 @@
   .customer td::before {
     color: rgba(var(--color-foreground), 0.75);
     content: attr(data-label);
-    font-size: 1.4rem;
     padding-right: 2rem;
     text-transform: uppercase;
     flex-grow: 1;
@@ -533,7 +532,6 @@
 
 .order > div:nth-of-type(2) > div:first-of-type h2 ~ p {
   margin-bottom: 0;
-  font-size: 1.4rem;
 }
 
 .order > div:nth-of-type(2) > div:first-of-type h2 ~ p:last-of-type {
@@ -541,7 +539,6 @@
 }
 
 .order .item-props {
-  font-size: 1.4rem;
   margin-top: 0.05px;
   display: flex;
   flex-direction: column;
@@ -557,7 +554,7 @@
   border: 0.01rem solid rgba(var(--color-foreground), 0.2);
   padding: 1rem;
   margin-top: 1rem;
-  font-size: 1.4rem;
+
   text-align: left;
 }
 
@@ -614,7 +611,6 @@
 }
 
 .order .properties {
-  font-size: 1.4rem;
   margin-top: 1rem;
 }
 
@@ -652,7 +648,6 @@
 }
 
 .order .regular-price {
-  font-size: 1.3rem;
 }
 
 /* Addresses */
@@ -679,7 +674,7 @@
 label[for='AddressCountryNew'],
 label[for='AddressProvinceNew'] {
   display: block;
-  font-size: 1.4rem;
+
   margin-bottom: 0.6rem;
 }
 

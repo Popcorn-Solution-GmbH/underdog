@@ -1,0 +1,419 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  .section-{{ section.id }}-padding h5 {
+    margin-bottom: 2rem
+  }
+
+  .section-{{ section.id }}-padding .content_table {
+    border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
+  }
+  .section-{{ section.id }}-padding .content_table > table {
+    margin-bottom: 8rem
+  }
+  .section-{{ section.id }}-padding .content_table td {
+    width: 50%;
+    padding: 16px 0;
+  }
+
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class='color-{{ section.settings.color_scheme }} gradient'>
+  <div class='page-width isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding twcss-grid twcss-gap-32'>
+    {%- if section.settings.heading != blank -%}
+      <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
+        {{ section.settings.heading }}
+      </h2>
+    {%- else -%}
+      <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+
+    <div class='content_table'>
+      <h5>Gitarren-Eingang</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Typ</p>
+          </td>
+          <td><p>6.35mm Klinkenbuchse unsymm.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Impedanz</p>
+          </td>
+          <td><p>1 MOhm</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Eingangspegel max.</p>
+          </td>
+          <td><p>12 dBu</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>FX-Loop</h5>
+      <div class='twcss-grid twcss-gap-8 twcss-mb-32'>
+        <div>
+          <p class='twcss-font-heading'>Send</p>
+          <table class='twcss-table-auto twcss-w-full'>
+            <tr>
+              <td>
+                <p>Typ</p>
+              </td>
+              <td><p>6,35mm Klinkenbuchse unsymm. / symm.</p></td>
+            </tr>
+            <tr>
+              <td>
+                <p>Impedanz</p>
+              </td>
+              <td><p>75 Ohm unsymm. / 150 Ohm symm,</p></td>
+            </tr>
+            <tr>
+              <td>
+                <p>Ausgangspedel max.</p>
+              </td>
+              <td><p>6 dBu unsymm. / 6 dBu symm.</p></td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <p class='twcss-font-heading'>Return</p>
+          <table class='twcss-table-auto twcss-w-full'>
+            <tr>
+              <td>
+                <p>Typ</p>
+              </td>
+              <td><p>6,35mm Klinkenbuchse unsymm. / symm.</p></td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>Impredanz</p>
+              </td>
+              <td><p>8 kOhm unsymm. / 10 kOhm symm.</p></td>
+            </tr>
+
+            <tr>
+              <td>
+                <p>Eingangspegel max.</p>
+              </td>
+              <td><p>6 dBu unsymm. / 6 dBu symm.</p></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class='content_table'>
+      <h5>Out 1 & 2</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Typ</p>
+          </td>
+          <td>
+            <ul>
+              <li>6,35mm Klinkenbuchse unsymm. / symm.</li>
+              <li>XLR-Einbaustecker symm.</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Impedanz</p>
+          </td>
+          <td><p>75 Ohm unsymm. / 150 Ohm symm,</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Ausgangspegel max.</p>
+          </td>
+          <td><p>12 dBu unsymm. / 12 dBu symm.</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>Speaker</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Typ</p>
+          </td>
+          <td><p>6,35mm Klinkenbuchse unsymm.</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Leistung @ 4 Ohm</p>
+          </td>
+          <td><p>25W</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>Kopfhörer</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Typ</p>
+          </td>
+          <td><p>3,5mm Klinkenbuchse Stereo</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Leistung @ 32 Ohm</p>
+          </td>
+          <td><p>40mW / Kanal</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>Aux In</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Impedanz</p>
+          </td>
+          <td><p>10 kOhm</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Eingangspegel max.</p>
+          </td>
+          <td><p>9 dBu</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>USB</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Typ</p>
+          </td>
+          <td><p>USB 2.0, Typ B</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Audio</p>
+          </td>
+          <td><p>2 In/2 Out, 48 kHz, ASIO unterstützt</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>Midi</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Typ</p>
+          </td>
+          <td><p>DIN 5 Buchse, 180°</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>DSP</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Latenz</p>
+          </td>
+          <td><p>&lt;1ms Grundverzögerung (ohne IR und Amp)</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Auflösung</p>
+          </td>
+          <td><p>24bit</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>Speicher</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Presets</p>
+          </td>
+          <td><p>7</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>IR</p>
+          </td>
+          <td><p>20 Werks-IR‘s, 20 User IR‘s</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>IR-Loader</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Dateiformat</p>
+          </td>
+          <td><p>.wav</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Samplingrate</p>
+          </td>
+          <td><p>48 kHz Intern, 44,1 kHz bis 192 kHz unterstützt</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Auflösung</p>
+          </td>
+          <td><p>24 bit</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Punkte</p>
+          </td>
+          <td><p>512/1024/2048*</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>Power</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Input</p>
+          </td>
+          <td><p>24V/2A</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Output</p>
+          </td>
+          <td><p>9V/0,8A</p></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class='content_table'>
+      <h5>Sonstiges</h5>
+      <table class='twcss-table-auto twcss-w-full'>
+        <tr>
+          <td>
+            <p>Abmessungen</p>
+          </td>
+          <td><p>B/H/T 500 x 65 x 156 mm</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Gewicht</p>
+          </td>
+          <td><p>3.2kg</p></td>
+        </tr>
+        <tr>
+          <td>
+            <p>Zubehör</p>
+          </td>
+          <td><p>USB Kabel Typ A auf Typ B, Netzteil, Quick-Start</p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "CHUCK Tabelle",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "t:sections.contact-form.settings.title.default",
+      "label": "t:sections.contact-form.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hxl",
+          "label": "t:sections.all.heading_size.options__4.label"
+        },
+        {
+          "value": "hxxl",
+          "label": "t:sections.all.heading_size.options__5.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "CHUCK Tabelle"
+    }
+  ]
+}
+{% endschema %}

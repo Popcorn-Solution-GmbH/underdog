@@ -1,0 +1,103 @@
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class='color-{{ section.settings.color_scheme }} gradient'>
+  <div class='page-width isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding'>
+    {%- if section.settings.heading != blank -%}
+      <h2 class='title title-wrapper--no-top-margin inline-richtext {% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
+        {{ section.settings.heading }}
+      </h2>
+    {%- else -%}
+      <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+    <div class='twcss-grid twcss-grid-cols-2 twcss-gap-x-8 twcss-gap-y-10 lg:twcss-grid-cols-4'>
+      {%- for block in section.blocks -%}
+        <div class='twcss-h-9 max-sm:twcss-mx-auto sm:twcss-h-8 lg:twcss-h-12 twcss-flex twcss-justify-center'>
+          <img
+            alt='SavvyCal'
+            src='{{ block.settings.image | image_url: width: 600 }}'
+            class='twcss-h-9 max-sm:twcss-mx-auto sm:twcss-h-8 lg:twcss-h-12'
+            width='auto'
+            height='auto'
+          >
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Logo Wall",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "t:sections.contact-form.settings.title.default",
+      "label": "t:sections.contact-form.settings.title.label"
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "logo",
+      "name": "Logo",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image",
+          "info": "Select an image to display."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Logo Wall"
+    }
+  ]
+}
+{% endschema %}

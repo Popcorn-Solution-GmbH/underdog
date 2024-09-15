@@ -57,7 +57,7 @@
 .global-media-settings--full-width .deferred-media__poster,
 .global-media-settings--full-width
   .deferred-media__poster:is(:focus, :focus-visible) {
-  border-radius: 0;
+  border-radius: var(--media-radius);
 }
 
 /* outline styling for Windows High Contrast Mode */
