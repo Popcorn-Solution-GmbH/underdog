@@ -11,6 +11,9 @@
 .article-template__hero-container {
   max-width: 130rem;
   margin: 0 auto;
+  overflow: hidden;
+  margin-top: 32px;
+  border-radius: 24px;
 }
 
 .article-template__hero-small {

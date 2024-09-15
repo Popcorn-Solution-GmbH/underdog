@@ -36,6 +36,9 @@
     },
     "video_gCfjGc": {
       "type": "video",
+      "custom_css": [
+
+      ],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -43,7 +46,7 @@
         "video": "shopify:\/\/files\/videos\/Teaser.mp4",
         "video_url": "",
         "description": "",
-        "full_width": true,
+        "full_width": false,
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -96,20 +99,32 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<strong>CHUCK – Röhrensound trifft digitale Power.<\/strong>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Der CHUCK vereint den legendären Klang analoger Röhrenverstärker mit der Flexibilität digitaler Effekte in einem kompakten Pedal. Von satten Overdrives bis hin zu präzise abgestimmten Delays – Du hast die Kontrolle über Deinen einzigartigen Sound. Mehr als nur ein Effektgerät – CHUCK ist Dein Wegbegleiter für grenzenlose Kreativität und kompromisslose Performance.<\/p>"
+          }
+        },
+        "button_pqXjjg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Zur Story",
+            "button_link": "shopify:\/\/blogs\/news\/die-story-hinter-chuck",
+            "button_style_secondary": false,
+            "button_label_2": "Zum Proudukt",
+            "button_link_2": "shopify:\/\/collections\/all",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
         "heading",
-        "text"
+        "text",
+        "button_pqXjjg"
       ],
       "settings": {
         "desktop_content_position": "center",

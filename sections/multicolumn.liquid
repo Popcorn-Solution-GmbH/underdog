@@ -80,6 +80,15 @@
               style='--animation-order: {{ forloop.index }};'
             {% endif %}
           >
+            {%- if block.settings.link_label != blank -%}
+              <a
+                {% if block.settings.link == blank %}
+                  role='link' aria-disabled='true'
+                {% else %}
+                  href='{{ block.settings.link }}'
+                {% endif %}
+              >
+            {%- endif -%}
             <div
               class='multicolumn-card content-container'
               style='background-color: {{ rgba }}; color: {{ block.settings.color }}'
@@ -126,7 +135,7 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class='multicolumn-card__info'>
+              <div class='multicolumn-card__info twcss-gap-10'>
                 {%- if block.settings.title != blank -%}
                   <h3 class='inline-richtext'>{{ block.settings.title }}</h3>
                 {%- endif -%}
@@ -134,20 +143,14 @@
                   <div class='rte'>{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
-                  <a
-                    class='link animate-arrow'
-                    {% if block.settings.link == blank %}
-                      role='link' aria-disabled='true'
-                    {% else %}
-                      href='{{ block.settings.link }}'
-                    {% endif %}
-                  >
-                    {{- block.settings.link_label | escape -}}
-                    <span class='icon-wrap'>&nbsp;{% render 'icon-arrow' %}</span></a
-                  >
+                  <span class='icon-wrap'>&nbsp;{% render 'icon-arrow' %}</span>
                 {%- endif -%}
               </div>
             </div>
+
+            {%- if block.settings.link_label != blank -%}
+              </a>
+            {%- endif -%}
           </li>
         {%- endfor -%}
       </ul>
