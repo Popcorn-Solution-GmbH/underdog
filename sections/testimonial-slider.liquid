@@ -4,6 +4,7 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -13,48 +14,54 @@
 {%- endstyle -%}
 
 <div class='color-{{ section.settings.color_scheme }} gradient'>
-  <div class='page-width isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding'>
+  <div class='page-width isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding twcss-grid'>
     {%- if section.settings.heading != blank -%}
       <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         {{ section.settings.heading }}
       </h2>
     {%- endif -%}
 
-    <div class='md:twcss-grid md:twcss-grid-cols-12 md:twcss-divide-x md:twcss-divide-wintermorgen'>
-      <aside class='md:twcss-self-start md:twcss-sticky md:twcss-top-8 md:twcss-col-span-3 md:twcss-py-16 md:twcss-pr-16 twcss-hidden md:twcss-block'>
-        <ul role='list'>
-          {%- for block in section.blocks -%}
-            {% if block.type == 'block__title' %}
-              <li class='twcss-py-4'>
-                <a href='#{{ block.settings.section_title }}'>{{ block.settings.section_title }}</a>
-              </li>
-            {% endif %}
-          {%- endfor -%}
-        </ul>
-      </aside>
-
-      <div class='md:twcss-col-span-9 twcss-pb-16 md:twcss-pl-16 twcss-grid twcss-gap-8'>
-        {%- for block in section.blocks -%}
-          {% if block.type == 'block__title' %}
-            <div class='section-{{ block.settings.section_title }} twcss-pt-16' id='{{ block.settings.section_title }}'>
-              <strong>{{ block.settings.section_title }}</strong>
-            </div>
-          {% endif %}
-          {%- if block.type == 'block__section' -%}
-            <div class='twcss-grid twcss-gap-2'>
-              <p class='twcss-underline'>{{ block.settings.question_title }}</p>
-              <p>{{ block.settings.content }}</p>
-            </div>
-          {%- endif -%}
-        {%- endfor -%}
-      </div>
+    <div
+      class='twcss-relative twcss-flex twcss-aspect-[9/16] twcss-w-2/5 twcss-shrink-0 twcss-snap-start twcss-scroll-ml-[var(--scroll-padding)] twcss-flex-col twcss-justify-end twcss-overflow-hidden twcss-rounded-3xl sm:twcss-aspect-[3/4] sm:twcss-w-96'
+    >
+      <img
+        alt=''
+        width='auto'
+        height='auto'
+        src='https://img.freepik.com/fotos-kostenlos/portraet-eines-schoenen-jungen-maedchens-in-weissem-t-shirt-das-isoliert-ueber-rosa-studiohintergrund-in-die-kamera-blickt_155003-46555.jpg'
+        class='twcss-absolute twcss-inset-x-0 twcss-top-0 twcss-aspect-square twcss-w-full twcss-object-cover'
+      >
+      <div
+        aria-hidden='true'
+        class='twcss-absolute twcss-inset-0 twcss-rounded-3xl twcss-bg-gradient-to-t twcss-from-terra twcss-from-[calc(7/16*100%)] twcss-ring-1 twcss-ring-inset twcss-ring-wintermorgen sm:twcss-from-25%'
+      ></div>
+      <figure class='twcss-relative twcss-p-10'>
+        <blockquote>
+          <p class='twcss-relative twcss-text-xl/7 twcss-text-white'>
+            <span aria-hidden='true' class='twcss-absolute -twcss-translate-x-full'>“</span>Thanks to Radiant, we’re
+            finding new leads that we never would have found with legal methods.<span
+              aria-hidden='true'
+              class='twcss-absolute'
+              >”</span
+            >
+          </p>
+        </blockquote>
+        <figcaption class='twcss-mt-6 twcss-border-t twcss-border-white/20 twcss-pt-6'>
+          <p class='twcss-text-sm/6 twcss-font-medium twcss-text-white'>Tina Yards</p>
+          <p class='twcss-text-sm/6 twcss-font-medium'>
+            <span class='twcss-bg-gradient-to-r twcss-from-[#fff1be] twcss-from-[28%] twcss-via-[#ee87cb] twcss-via-[70%] twcss-to-[#b060ff] twcss-bg-clip-text twcss-text-transparent'
+              >VP of Sales, Protocol</span
+            >
+          </p>
+        </figcaption>
+      </figure>
     </div>
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "Help Center",
+  "name": "Testimonial Slider",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -123,41 +130,9 @@
       "default": 36
     }
   ],
-  "blocks": [
-    {
-      "type": "block__title",
-      "name": "Überschrift",
-      "settings": [
-        {
-          "type": "text",
-          "id": "section_title",
-          "label": "Section Title",
-          "default": "Section Title"
-        }
-      ]
-    },
-    {
-      "type": "block__section",
-      "name": "FAQ",
-      "settings": [
-        {
-          "type": "text",
-          "id": "question_title",
-          "label": "Question Title",
-          "default": "question Title"
-        },
-        {
-          "type": "inline_richtext",
-          "id": "content",
-          "label": "Answer Content",
-          "default": "This is the content of the answer."
-        }
-      ]
-    }
-  ],
   "presets": [
     {
-      "name": "Help Center"
+      "name": "Testimonial Slider"
     }
   ]
 }

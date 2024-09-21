@@ -10,7 +10,7 @@
 
   @media only screen and (min-width: 750px) {
     .h0 {
-      @apply twcss-text-5xl;
+      @apply twcss-text-5xl-md;
       /* font-size: calc(var(--font-heading-scale) * 5.2rem); */
     }
   }
@@ -24,7 +24,7 @@
   @media only screen and (min-width: 750px) {
     h1,
     .h1 {
-      @apply twcss-text-5xl;
+      @apply twcss-text-5xl-md;
       /* font-size: calc(var(--font-heading-scale) * 4rem); */
     }
   }
@@ -38,7 +38,7 @@
   @media only screen and (min-width: 750px) {
     h2,
     .h2 {
-      @apply twcss-text-4xl;
+      @apply twcss-text-4xl-md;
       /* font-size: calc(var(--font-heading-scale) * 2.4rem); */
     }
   }
@@ -52,7 +52,7 @@
   @media only screen and (min-width: 750px) {
     h3,
     .h3 {
-      @apply twcss-text-3xl;
+      @apply twcss-text-3xl-md;
       /* font-size: calc(var(--font-heading-scale) * 1.8rem); */
     }
   }
@@ -74,7 +74,7 @@
   @media only screen and (min-width: 750px) {
     h5,
     .h5 {
-      @apply twcss-text-xl;
+      @apply twcss-text-xl-md;
       /* font-size: calc(var(--font-heading-scale) * 1.3rem); */
     }
   }

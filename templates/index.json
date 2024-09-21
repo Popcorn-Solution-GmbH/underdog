@@ -86,6 +86,7 @@
         "logo_Lw4eNV",
         "logo_dmLXCc"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "color_scheme": "",
@@ -137,6 +138,38 @@
     },
     "image_wall2_3Va8zc": {
       "type": "image-wall2",
+      "blocks": {
+        "logo_hkD3VH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSCF8351.jpg"
+          }
+        },
+        "logo_6LHhF9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSCF8324.jpg"
+          }
+        },
+        "logo_Xzhdri": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSCF8567.jpg"
+          }
+        },
+        "logo_DymCX3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DSCF8566.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "logo_hkD3VH",
+        "logo_6LHhF9",
+        "logo_Xzhdri",
+        "logo_DymCX3"
+      ],
       "settings": {
         "color_scheme": "",
         "padding_top": 0,

@@ -15,46 +15,16 @@
 <div class='color-{{ section.settings.color_scheme }} gradient'>
   <div class='isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding'>
     <div class='twcss-flex twcss-justify-center twcss-gap-5 twcss-overflow-hidden twcss-py-4 sm:twcss-gap-8'>
-      <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl twcss-rotate-2'>
-        <img
-          src='https://img.freepik.com/fotos-kostenlos/portraet-eines-schoenen-jungen-maedchens-in-weissem-t-shirt-das-isoliert-ueber-rosa-studiohintergrund-in-die-kamera-blickt_155003-46555.jpg'
-          width='auto'
-          height='auto'
-          class='twcss-absolute twcss-inset-0 twcss-h-full twcss-w-full twcss-object-cover'
-        >
-      </div>
-      <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl -twcss-rotate-2'>
-        <img
-          src='https://img.freepik.com/fotos-kostenlos/portraet-eines-schoenen-jungen-maedchens-in-weissem-t-shirt-das-isoliert-ueber-rosa-studiohintergrund-in-die-kamera-blickt_155003-46555.jpg'
-          width='auto'
-          height='auto'
-          class='twcss-absolute twcss-inset-0 twcss-h-full twcss-w-full twcss-object-cover'
-        >
-      </div>
-      <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl twcss-rotate-2'>
-        <img
-          src='https://img.freepik.com/fotos-kostenlos/portraet-eines-schoenen-jungen-maedchens-in-weissem-t-shirt-das-isoliert-ueber-rosa-studiohintergrund-in-die-kamera-blickt_155003-46555.jpg'
-          width='auto'
-          height='auto'
-          class='twcss-absolute twcss-inset-0 twcss-h-full twcss-w-full twcss-object-cover'
-        >
-      </div>
-      <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl -twcss-rotate-2'>
-        <img
-          src='https://img.freepik.com/fotos-kostenlos/portraet-eines-schoenen-jungen-maedchens-in-weissem-t-shirt-das-isoliert-ueber-rosa-studiohintergrund-in-die-kamera-blickt_155003-46555.jpg'
-          width='auto'
-          height='auto'
-          class='twcss-absolute twcss-inset-0 twcss-h-full twcss-w-full twcss-object-cover'
-        >
-      </div>
-      <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl twcss-rotate-2'>
-        <img
-          src='https://img.freepik.com/fotos-kostenlos/portraet-eines-schoenen-jungen-maedchens-in-weissem-t-shirt-das-isoliert-ueber-rosa-studiohintergrund-in-die-kamera-blickt_155003-46555.jpg'
-          width='auto'
-          height='auto'
-          class='twcss-absolute twcss-inset-0 twcss-h-full twcss-w-full twcss-object-cover'
-        >
-      </div>
+      {% for block in section.blocks %}
+        <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl {% if forloop.index == 1 or forloop.index == 4 %}-twcss-rotate-2{% else %}twcss-rotate-2{% endif %}'>
+          <img
+            src='{{ block.settings.image | image_url }}'
+            width='auto'
+            height='auto'
+            class='twcss-absolute twcss-inset-0 twcss-h-full twcss-w-full twcss-object-cover'
+          >
+        </div>
+      {% endfor %}
     </div>
   </div>
 </div>
@@ -96,6 +66,7 @@
       "default": 36
     }
   ],
+  "max_blocks": 4,
   "blocks": [
     {
       "type": "logo",
