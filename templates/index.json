@@ -280,7 +280,7 @@
         "heading_JAtwgG": {
           "type": "heading",
           "settings": {
-            "heading": "Countdown",
+            "heading": "Vorbesteller Boni",
             "heading_size": "h1"
           }
         },
@@ -293,7 +293,7 @@
         "button_VjfmLq": {
           "type": "button",
           "settings": {
-            "button_label": "Schaltflächenbeschriftung",
+            "button_label": "CTA zum Produkt",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -314,70 +314,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "featured_product_WjYpmH": {
-      "type": "featured-product",
-      "blocks": {
-        "text_XCpKTJ": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title_weFeCD": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_qHJyfi": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "quantity_selector_NLAiC8": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "buy_buttons_qx64hx": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
-          }
-        },
-        "share_iNRTGN": {
-          "type": "share",
-          "settings": {
-            "share_label": "Teilen"
-          }
-        }
-      },
-      "block_order": [
-        "text_XCpKTJ",
-        "title_weFeCD",
-        "price_qHJyfi",
-        "quantity_selector_NLAiC8",
-        "buy_buttons_qx64hx",
-        "share_iNRTGN"
-      ],
-      "settings": {
-        "product": "chuck-gitarrenverstaerker",
-        "color_scheme": "scheme-1",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "contain",
-        "media_position": "left",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 240,
-        "padding_bottom": 240
       }
     },
     "technical_table_a9n8kK": {
@@ -485,7 +421,6 @@
     "rich_text",
     "image_wall2_3Va8zc",
     "rich_text_6NWwPB",
-    "featured_product_WjYpmH",
     "technical_table_a9n8kK",
     "image_banner",
     "newsletter_gLEN43"
