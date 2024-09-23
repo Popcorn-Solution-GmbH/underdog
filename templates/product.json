@@ -65,7 +65,7 @@
           "settings": {
             "heading": "Maße",
             "icon": "ruler",
-            "content": "<p>B\/H\/T 500 x 65 x 156 mm<\/p>",
+            "content": "<p>B/H/T 500 x 65 x 156 mm</p>",
             "page": ""
           }
         },
@@ -113,30 +113,66 @@
         "row_8dXEUy": {
           "type": "row",
           "settings": {
-            "caption": "Analog trifft Digital",
+            "image": "shopify://shop_images/DSCF0314.jpg",
+            "caption": "",
             "heading": "Analog trifft Digital",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "button_label": "Schaltflächenbeschriftung",
+            "text": "<p>Analoge Röhren-Vorstufe, die digital gemanipuliert wird. Für den perfekten Mix aus warmem Klang und modernem Twist.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_YgwDcQ": {
           "type": "row",
           "settings": {
-            "caption": "Bildtext",
-            "heading": "Reihe",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "button_label": "Schaltflächenbeschriftung",
+            "image": "shopify://shop_images/DSCF8329.jpg",
+            "caption": "",
+            "heading": "Effekte an Bord",
+            "text": "<p>Stimmgerät und IR Loader inklusive. Alle Effekte direkt im Gerät – kein extra Kram nötig.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_bC6T9N": {
           "type": "row",
           "settings": {
-            "caption": "Bildtext",
-            "heading": "Reihe",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
-            "button_label": "Schaltflächenbeschriftung",
+            "image": "shopify://shop_images/DSCF8406.jpg",
+            "caption": "",
+            "heading": "Power ohne Ende",
+            "text": "<p>Mit USB ASIO und Endstufe für kraftvollen Sound. Dein neuer Geheimwaffe für fette Riffs und Solos.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_FPtiU3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSCF8472_e13d30d8-8ca9-478c-9390-75c32676fc50.jpg",
+            "caption": "",
+            "heading": "Built to Last",
+            "text": "<p>Robustes Floorformat für die Bühne gemacht. Hält deinen härtesten Gigs stand.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_fAtHV7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSCF8592_e2dd1823-ba7b-49f3-af8d-bb4c88322df1.jpg",
+            "caption": "",
+            "heading": "Alles unter Kontrolle",
+            "text": "<p>Speichere und rufe deine Settings als Presets ab. Immer der perfekte Sound auf Knopfdruck.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_3XYbPU": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/DSCF8566_99d81f49-98a5-4981-8fa8-7a2ac11ad44b.jpg",
+            "caption": "",
+            "heading": "Voll vernetzt",
+            "text": "<p>Schnittstellen ohne Ende: FX-Loop, MIDI, USB, Kopfhörer. Für maximale Flexibilität auf und neben der Bühne.</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -144,19 +180,22 @@
       "block_order": [
         "row_8dXEUy",
         "row_YgwDcQ",
-        "row_bC6T9N"
+        "row_bC6T9N",
+        "row_FPtiU3",
+        "row_fAtHV7",
+        "row_3XYbPU"
       ],
       "settings": {
         "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-2",
         "mobile_content_alignment": "left",
         "padding_top": 120,
         "padding_bottom": 120
@@ -175,7 +214,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -210,7 +249,7 @@
             "opacity": 0.5,
             "color": "",
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -222,7 +261,7 @@
             "opacity": 0.5,
             "color": "",
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
