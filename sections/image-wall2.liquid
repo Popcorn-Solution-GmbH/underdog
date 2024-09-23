@@ -12,9 +12,9 @@
   }
 {%- endstyle -%}
 
-<div class='color-{{ section.settings.color_scheme }} gradient'>
+<div class='page-width color-{{ section.settings.color_scheme }} gradient'>
   <div class='isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding'>
-    <div class='twcss-flex twcss-justify-center twcss-gap-5 twcss-overflow-hidden twcss-py-4 sm:twcss-gap-8'>
+    <div class='twcss-flex twcss-justify-center twcss-gap-5 twcss-py-4 sm:twcss-gap-8'>
       {% for block in section.blocks %}
         <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl {% if forloop.index == 1 or forloop.index == 4 %}-twcss-rotate-2{% else %}twcss-rotate-2{% endif %}'>
           <img

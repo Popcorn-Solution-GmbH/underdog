@@ -19,17 +19,23 @@
             "heading_size": "h1"
           }
         },
+        "countdown_Q3FrJU": {
+          "type": "countdown",
+          "settings": {
+            "timer": "September 27, 2024 00:00:00"
+          }
+        },
         "text_GiXnzk": {
           "type": "text",
           "settings": {
-            "text": "<p>CHUCK - Nur für kurze Zeit vorbestellbar! - EVTL. COUNTDOWN HIER</p>"
+            "text": "<p>CHUCK - Nur für kurze Zeit vorbestellbar! - EVTL. COUNTDOWN HIER<\/p>"
           }
         },
         "button_WhQkDh": {
           "type": "button",
           "settings": {
             "button_label": "Jetzt vorbestellen und abrocken!",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify:\/\/products\/chuck-gitarrenverstaerker",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -39,6 +45,7 @@
       },
       "block_order": [
         "heading_ABG9LL",
+        "countdown_Q3FrJU",
         "text_GiXnzk",
         "button_WhQkDh"
       ],
@@ -64,7 +71,7 @@
         "paragraph_NBhkgt": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Dein Ticket für unsterblichen Sound! E-Mail-Adresse eintragen und einer der ersten sein, wenn unser CHUCK veröffentlicht wird.</p>"
+            "text": "<p>Dein Ticket für unsterblichen Sound! E-Mail-Adresse eintragen und einer der ersten sein, wenn unser CHUCK veröffentlicht wird.<\/p>"
           }
         },
         "email_form_mKbDjL": {
@@ -95,13 +102,13 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video": "shopify://files/videos/Teaser.mp4",
+        "video": "shopify:\/\/files\/videos\/Teaser.mp4",
         "video_url": "",
         "description": "",
         "full_width": true,
         "color_scheme": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 120
       }
     },
     "logo_wall_a7zAar": {
@@ -110,25 +117,25 @@
         "logo_MibtFx": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/underdog-Icon-Logo.png"
+            "image": "shopify:\/\/shop_images\/underdog-Icon-Logo.png"
           }
         },
         "logo_WCRJVh": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/underdog-Logo_40e21cd9-f90a-4370-a32b-8c88862c361f.png"
+            "image": "shopify:\/\/shop_images\/underdog-Logo_40e21cd9-f90a-4370-a32b-8c88862c361f.png"
           }
         },
         "logo_Lw4eNV": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/underdog-Icon-Logo.png"
+            "image": "shopify:\/\/shop_images\/underdog-Icon-Logo.png"
           }
         },
         "logo_dmLXCc": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/underdog-Icon-Logo.png"
+            "image": "shopify:\/\/shop_images\/underdog-Icon-Logo.png"
           }
         }
       },
@@ -152,22 +159,22 @@
         "heading_3BdyDm": {
           "type": "heading",
           "settings": {
-            "heading": "Chuck – Power und Performance",
+            "heading": "Highlight TITEL",
             "heading_size": "h1"
           }
         },
         "text_FtRfMy": {
           "type": "text",
           "settings": {
-            "text": "<p>CHUCK ist dein Schlüssel zum ultimativen Rocksound. Mit analogem Röhren-Charme, digitaler Flexibilität und massiven Effekten macht er jede Bühne zu deinem Revier. Ein Powerpaket, das deine Kreativität entfesselt und dir maximale Kontrolle gibt.</p>",
+            "text": "<p>CHUCK ist dein Schlüssel zum ultimativen Rocksound. Mit analogem Röhren-Charme, digitaler Flexibilität und massiven Effekten macht er jede Bühne zu deinem Revier. Ein Powerpaket, das deine Kreativität entfesselt und dir maximale Kontrolle gibt.<\/p>",
             "text_style": "body"
           }
         },
         "button_EPa8qT": {
           "type": "button",
           "settings": {
-            "button_label": "Alle Features hier!",
-            "button_link": "",
+            "button_label": "CTA fehlt",
+            "button_link": "shopify:\/\/products\/chuck-gitarrenverstaerker",
             "button_style_secondary": false
           }
         }
@@ -178,18 +185,19 @@
         "button_EPa8qT"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/DSCF8472.jpg",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
         "image_behavior": "ambient",
         "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 120,
+        "padding_bottom": 120
       }
     },
     "rich_text": {
@@ -198,24 +206,24 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>CHUCK – Röhrensound trifft digitale Power.</strong>",
+            "heading": "<strong>CHUCK – Röhrensound trifft digitale Power.<\/strong>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Der CHUCK vereint den legendären Klang analoger Röhrenverstärker mit der Flexibilität digitaler Effekte in einem kompakten Pedal. Von satten Overdrives bis hin zu präzise abgestimmten Delays – Du hast die Kontrolle über Deinen einzigartigen Sound. Mehr als nur ein Effektgerät – CHUCK ist Dein Wegbegleiter für grenzenlose Kreativität und kompromisslose Performance.</p>"
+            "text": "<p>Der CHUCK vereint den legendären Klang analoger Röhrenverstärker mit der Flexibilität digitaler Effekte in einem kompakten Pedal. Von satten Overdrives bis hin zu präzise abgestimmten Delays – Du hast die Kontrolle über Deinen einzigartigen Sound. Mehr als nur ein Effektgerät – CHUCK ist Dein Wegbegleiter für grenzenlose Kreativität und kompromisslose Performance.<\/p>"
           }
         },
         "button_pqXjjg": {
           "type": "button",
           "settings": {
             "button_label": "Zur Story",
-            "button_link": "shopify://pages/die-story-hinter-chuck",
+            "button_link": "shopify:\/\/pages\/die-story-hinter-chuck",
             "button_style_secondary": false,
             "button_label_2": "Zum Proudukt",
-            "button_link_2": "shopify://collections/all",
+            "button_link_2": "shopify:\/\/products\/chuck-gitarrenverstaerker",
             "button_style_secondary_2": true
           }
         }
@@ -230,8 +238,8 @@
         "content_alignment": "center",
         "color_scheme": "scheme-1",
         "full_width": true,
-        "padding_top": 240,
-        "padding_bottom": 240
+        "padding_top": 120,
+        "padding_bottom": 120
       }
     },
     "image_wall2_3Va8zc": {
@@ -240,25 +248,25 @@
         "logo_hkD3VH": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/DSCF8351.jpg"
+            "image": "shopify:\/\/shop_images\/DSCF8351.jpg"
           }
         },
         "logo_6LHhF9": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/DSCF8324.jpg"
+            "image": "shopify:\/\/shop_images\/DSCF8324.jpg"
           }
         },
         "logo_Xzhdri": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/DSCF8567.jpg"
+            "image": "shopify:\/\/shop_images\/DSCF8567.jpg"
           }
         },
         "logo_DymCX3": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/DSCF8566.jpg"
+            "image": "shopify:\/\/shop_images\/DSCF8566.jpg"
           }
         }
       },
@@ -270,8 +278,8 @@
       ],
       "settings": {
         "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 120,
+        "padding_bottom": 120
       }
     },
     "rich_text_6NWwPB": {
@@ -287,7 +295,7 @@
         "text_bmXjYq": {
           "type": "text",
           "settings": {
-            "text": "<p>(Code muss noch entwickelt werden)</p>"
+            "text": "<p>(Code muss noch entwickelt werden)<\/p>"
           }
         },
         "button_VjfmLq": {
@@ -307,24 +315,14 @@
         "text_bmXjYq",
         "button_VjfmLq"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "technical_table_a9n8kK": {
-      "type": "technical-table",
-      "disabled": true,
-      "settings": {
-        "heading": "Technische Daten vom CHUCK",
-        "heading_size": "h1",
-        "color_scheme": "scheme-1",
-        "padding_top": 240,
-        "padding_bottom": 240
+        "padding_top": 120,
+        "padding_bottom": 180
       }
     },
     "image_banner": {
@@ -333,48 +331,36 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Vorbesteller Boni",
             "heading_size": "h0"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Officia esse minim dolor exercitation occaecat ad laborum. Laboris excepteur elit duis elit excepteur Lorem sunt do magna. Voluptate do voluptate laboris sint ea id elit irure labore. Qui incididunt duis aute cupidatat id sit elit nulla commodo. Tempor esse ullamco ex reprehenderit et laboris tempor velit eu adipisicing aute sunt ad dolor fugiat. Enim enim mollit est ea.",
             "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading",
-        "text",
-        "button"
+        "text"
       ],
       "disabled": true,
       "settings": {
         "image_overlay_opacity": 60,
         "image_height": "large",
-        "desktop_content_position": "bottom-left",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
-        "image_behavior": "ambient",
+        "image_behavior": "zoom-in",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "margin_top": 36,
-        "margin_bottom": 36
+        "margin_top": 120,
+        "margin_bottom": 120
       }
     },
     "newsletter_gLEN43": {
@@ -390,7 +376,7 @@
         "paragraph_DV8GDq": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Erfahre als Erster von neuen Kollektionen und exklusiven Angeboten.</p>"
+            "text": "<p>Erfahre als Erster von neuen Kollektionen und exklusiven Angeboten.<\/p>"
           }
         },
         "email_form_iiwUPR": {
@@ -421,7 +407,6 @@
     "rich_text",
     "image_wall2_3Va8zc",
     "rich_text_6NWwPB",
-    "technical_table_a9n8kK",
     "image_banner",
     "newsletter_gLEN43"
   ]

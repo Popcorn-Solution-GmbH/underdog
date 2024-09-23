@@ -31,6 +31,43 @@
               >
                 {{ block.settings.heading }}
               </h2>
+            {%- when 'countdown' -%}
+              <strong
+                class='rich-text__heading countdown rte inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
+                {{ block.shopify_attributes }}
+                {% if settings.animations_reveal_on_scroll %}
+                  data-cascade
+                  style='--animation-order: {{ forloop.index }};'
+                {% endif %}
+                id='countdown'
+              >
+                Countdown läuft...
+              </strong>
+
+              <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                  function countdown() {
+                    const endDate = new Date('{{ block.settings.timer }}').getTime();
+                    const now = new Date().getTime();
+                    const timeLeft = endDate - now;
+
+                    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                    const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+                    document.getElementById('countdown').innerHTML =
+                      days + ' Tage ' + hours + ' Stunden ' + minutes + ' Min ' + seconds + ' Sek ';
+
+                    if (timeLeft < 0) {
+                      clearInterval(timer);
+                      document.getElementById('countdown').innerHTML = 'Der Countdown ist abgelaufen!';
+                    }
+                  }
+
+                  const timer = setInterval(countdown, 1000);
+                });
+              </script>
             {%- when 'caption' -%}
               <p
                 class='rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
@@ -182,6 +219,18 @@
     }
   ],
   "blocks": [
+    {
+      "type": "countdown",
+      "name": "Countdown",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "timer",
+          "default": "Dein Datum hier",
+          "label": "Datum bis wann der Countdown gehen soll"
+        }
+      ]
+    },
     {
       "type": "heading",
       "name": "t:sections.rich-text.blocks.heading.name",

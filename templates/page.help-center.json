@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_gTREA7": {
@@ -150,54 +159,368 @@
     "help_center_aaPntq": {
       "type": "help-center",
       "blocks": {
-        "block_title_HPEJ7D": {
+        "block_title_f7Y7Bp": {
           "type": "block__title",
           "settings": {
-            "section_title": "Allgemeines"
+            "section_title": "Produktfunktionen und Bedienung"
           }
         },
-        "block_section_FNPE66": {
+        "block_section_9F87hb": {
           "type": "block__section",
           "settings": {
-            "question_title": "question Title",
-            "content": "Dolore excepteur enim do. In aute ad sint et velit laborum laborum quis do incididunt. Voluptate ut magna excepteur minim dolore aute cupidatat. <strong>Ex mollit consequat<\/strong> dolor consequat sit tempor ad eiusmod consectetur minim adipisicing dolore proident. Amet sunt ut esse ad anim mollit pariatur amet minim do. Cillum laboris voluptate aute ipsum occaecat nisi sit mollit. Nostrud incididunt tempor velit consectetur incididunt."
+            "question_title": "Welche Effekte sind im CHUCK integriert?",
+            "content": "This is the content of the answer."
           }
         },
-        "block_section_nVMjPV": {
+        "block_section_4XrjhU": {
           "type": "block__section",
           "settings": {
-            "question_title": "question Title",
-            "content": "Dolore excepteur enim do. In aute ad sint et velit laborum laborum quis do incididunt. Voluptate ut magna excepteur minim dolore aute cupidatat. Ex mollit consequat dolor consequat sit tempor ad eiusmod consectetur minim adipisicing dolore proident. Amet sunt ut esse ad anim mollit pariatur amet minim do. Cillum laboris voluptate aute ipsum occaecat nisi sit mollit. Nostrud incididunt tempor velit consectetur incididunt."
+            "question_title": "Wie speichere und lade ich Presets auf CHUCK?",
+            "content": "This is the content of the answer."
           }
         },
-        "block_section_UUMjJF": {
+        "block_section_xBRYNm": {
           "type": "block__section",
           "settings": {
-            "question_title": "question Title",
-            "content": "This is the content of the section."
+            "question_title": "Wie funktioniert die digitale Manipulation der analogen Röhren-Vorstufe?",
+            "content": "This is the content of the answer."
           }
         },
-        "block_title_VXwY7j": {
+        "block_section_c9CWcr": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Kann ich eigene IRs in den IR Loader laden?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_thD69N": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Was ist der Unterschied zwischen den verschiedenen Preset-Modi?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_LwGYY7": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Welche Arten von Röhren verwendet CHUCK in der Vorstufe?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_mPg34W": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie verwende ich den FX-Loop von CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_wbJyKN": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Ist das Stimmgerät chromatisch oder nur für Standard-Tuning?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_title_jtV3EH": {
           "type": "block__title",
           "settings": {
-            "section_title": "Benutzerdaten"
+            "section_title": "Technische Spezifikationen und Kompatibilität"
           }
         },
-        "block_section_89tkXV": {
+        "block_section_b6Ynnb": {
           "type": "block__section",
           "settings": {
-            "question_title": "question Title",
-            "content": "Dolore excepteur enim do. In aute ad sint et velit laborum laborum quis do incididunt. Voluptate ut magna excepteur minim dolore aute cupidatat. Ex mollit consequat dolor consequat sit tempor ad eiusmod consectetur minim adipisicing dolore proident."
+            "question_title": "Welche Schnittstellen bietet CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_BFix8z": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Welche MIDI-Funktionen unterstützt CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_ekaNTk": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie verbinde ich CHUCK mit meinem Computer über USB?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_zJ6CK6": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Kann ich CHUCK auch als Audio-Interface für mein Heimstudio nutzen?",
+            "content": "Ja, CHUCK kann problemlos als Audio-Interface für dein Heimstudio genutzt werden. Dank der USB ASIO Schnittstelle kannst du direkt in deine DAW aufnehmen und von der hohen Klangqualität profitieren."
+          }
+        },
+        "block_section_QkJPhV": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie kann ich den Kopfhörerausgang nutzen, um leise zu üben?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_tWQAtY": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Kann ich mehrere CHUCKs gleichzeitig nutzen?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_title_deFWdk": {
+          "type": "block__title",
+          "settings": {
+            "section_title": "Software und Updates"
+          }
+        },
+        "block_section_eeNYx3": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie kann ich die Firmware von CHUCK aktualisieren?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_Eer9fc": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Gibt es eine mobile App zur Steuerung von CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_title_yqCkHW": {
+          "type": "block__title",
+          "settings": {
+            "section_title": "Garantie und Wartung"
+          }
+        },
+        "block_section_JNhjVJ": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Gibt es eine Garantie auf CHUCK und wie lange dauert sie?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_e8b9qj": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie robust ist das Floorformat von CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_bB4deH": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie pflege und reinige ich CHUCK richtig?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_txCURG": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Sind Ersatzteile für CHUCK erhältlich?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_title_WnmGWH": {
+          "type": "block__title",
+          "settings": {
+            "section_title": "Kauf und Vorbestellung"
+          }
+        },
+        "block_section_EbVpzT": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Gibt es eine Möglichkeit, CHUCK vor dem Kauf auszuprobieren?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_wDAgHN": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie funktioniert die Vorbestellung für CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_RFWAEK": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Welche Zahlungsmethoden werden für die Vorbestellung akzeptiert?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_3q9mbV": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Kann ich meine Vorbestellung stornieren oder ändern?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_bApwtn": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Gibt es spezielle Rabatte für Schulen oder Musikschulen?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_AfwLXQ": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Welche Vorteile habe ich, wenn ich CHUCK vorbestelle?",
+            "content": "Wenn du CHUCK vorbestellst, erhältst du exklusives Merchandise wie drei underdog Plektren, einen personalisierten Gurt und einen Jutebeutel. Zudem bekommst du ein persönliches, handsigniertes Zertifikat vom Gründer und Zugang zur exklusiven underdog Community. Außerdem genießt du kostenlosen Versand."
+          }
+        },
+        "block_section_RCePqB": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wann wird CHUCK geliefert, wenn ich vorbestelle?",
+            "content": "Die genaue Lieferzeit hängt vom Bestellzeitpunkt und der Produktionskapazität ab. Wir bemühen uns jedoch, alle Vorbestellungen so schnell wie möglich zu bearbeiten und auszuliefern. Du wirst über den voraussichtlichen Liefertermin informiert, sobald deine Bestellung bestätigt ist."
+          }
+        },
+        "block_title_Fw3M7P": {
+          "type": "block__title",
+          "settings": {
+            "section_title": "Versand und Rückgabe"
+          }
+        },
+        "block_section_yY8nNe": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Werden internationale Lieferungen angeboten?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_3kEWmg": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie hoch sind die Versandkosten für CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_mpQ4Ki": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Was passiert, wenn meine Lieferung beschädigt ankommt?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_8gf39d": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie erfahre ich, wann meine Bestellung versandt wird?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_taFj4b": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Gibt es eine Rückerstattung, wenn ich mit CHUCK nicht zufrieden bin?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_title_tMJPrT": {
+          "type": "block__title",
+          "settings": {
+            "section_title": "Kontakt und Support"
+          }
+        },
+        "block_section_FfgEYw": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie kann ich den Kundenservice bei Fragen zur Vorbestellung erreichen?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_fBpWmn": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Benötige ich ein Account um bei euch zu bestellen?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_title_FmHjfG": {
+          "type": "block__title",
+          "settings": {
+            "section_title": "Zusätzliche Informationen"
+          }
+        },
+        "block_section_ih7cVA": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Welche Arten von Musikern profitieren am meisten von CHUCK?",
+            "content": "This is the content of the answer."
+          }
+        },
+        "block_section_tbWCHN": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Was macht CHUCK so besonders im Vergleich zu anderen Verstärkern?",
+            "content": "CHUCK kombiniert eine analoge Röhren-Vorstufe mit digitaler Manipulation, was dir den warmen, authentischen Klang eines Röhrenverstärkers mit der Flexibilität moderner Digitaltechnik bietet. Onboard Effekte, Preset-Speicherung und vielseitige Schnittstellen machen ihn einzigartig und extrem vielseitig."
+          }
+        },
+        "block_section_rFDXrq": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Ist CHUCK für den Einsatz auf der Bühne und im Studio geeignet?",
+            "content": "Ja, CHUCK ist sowohl für den Bühnen- als auch den Studioeinsatz perfekt geeignet. Seine robuste Bauweise und die Vielzahl an Schnittstellen ermöglichen flexible Einsatzmöglichkeiten, während die hohe Klangqualität sowohl live als auch bei Aufnahmen überzeugt."
+          }
+        },
+        "block_section_GUztWC": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Wie richte ich eine Verbindung zu externen Effektgeräten ein?",
+            "content": "This is the content of the answer."
           }
         }
       },
       "block_order": [
-        "block_title_HPEJ7D",
-        "block_section_FNPE66",
-        "block_section_nVMjPV",
-        "block_section_UUMjJF",
-        "block_title_VXwY7j",
-        "block_section_89tkXV"
+        "block_title_f7Y7Bp",
+        "block_section_9F87hb",
+        "block_section_4XrjhU",
+        "block_section_xBRYNm",
+        "block_section_c9CWcr",
+        "block_section_thD69N",
+        "block_section_LwGYY7",
+        "block_section_mPg34W",
+        "block_section_wbJyKN",
+        "block_title_jtV3EH",
+        "block_section_b6Ynnb",
+        "block_section_BFix8z",
+        "block_section_ekaNTk",
+        "block_section_zJ6CK6",
+        "block_section_QkJPhV",
+        "block_section_tWQAtY",
+        "block_title_deFWdk",
+        "block_section_eeNYx3",
+        "block_section_Eer9fc",
+        "block_title_yqCkHW",
+        "block_section_JNhjVJ",
+        "block_section_e8b9qj",
+        "block_section_bB4deH",
+        "block_section_txCURG",
+        "block_title_WnmGWH",
+        "block_section_EbVpzT",
+        "block_section_wDAgHN",
+        "block_section_RFWAEK",
+        "block_section_3q9mbV",
+        "block_section_bApwtn",
+        "block_section_AfwLXQ",
+        "block_section_RCePqB",
+        "block_title_Fw3M7P",
+        "block_section_yY8nNe",
+        "block_section_3kEWmg",
+        "block_section_mpQ4Ki",
+        "block_section_8gf39d",
+        "block_section_taFj4b",
+        "block_title_tMJPrT",
+        "block_section_FfgEYw",
+        "block_section_fBpWmn",
+        "block_title_FmHjfG",
+        "block_section_ih7cVA",
+        "block_section_tbWCHN",
+        "block_section_rFDXrq",
+        "block_section_GUztWC"
       ],
       "settings": {
         "heading": "Häufige Fragen",
