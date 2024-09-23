@@ -28,14 +28,14 @@
         "text_GiXnzk": {
           "type": "text",
           "settings": {
-            "text": "<p>CHUCK - Nur für kurze Zeit vorbestellbar! - EVTL. COUNTDOWN HIER<\/p>"
+            "text": "<p>CHUCK - Nur für kurze Zeit vorbestellbar! - EVTL. COUNTDOWN HIER</p>"
           }
         },
         "button_WhQkDh": {
           "type": "button",
           "settings": {
             "button_label": "Jetzt vorbestellen und abrocken!",
-            "button_link": "shopify:\/\/products\/chuck-gitarrenverstaerker",
+            "button_link": "shopify://products/chuck-gitarrenverstaerker",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -71,7 +71,7 @@
         "paragraph_NBhkgt": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Dein Ticket für unsterblichen Sound! E-Mail-Adresse eintragen und einer der ersten sein, wenn unser CHUCK veröffentlicht wird.<\/p>"
+            "text": "<p>Dein Ticket für unsterblichen Sound! E-Mail-Adresse eintragen und einer der ersten sein, wenn unser CHUCK veröffentlicht wird.</p>"
           }
         },
         "email_form_mKbDjL": {
@@ -102,7 +102,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": true,
-        "video": "shopify:\/\/files\/videos\/Teaser.mp4",
+        "video": "shopify://files/videos/Teaser.mp4",
         "video_url": "",
         "description": "",
         "full_width": true,
@@ -117,25 +117,25 @@
         "logo_MibtFx": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/underdog-Icon-Logo.png"
+            "image": "shopify://shop_images/underdog-Icon-Logo.png"
           }
         },
         "logo_WCRJVh": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/underdog-Logo_40e21cd9-f90a-4370-a32b-8c88862c361f.png"
+            "image": "shopify://shop_images/underdog-Logo_40e21cd9-f90a-4370-a32b-8c88862c361f.png"
           }
         },
         "logo_Lw4eNV": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/underdog-Icon-Logo.png"
+            "image": "shopify://shop_images/underdog-Icon-Logo.png"
           }
         },
         "logo_dmLXCc": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/underdog-Icon-Logo.png"
+            "image": "shopify://shop_images/underdog-Icon-Logo.png"
           }
         }
       },
@@ -166,7 +166,7 @@
         "text_FtRfMy": {
           "type": "text",
           "settings": {
-            "text": "<p>CHUCK ist dein Schlüssel zum ultimativen Rocksound. Mit analogem Röhren-Charme, digitaler Flexibilität und massiven Effekten macht er jede Bühne zu deinem Revier. Ein Powerpaket, das deine Kreativität entfesselt und dir maximale Kontrolle gibt.<\/p>",
+            "text": "<p>CHUCK ist dein Schlüssel zum ultimativen Rocksound. Mit analogem Röhren-Charme, digitaler Flexibilität und massiven Effekten macht er jede Bühne zu deinem Revier. Ein Powerpaket, das deine Kreativität entfesselt und dir maximale Kontrolle gibt.</p>",
             "text_style": "body"
           }
         },
@@ -174,7 +174,7 @@
           "type": "button",
           "settings": {
             "button_label": "CTA fehlt",
-            "button_link": "shopify:\/\/products\/chuck-gitarrenverstaerker",
+            "button_link": "shopify://products/chuck-gitarrenverstaerker",
             "button_style_secondary": false
           }
         }
@@ -185,7 +185,7 @@
         "button_EPa8qT"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF8472.jpg",
+        "image": "shopify://shop_images/DSCF8472.jpg",
         "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -206,24 +206,24 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>CHUCK – Röhrensound trifft digitale Power.<\/strong>",
+            "heading": "<strong>CHUCK – Röhrensound trifft digitale Power.</strong>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Der CHUCK vereint den legendären Klang analoger Röhrenverstärker mit der Flexibilität digitaler Effekte in einem kompakten Pedal. Von satten Overdrives bis hin zu präzise abgestimmten Delays – Du hast die Kontrolle über Deinen einzigartigen Sound. Mehr als nur ein Effektgerät – CHUCK ist Dein Wegbegleiter für grenzenlose Kreativität und kompromisslose Performance.<\/p>"
+            "text": "<p>Der CHUCK vereint den legendären Klang analoger Röhrenverstärker mit der Flexibilität digitaler Effekte in einem kompakten Pedal. Von satten Overdrives bis hin zu präzise abgestimmten Delays – Du hast die Kontrolle über Deinen einzigartigen Sound. Mehr als nur ein Effektgerät – CHUCK ist Dein Wegbegleiter für grenzenlose Kreativität und kompromisslose Performance.</p>"
           }
         },
         "button_pqXjjg": {
           "type": "button",
           "settings": {
             "button_label": "Zur Story",
-            "button_link": "shopify:\/\/pages\/die-story-hinter-chuck",
+            "button_link": "shopify://pages/die-story-hinter-chuck",
             "button_style_secondary": false,
             "button_label_2": "Zum Proudukt",
-            "button_link_2": "shopify:\/\/products\/chuck-gitarrenverstaerker",
+            "button_link_2": "shopify://products/chuck-gitarrenverstaerker",
             "button_style_secondary_2": true
           }
         }
@@ -248,25 +248,25 @@
         "logo_hkD3VH": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF8351.jpg"
+            "image": "shopify://shop_images/DSCF8351.jpg"
           }
         },
         "logo_6LHhF9": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF8324.jpg"
+            "image": "shopify://shop_images/DSCF8324.jpg"
           }
         },
         "logo_Xzhdri": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF8567.jpg"
+            "image": "shopify://shop_images/DSCF8567.jpg"
           }
         },
         "logo_DymCX3": {
           "type": "logo",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DSCF8566.jpg"
+            "image": "shopify://shop_images/DSCF8566.jpg"
           }
         }
       },
@@ -295,7 +295,7 @@
         "text_bmXjYq": {
           "type": "text",
           "settings": {
-            "text": "<p>(Code muss noch entwickelt werden)<\/p>"
+            "text": "<p>(Code muss noch entwickelt werden)</p>"
           }
         },
         "button_VjfmLq": {
@@ -369,14 +369,14 @@
         "heading_3UCHKa": {
           "type": "heading",
           "settings": {
-            "heading": "Abonniere unsere E-Mails",
+            "heading": "Lust auf Exklusive Inhalte?",
             "heading_size": "h1"
           }
         },
         "paragraph_DV8GDq": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Erfahre als Erster von neuen Kollektionen und exklusiven Angeboten.<\/p>"
+            "text": "<p>Abonniere unseren Newsletter für exklusive Angebote, Neuigkeiten und Insider-Tipps – nur die wichtigsten Updates für dich, ohne tägliche Mailflut!</p>"
           }
         },
         "email_form_iiwUPR": {
