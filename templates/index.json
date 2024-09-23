@@ -1,5 +1,56 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "rich_text_9EcJK6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ABG9LL": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dein Ticket für unsterblichen Sound!",
+            "heading_size": "h1"
+          }
+        },
+        "text_GiXnzk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CHUCK - Nur für kurze Zeit vorbestellbar!<\/p>"
+          }
+        },
+        "button_WhQkDh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Jetzt vorbestellen und abrocken!",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ABG9LL",
+        "text_GiXnzk",
+        "button_WhQkDh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "newsletter_KycmFr": {
       "type": "newsletter",
       "blocks": {
@@ -27,6 +78,7 @@
         "paragraph_NBhkgt",
         "email_form_mKbDjL"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "full_width": false,
@@ -337,6 +389,7 @@
     }
   },
   "order": [
+    "rich_text_9EcJK6",
     "newsletter_KycmFr",
     "video_gCfjGc",
     "logo_wall_a7zAar",
