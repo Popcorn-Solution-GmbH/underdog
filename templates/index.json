@@ -146,6 +146,52 @@
         "padding_bottom": 0
       }
     },
+    "image_with_text_KEdHkJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3BdyDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Highlight TITEL",
+            "heading_size": "h1"
+          }
+        },
+        "text_FtRfMy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CHUCK ist dein Schlüssel zum ultimativen Rocksound. Mit analogem Röhren-Charme, digitaler Flexibilität und massiven Effekten macht er jede Bühne zu deinem Revier. Ein Powerpaket, das deine Kreativität entfesselt und dir maximale Kontrolle gibt.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_EPa8qT": {
+          "type": "button",
+          "settings": {
+            "button_label": "CTA fehlt",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3BdyDm",
+        "text_FtRfMy",
+        "button_EPa8qT"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -393,6 +439,7 @@
     "newsletter_KycmFr",
     "video_gCfjGc",
     "logo_wall_a7zAar",
+    "image_with_text_KEdHkJ",
     "rich_text",
     "image_wall2_3Va8zc",
     "featured_product_WjYpmH",
