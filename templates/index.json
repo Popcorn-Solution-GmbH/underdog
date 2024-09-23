@@ -257,24 +257,24 @@
             "image": "shopify://shop_images/DSCF8324.jpg"
           }
         },
-        "logo_Xzhdri": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/DSCF8567.jpg"
-          }
-        },
         "logo_DymCX3": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/DSCF8566.jpg"
+          }
+        },
+        "logo_Xzhdri": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/DSCF8567.jpg"
           }
         }
       },
       "block_order": [
         "logo_hkD3VH",
         "logo_6LHhF9",
-        "logo_Xzhdri",
-        "logo_DymCX3"
+        "logo_DymCX3",
+        "logo_Xzhdri"
       ],
       "settings": {
         "color_scheme": "",
