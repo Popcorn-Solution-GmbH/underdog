@@ -3595,3 +3595,13 @@ CUSTOM
   text-align: left !important;
   margin-bottom: 2rem;
 }
+
+
+.shopify-policy__container h2 {
+  margin-top: 8rem;
+}
+.shopify-policy__container p,
+.shopify-policy__container ul li {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
