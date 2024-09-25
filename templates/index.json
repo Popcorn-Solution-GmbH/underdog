@@ -159,7 +159,7 @@
         "heading_3BdyDm": {
           "type": "heading",
           "settings": {
-            "heading": "Highlight TITEL",
+            "heading": "Chuck auf die Eins!",
             "heading_size": "h1"
           }
         },
@@ -173,7 +173,7 @@
         "button_EPa8qT": {
           "type": "button",
           "settings": {
-            "button_label": "CTA fehlt",
+            "button_label": "Jetzt Features entdecken!",
             "button_link": "shopify://products/chuck-gitarrenverstaerker",
             "button_style_secondary": false
           }
