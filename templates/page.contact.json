@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -14,14 +23,14 @@
         "heading_Kx4CJj": {
           "type": "heading",
           "settings": {
-            "heading": "Kontakt",
+            "heading": "Braucht dein Sound Support?",
             "heading_size": "h1"
           }
         },
         "text_hXajw4": {
           "type": "text",
           "settings": {
-            "text": "Stelle Kunden Details zu Banner-Bildern oder Inhalt auf der Vorlage zur Verfügung.",
+            "text": "Meld dich bei uns und wir bringen dich wieder auf die Bühne!",
             "text_style": "body"
           }
         }
@@ -31,7 +40,7 @@
         "text_hXajw4"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF8486.jpg",
+        "image": "shopify://shop_images/DSCF8486.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "bottom-left",
@@ -49,7 +58,7 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "Schreibe unserem Team",
+        "heading": "Schick uns 'ne Nachricht und wir kümmern uns drum!",
         "heading_size": "h1",
         "color_scheme": "scheme-1",
         "padding_top": 0,
@@ -65,8 +74,8 @@
             "bg_color": "",
             "opacity": 0.5,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "presale",
+            "text": "<p>Die Vorbestellung läuft wie ein ganz normaler Kaufvorgang ab. Einfach auf „Vorbestellen“ klicken und den Bestellvorgang über den Warenkorb abschließen.</p><ul><li></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -77,8 +86,8 @@
             "bg_color": "",
             "opacity": 0.5,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "Goodies",
+            "text": "<p>Bei einer Vorbestellung erhältst du exklusives Merchandise wie drei underdog Plektren, eine robuste Transporttasche und ein handsigniertes Zertifikat. Außerdem profitierst du von kostenlosem Versand.</p><ul><li></li></ul>",
             "link_label": "",
             "link": ""
           }
@@ -89,8 +98,8 @@
             "bg_color": "",
             "opacity": 0.5,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "Zahlung",
+            "text": "<p>Wir bieten eine Vielzahl an Zahlungsmethoden an, darunter PayPal, Apple Pay, Google Pay, Amex, Maestro (EC), Mastercard und Visacard. Da ist für jeden etwas dabei!</p>",
             "link_label": "",
             "link": ""
           }
@@ -101,8 +110,8 @@
             "bg_color": "",
             "opacity": 0.5,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "Effekte",
+            "text": "<p>Im CHUCK sind vier Effekte fest verbaut: REVERB, DELAY, CHORUS und WAH. Damit hast du alles, was du für ein flexibles und vielseitiges Setup brauchst.</p>",
             "link_label": "",
             "link": ""
           }
@@ -113,8 +122,8 @@
             "bg_color": "",
             "opacity": 0.5,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "Presets",
+            "text": "<p>Die Presets unterscheiden sich vor allem durch den Sound. Von cleanen Klängen bis hin zu fetten Metal-Sounds ist alles dabei – so bist du für jede Stilrichtung perfekt ausgestattet.</p>",
             "link_label": "",
             "link": ""
           }
@@ -125,8 +134,8 @@
             "bg_color": "",
             "opacity": 0.5,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "Special",
+            "text": "<p>CHUCK kombiniert das Beste aus beiden Welten: eine analoge Röhren-Vorstufe für den warmen, authentischen Sound und digitale Manipulation für maximale Flexibilität.</p>",
             "link_label": "",
             "link": ""
           }
