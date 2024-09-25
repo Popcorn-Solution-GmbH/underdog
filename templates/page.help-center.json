@@ -32,7 +32,7 @@
         "text_KK3dXY"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF8351.jpg",
+        "image": "shopify://shop_images/DSCF8351.jpg",
         "image_overlay_opacity": 20,
         "image_height": "large",
         "desktop_content_position": "bottom-left",
@@ -65,7 +65,7 @@
             "opacity": 1,
             "color": "",
             "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -77,9 +77,9 @@
             "opacity": 0.6,
             "color": "#1a2b3c",
             "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
             "link_label": "Mehr erfahren",
-            "link": "shopify:\/\/pages\/contact"
+            "link": "shopify://pages/contact"
           }
         },
         "column_pgPkej": {
@@ -89,7 +89,7 @@
             "opacity": 0.4,
             "color": "",
             "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -100,8 +100,8 @@
             "bg_color": "#cfaf96",
             "opacity": 0.4,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "Effekte",
+            "text": "<p>Im CHUCK sind vier Effekte fest verbaut: REVERB, DELAY, CHORUS und WAH. Damit hast du alles, was du für ein flexibles und vielseitiges Setup brauchst.</p>",
             "link_label": "",
             "link": ""
           }
@@ -112,8 +112,8 @@
             "bg_color": "#be896f",
             "opacity": 0.3,
             "color": "",
-            "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "title": "Presets",
+            "text": "<p>Die Preset-Modi unterscheiden sich vor allem durch den Sound. Von cleanen Klängen bis hin zu fetten Metal-Sounds ist alles dabei – so bist du für jede Stilrichtung perfekt ausgestattet.</p>",
             "link_label": "",
             "link": ""
           }
@@ -125,7 +125,7 @@
             "opacity": 0.3,
             "color": "",
             "title": "Spalte",
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.<\/p>",
+            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
             "link_label": "",
             "link": ""
           }
@@ -169,56 +169,56 @@
           "type": "block__section",
           "settings": {
             "question_title": "Welche Effekte sind im CHUCK integriert?",
-            "content": "This is the content of the answer."
+            "content": "Im CHUCK sind vier Effekte fest verbaut: REVERB, DELAY, CHORUS und WAH. Damit hast du alles, was du für ein flexibles und vielseitiges Setup brauchst."
           }
         },
         "block_section_4XrjhU": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie speichere und lade ich Presets auf CHUCK?",
-            "content": "This is the content of the answer."
+            "content": "Um ein Preset zu speichern, nimm deine gewünschten Einstellungen vor und drücke eine der Tasten 1–7 (der LED-Ring leuchtet dabei blau) für ein paar Sekunden. Sobald die Speicherung erfolgreich war, erhältst du eine Bestätigung im Display. Über die STUDIO-Software funktioniert das Speichern ganz einfach über den \"SAVE CHANGES\"-Button in der Preset-Kachel."
           }
         },
         "block_section_xBRYNm": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie funktioniert die digitale Manipulation der analogen Röhren-Vorstufe?",
-            "content": "This is the content of the answer."
+            "content": "Die analoge Röhren-Vorstufe wird durch eine spezielle Schaltung digital manipuliert, die es ermöglicht, zwischen verschiedenen Tonestacks und Voicings hin- und herzuschalten. So hast du den perfekten Mix aus analogem Röhrensound und digitaler Flexibilität."
           }
         },
         "block_section_c9CWcr": {
           "type": "block__section",
           "settings": {
             "question_title": "Kann ich eigene IRs in den IR Loader laden?",
-            "content": "This is the content of the answer."
+            "content": "Ja, du kannst deine eigenen IRs problemlos über die STUDIO-Software in den IR Loader laden. Gehe dazu in die Kachel „IR Loader“ und verwalte die Liste über den Button \"Manage List\"."
           }
         },
         "block_section_thD69N": {
           "type": "block__section",
           "settings": {
             "question_title": "Was ist der Unterschied zwischen den verschiedenen Preset-Modi?",
-            "content": "This is the content of the answer."
+            "content": "Die Preset-Modi unterscheiden sich vor allem durch den Sound. Von cleanen Klängen bis hin zu fetten Metal-Sounds ist alles dabei – so bist du für jede Stilrichtung perfekt ausgestattet."
           }
         },
         "block_section_LwGYY7": {
           "type": "block__section",
           "settings": {
             "question_title": "Welche Arten von Röhren verwendet CHUCK in der Vorstufe?",
-            "content": "This is the content of the answer."
+            "content": "CHUCK nutzt hochwertige ROAR E83CC-Röhren in der Vorstufe. Diese garantieren dir einen satten und kraftvollen Sound."
           }
         },
         "block_section_mPg34W": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie verwende ich den FX-Loop von CHUCK?",
-            "content": "This is the content of the answer."
+            "content": "Um Effekte in den FX-Loop einzuschleifen, verbindest du sie mit den FX-SEND- und FX-RETURN-Anschlüssen. Wenn nötig, kann CHUCK die Stromversorgung über den DC OUT-Anschluss übernehmen. Danach aktivierst du den FX-Loop im Menü und kannst ihn nach deinen Wünschen parametrieren."
           }
         },
         "block_section_wbJyKN": {
           "type": "block__section",
           "settings": {
             "question_title": "Ist das Stimmgerät chromatisch oder nur für Standard-Tuning?",
-            "content": "This is the content of the answer."
+            "content": "Unser eingebauter Tuner funktioniert chromatisch, das heißt, du kannst jede beliebige Stimmung einstellen – perfekt für verschiedene Tunings."
           }
         },
         "block_title_jtV3EH": {
@@ -231,42 +231,42 @@
           "type": "block__section",
           "settings": {
             "question_title": "Welche Schnittstellen bietet CHUCK?",
-            "content": "This is the content of the answer."
+            "content": "CHUCK kommt mit einer Vielzahl an Schnittstellen, die dir maximale Flexibilität bieten: AUX IN, GIT IN, FX-SEND, FX-RETURN, GND LIFT, OUT 1 & OUT 2, SPEAKER, HEADPHONE, USB, MIDI IN & MIDI OUT/THRU, DC OUT & DC IN."
           }
         },
         "block_section_BFix8z": {
           "type": "block__section",
           "settings": {
             "question_title": "Welche MIDI-Funktionen unterstützt CHUCK?",
-            "content": "This is the content of the answer."
+            "content": "CHUCK unterstützt diverse MIDI-Befehle, darunter auch Program Change. Eine vollständige Liste findest du in der Nutzungsinformation. Befehle, die nicht für CHUCK relevant sind, werden einfach über MIDI OUT/THRU weitergeleitet."
           }
         },
         "block_section_ekaNTk": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie verbinde ich CHUCK mit meinem Computer über USB?",
-            "content": "This is the content of the answer."
+            "content": "Ganz easy: Schließe CHUCK mit dem mitgelieferten USB-A auf USB-B-Kabel an deinen Computer an. Danach einfach die STUDIO-Software installieren – und los geht’s!"
           }
         },
         "block_section_zJ6CK6": {
           "type": "block__section",
           "settings": {
             "question_title": "Kann ich CHUCK auch als Audio-Interface für mein Heimstudio nutzen?",
-            "content": "Ja, CHUCK kann problemlos als Audio-Interface für dein Heimstudio genutzt werden. Dank der USB ASIO Schnittstelle kannst du direkt in deine DAW aufnehmen und von der hohen Klangqualität profitieren."
+            "content": "Ja, CHUCK funktioniert auch als Audio-Interface für dein Heimstudio. Dank der USB ASIO-Schnittstelle kannst du direkt in deiner DAW aufnehmen und dabei von der hervorragenden Soundqualität profitieren."
           }
         },
         "block_section_QkJPhV": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie kann ich den Kopfhörerausgang nutzen, um leise zu üben?",
-            "content": "This is the content of the answer."
+            "content": "Einfach deinen Kopfhörer anschließen, in der Output-Control die Lautstärke einstellen und schon kannst du leise üben, ohne deine Nachbarn zu stören."
           }
         },
         "block_section_tWQAtY": {
           "type": "block__section",
           "settings": {
             "question_title": "Kann ich mehrere CHUCKs gleichzeitig nutzen?",
-            "content": "This is the content of the answer."
+            "content": "Ja, das ist möglich. Mehrere CHUCKs können gleichzeitig betrieben werden, sie haben dann unterschiedliche Bezeichnungen, um sie leicht voneinander zu unterscheiden."
           }
         },
         "block_title_deFWdk": {
