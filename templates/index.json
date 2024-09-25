@@ -206,21 +206,21 @@
         "heading_4XdDLd": {
           "type": "heading",
           "settings": {
-            "heading": "Pre Order hier",
+            "heading": "Chuck loaded und einsatzbereit!",
             "heading_size": "h1"
           }
         },
         "text_yBMaKN": {
           "type": "text",
           "settings": {
-            "text": "Stelle Kunden Details zu Banner-Bildern oder Inhalt auf der Vorlage zur Verfügung.",
+            "text": "Gepolsterte Tasche, Plektren für Killer-Soli und dein persönliches Zertifikat – alles, was ein echter Rocker braucht.",
             "text_style": "body"
           }
         },
         "buttons_3zUzND": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Zum Produkt",
+            "button_label_1": "Schnapp dir die fetten Goodies!",
             "button_link_1": "shopify://products/chuck-gitarrenverstaerker",
             "button_style_secondary_1": false,
             "button_label_2": "",
