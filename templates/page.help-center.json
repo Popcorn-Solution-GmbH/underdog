@@ -196,7 +196,7 @@
         "block_section_thD69N": {
           "type": "block__section",
           "settings": {
-            "question_title": "Was ist der Unterschied zwischen den verschiedenen Preset-Modi?",
+            "question_title": "Was ist der Unterschied zwischen den verschiedenen Presets?",
             "content": "Die Preset-Modi unterscheiden sich vor allem durch den Sound. Von cleanen Klängen bis hin zu fetten Metal-Sounds ist alles dabei – so bist du für jede Stilrichtung perfekt ausgestattet."
           }
         },
@@ -357,13 +357,6 @@
             "content": "This is the content of the answer."
           }
         },
-        "block_section_bApwtn": {
-          "type": "block__section",
-          "settings": {
-            "question_title": "Gibt es spezielle Rabatte für Schulen oder Musikschulen?",
-            "content": "Nein, spezielle Rabatte für Schulen oder Musikschulen bieten wir nicht an."
-          }
-        },
         "block_section_AfwLXQ": {
           "type": "block__section",
           "settings": {
@@ -465,13 +458,6 @@
             "question_title": "Ist CHUCK für den Einsatz auf der Bühne und im Studio geeignet?",
             "content": "Ja, absolut! CHUCK ist für Bühne und Studio gleichermaßen gemacht. Seine robuste Bauweise hält den härtesten Gigs stand, und seine flexible Ausstattung sorgt für Top-Sound – live wie im Studio."
           }
-        },
-        "block_section_GUztWC": {
-          "type": "block__section",
-          "settings": {
-            "question_title": "Wie richte ich eine Verbindung zu externen Effektgeräten ein?",
-            "content": "This is the content of the answer."
-          }
         }
       },
       "block_order": [
@@ -504,7 +490,6 @@
         "block_section_wDAgHN",
         "block_section_RFWAEK",
         "block_section_3q9mbV",
-        "block_section_bApwtn",
         "block_section_AfwLXQ",
         "block_section_RCePqB",
         "block_title_Fw3M7P",
@@ -519,8 +504,7 @@
         "block_title_FmHjfG",
         "block_section_ih7cVA",
         "block_section_tbWCHN",
-        "block_section_rFDXrq",
-        "block_section_GUztWC"
+        "block_section_rFDXrq"
       ],
       "settings": {
         "heading": "Häufige Fragen",
