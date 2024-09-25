@@ -17,14 +17,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Presale only: Chuck sichern und limitierte Goodies abstauben!",
             "link": ""
           }
         },
         "announcement_cJB9te": {
           "type": "announcement",
           "settings": {
-            "text": "Willkommen in unserem Shop",
+            "text": "Presale Countdown: Bestell bis 03.11.2024 - Versand ab 08.11.2024",
             "link": ""
           }
         }
