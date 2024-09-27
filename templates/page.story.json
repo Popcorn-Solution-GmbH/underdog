@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "image_banner_erWNKa": {
@@ -24,7 +33,7 @@
         "text_K9mJww"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/DSCF8566.jpg",
+        "image": "shopify://shop_images/DSCF8566.jpg",
         "image_overlay_opacity": 40,
         "image_height": "medium",
         "desktop_content_position": "bottom-left",
@@ -62,14 +71,14 @@
         "text_yF9mbt": {
           "type": "text",
           "settings": {
-            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.<\/p>"
+            "text": "<p>CHUCK ist dein Schlüssel zum ultimativen Rocksound. Mit analogem Röhren-Charme, digitaler Flexibilität und massiven Effekten macht er jede Bühne zu deinem Revier.</p>"
           }
         },
         "button_d4XXCa": {
           "type": "button",
           "settings": {
             "button_label": "Zu unserem CHUCK",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
