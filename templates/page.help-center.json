@@ -176,7 +176,7 @@
           "type": "block__section",
           "settings": {
             "question_title": "Wie speichere und lade ich Presets auf CHUCK?",
-            "content": "Um ein Preset zu speichern, nimm deine gewünschten Einstellungen vor und drücke eine der Tasten 1–7 (der LED-Ring leuchtet dabei blau) für ein paar Sekunden. Sobald die Speicherung erfolgreich war, erhältst du eine Bestätigung im Display. Über die STUDIO-Software funktioniert das Speichern ganz einfach über den \"SAVE CHANGES\"-Button in der Preset-Kachel."
+            "content": "Um ein Preset zu speichern, nimm deine gewünschten Einstellungen vor und drücke eine der Tasten 1–7 (im Preset Modus, der LED-Ring leuchtet dabei blau um den TUNER/MODE Taster) für ein paar Sekunden. Sobald die Speicherung erfolgreich war, erhältst du eine Bestätigung im Display. Über die STUDIO-Software funktioniert das Speichern ganz einfach über den \"SAVE CHANGES\"-Button in der Preset-Kachel."
           }
         },
         "block_section_xBRYNm": {
@@ -361,7 +361,7 @@
           "type": "block__section",
           "settings": {
             "question_title": "Welche Vorteile habe ich, wenn ich CHUCK vorbestelle?",
-            "content": "Bei einer Vorbestellung erhältst du exklusives Merchandise wie drei underdog Plektren, eine robuste Transporttasche und ein handsigniertes Zertifikat. Außerdem profitierst du von kostenlosem Versand."
+            "content": "Bei einer Vorbestellung erhältst du exklusives Merchandise wie eine robuste Transporttasche, drei underdog Plektren und ein exklusives Merchset. Außerdem profitierst du von kostenlosem Versand."
           }
         },
         "block_section_RCePqB": {
