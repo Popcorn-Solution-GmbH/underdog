@@ -172,6 +172,13 @@
             "content": "Im CHUCK sind vier Effekte fest verbaut: REVERB, DELAY, CHORUS und WAH. Damit hast du alles, was du für ein flexibles und vielseitiges Setup brauchst."
           }
         },
+        "block_section_EEjJwP": {
+          "type": "block__section",
+          "settings": {
+            "question_title": "Welche Modi hat der Chuck?",
+            "content": "Preset Mode: Hier schaltest du durch die Presets (Taster 1-7) und kannst direkt loslegen. Blauer LED Ring um den Taster MODE/TUNER.Edit Mode: Gestalte deine Presets nach deinem Geschmack. Grüner LED Ring um den Taster MODE/TUNER.In beiden Modi kannst du über den Expert Mode tiefgehende Parameter für jeden Effekt (REVERB, DELAY, CHORUS, WAH) anpassen."
+          }
+        },
         "block_section_4XrjhU": {
           "type": "block__section",
           "settings": {
@@ -463,6 +470,7 @@
       "block_order": [
         "block_title_f7Y7Bp",
         "block_section_9F87hb",
+        "block_section_EEjJwP",
         "block_section_4XrjhU",
         "block_section_xBRYNm",
         "block_section_c9CWcr",
