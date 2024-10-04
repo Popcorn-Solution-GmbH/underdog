@@ -169,63 +169,63 @@
           "type": "block__section",
           "settings": {
             "question_title": "Welche Effekte sind im CHUCK integriert?",
-            "content": "Im CHUCK sind vier Effekte fest verbaut: REVERB, DELAY, CHORUS und WAH. Damit hast du alles, was du für ein flexibles und vielseitiges Setup brauchst."
+            "content": "<p>Im CHUCK sind vier Effekte fest verbaut: REVERB, DELAY, CHORUS und WAH. Damit hast du alles, was du für ein flexibles und vielseitiges Setup brauchst.</p>"
           }
         },
         "block_section_EEjJwP": {
           "type": "block__section",
           "settings": {
             "question_title": "Welche Modi hat der Chuck?",
-            "content": "Preset Mode: Hier schaltest du durch die Presets (Taster 1-7) und kannst direkt loslegen. Blauer LED Ring um den Taster MODE/TUNER.Edit Mode: Gestalte deine Presets nach deinem Geschmack. Grüner LED Ring um den Taster MODE/TUNER.In beiden Modi kannst du über den Expert Mode tiefgehende Parameter für jeden Effekt (REVERB, DELAY, CHORUS, WAH) anpassen."
+            "content": "<ul><li><strong>Preset Mode:</strong> Hier schaltest du durch die Presets (Taster 1-7) und kannst direkt loslegen. Blauer LED Ring um den Taster MODE/TUNER.</li><li><strong>Edit Mode:</strong> Gestalte deine Presets nach deinem Geschmack. Grüner LED Ring um den Taster MODE/TUNER.</li></ul><p>In beiden Modi kannst du über den <strong>Expert Mode</strong> tiefgehende Parameter für jeden Effekt (REVERB, DELAY, CHORUS, WAH) anpassen.</p>"
           }
         },
         "block_section_4XrjhU": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie speichere und lade ich Presets auf CHUCK?",
-            "content": "Um ein Preset zu speichern, nimm deine gewünschten Einstellungen vor und drücke, im Preset Modus, eine der Tasten 1–7  für ein paar Sekunden. Sobald die Speicherung erfolgreich war, erhältst du eine Bestätigung im Display. Über die STUDIO-Software funktioniert das Speichern ganz einfach über den \"SAVE CHANGES\"-Button in der Preset-Kachel."
+            "content": "<p>Um ein Preset zu speichern, nimm deine gewünschten Einstellungen vor und drücke, im Preset Modus, eine der Tasten 1–7  für ein paar Sekunden. Sobald die Speicherung erfolgreich war, erhältst du eine Bestätigung im Display. Über die STUDIO-Software funktioniert das Speichern ganz einfach über den \"SAVE CHANGES\"-Button in der Preset-Kachel.</p>"
           }
         },
         "block_section_xBRYNm": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie funktioniert die digitale Manipulation der analogen Röhren-Vorstufe?",
-            "content": "Die analoge Röhren-Vorstufe wird durch eine spezielle Schaltung digital manipuliert, die es ermöglicht, zwischen verschiedenen Tonestacks und Voicings hin- und herzuschalten. So hast du den perfekten Mix aus analogem Röhrensound und digitaler Flexibilität."
+            "content": "<p>Die analoge Röhren-Vorstufe wird durch eine spezielle Schaltung digital manipuliert, die es ermöglicht, zwischen verschiedenen Tonestacks und Voicings hin- und herzuschalten. So hast du den perfekten Mix aus analogem Röhrensound und digitaler Flexibilität.</p>"
           }
         },
         "block_section_c9CWcr": {
           "type": "block__section",
           "settings": {
             "question_title": "Kann ich eigene IRs in den IR Loader laden?",
-            "content": "Ja, du kannst deine eigenen IRs problemlos über die STUDIO-Software in den IR Loader laden. Gehe dazu in die Kachel „IR Loader“ und verwalte die Liste über den Button \"Manage List\"."
+            "content": "<p>Ja, du kannst deine eigenen IRs problemlos über die STUDIO-Software in den IR Loader laden. Gehe dazu in die Kachel „IR Loader“ und verwalte die Liste über den Button \"Manage List\".</p>"
           }
         },
         "block_section_thD69N": {
           "type": "block__section",
           "settings": {
             "question_title": "Was ist der Unterschied zwischen den verschiedenen Presets?",
-            "content": "Die Preset-Modi unterscheiden sich vor allem durch den Sound. Von cleanen Klängen bis hin zu fetten Metal-Sounds ist alles dabei – so bist du für jede Stilrichtung perfekt ausgestattet."
+            "content": "<p>Die Preset-Modi unterscheiden sich vor allem durch den Sound. Von cleanen Klängen bis hin zu fetten Metal-Sounds ist alles dabei – so bist du für jede Stilrichtung perfekt ausgestattet.</p>"
           }
         },
         "block_section_LwGYY7": {
           "type": "block__section",
           "settings": {
             "question_title": "Welche Arten von Röhren verwendet CHUCK in der Vorstufe?",
-            "content": "CHUCK nutzt hochwertige ROAR E83CC-Röhren in der Vorstufe. Diese garantieren dir einen satten und kraftvollen Sound."
+            "content": "<p>CHUCK nutzt hochwertige ROAR E83CC-Röhren in der Vorstufe. Diese garantieren dir einen satten und kraftvollen Sound.</p>"
           }
         },
         "block_section_mPg34W": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie verwende ich den FX-Loop von CHUCK?",
-            "content": "Um Effekte in den FX-Loop einzuschleifen, verbindest du sie mit den FX-SEND- und FX-RETURN-Anschlüssen. Wenn nötig, kann CHUCK die Stromversorgung über den DC OUT-Anschluss übernehmen. Danach aktivierst du den FX-Loop im Menü und kannst ihn nach deinen Wünschen parametrieren."
+            "content": "<p>Um Effekte in den FX-Loop einzuschleifen, verbindest du sie mit den FX-SEND- und FX-RETURN-Anschlüssen. Wenn nötig, kann CHUCK die Stromversorgung über den DC OUT-Anschluss übernehmen. Danach aktivierst du den FX-Loop im Menü und kannst ihn nach deinen Wünschen parametrieren.</p>"
           }
         },
         "block_section_wbJyKN": {
           "type": "block__section",
           "settings": {
             "question_title": "Ist das Stimmgerät chromatisch oder nur für Standard-Tuning?",
-            "content": "Unser eingebauter Tuner funktioniert chromatisch, das heißt, du kannst jede beliebige Stimmung einstellen – perfekt für verschiedene Tunings."
+            "content": "<p>Unser eingebauter Tuner funktioniert chromatisch, das heißt, du kannst jede beliebige Stimmung einstellen – perfekt für verschiedene Tunings.</p>"
           }
         },
         "block_title_jtV3EH": {
@@ -238,42 +238,42 @@
           "type": "block__section",
           "settings": {
             "question_title": "Welche Schnittstellen bietet CHUCK?",
-            "content": "CHUCK kommt mit einer Vielzahl an Schnittstellen, die dir maximale Flexibilität bieten: AUX IN, GIT IN, FX-SEND, FX-RETURN, GND LIFT, OUT 1 & OUT 2, SPEAKER, HEADPHONE, USB, MIDI IN & MIDI OUT/THRU, DC OUT & DC IN."
+            "content": "<p>CHUCK kommt mit einer Vielzahl an Schnittstellen, die dir maximale Flexibilität bieten: AUX IN, GIT IN, FX-SEND, FX-RETURN, GND LIFT, OUT 1 & OUT 2, SPEAKER, HEADPHONE, USB, MIDI IN & MIDI OUT/THRU, DC OUT & DC IN.</p>"
           }
         },
         "block_section_BFix8z": {
           "type": "block__section",
           "settings": {
             "question_title": "Welche MIDI-Funktionen unterstützt CHUCK?",
-            "content": "CHUCK unterstützt diverse MIDI-Befehle, darunter auch Program Change. Eine vollständige Liste findest du in der Nutzungsinformation. Befehle, die nicht für CHUCK relevant sind, werden einfach über MIDI OUT/THRU weitergeleitet."
+            "content": "<p>CHUCK unterstützt diverse MIDI-Befehle, darunter auch Program Change. Eine vollständige Liste findest du in der Nutzungsinformation. Befehle, die nicht für CHUCK relevant sind, werden einfach über MIDI OUT/THRU weitergeleitet.</p>"
           }
         },
         "block_section_ekaNTk": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie verbinde ich CHUCK mit meinem Computer über USB?",
-            "content": "Ganz easy: Schließe CHUCK mit dem mitgelieferten USB-A auf USB-B-Kabel an deinen Computer an. Danach einfach die STUDIO-Software installieren – und los geht’s!"
+            "content": "<p>Ganz easy: Schließe CHUCK mit dem mitgelieferten USB-A auf USB-B-Kabel an deinen Computer an. Danach einfach die STUDIO-Software installieren – und los geht’s!</p>"
           }
         },
         "block_section_zJ6CK6": {
           "type": "block__section",
           "settings": {
             "question_title": "Kann ich CHUCK auch als Audio-Interface für mein Heimstudio nutzen?",
-            "content": "Ja, CHUCK funktioniert auch als Audio-Interface für dein Heimstudio. Dank der USB ASIO-Schnittstelle kannst du direkt in deiner DAW aufnehmen und dabei von der hervorragenden Soundqualität profitieren."
+            "content": "<p>Ja, CHUCK funktioniert auch als Audio-Interface für dein Heimstudio. Dank der USB ASIO-Schnittstelle kannst du direkt in deiner DAW aufnehmen und dabei von der hervorragenden Soundqualität profitieren.</p>"
           }
         },
         "block_section_QkJPhV": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie kann ich den Kopfhörerausgang nutzen, um leise zu üben?",
-            "content": "Einfach deinen Kopfhörer anschließen, in der Output-Control die Lautstärke einstellen und schon kannst du leise üben, ohne deine Nachbarn zu stören."
+            "content": "<p>Einfach deinen Kopfhörer anschließen, in der Output-Control die Lautstärke einstellen und schon kannst du leise üben, ohne deine Nachbarn zu stören.</p>"
           }
         },
         "block_section_tWQAtY": {
           "type": "block__section",
           "settings": {
             "question_title": "Kann ich mehrere CHUCKs gleichzeitig nutzen?",
-            "content": "Ja, das ist möglich. Mehrere CHUCKs können gleichzeitig betrieben werden, sie haben dann unterschiedliche Bezeichnungen, um sie leicht voneinander zu unterscheiden."
+            "content": "<p>Ja, das ist möglich. Mehrere CHUCKs können gleichzeitig betrieben werden, sie haben dann unterschiedliche Bezeichnungen, um sie leicht voneinander zu unterscheiden.</p>"
           }
         },
         "block_title_deFWdk": {
@@ -286,14 +286,14 @@
           "type": "block__section",
           "settings": {
             "question_title": "Wie kann ich die Firmware von CHUCK aktualisieren?",
-            "content": "Die Firmware-Updates werden direkt über die STUDIO-Software abgewickelt. Sobald ein Update verfügbar ist, kannst du es einfach in der Software starten."
+            "content": "<p>Die Firmware-Updates werden direkt über die STUDIO-Software abgewickelt. Sobald ein Update verfügbar ist, kannst du es einfach in der Software starten.</p>"
           }
         },
         "block_section_Eer9fc": {
           "type": "block__section",
           "settings": {
             "question_title": "Gibt es eine mobile App zur Steuerung von CHUCK?",
-            "content": "Aktuell gibt es keine mobile App für CHUCK. Die Steuerung erfolgt ausschließlich über die STUDIO-Software."
+            "content": "<p>Aktuell gibt es keine mobile App für CHUCK. Die Steuerung erfolgt ausschließlich über die STUDIO-Software.</p>"
           }
         },
         "block_title_yqCkHW": {
@@ -306,28 +306,28 @@
           "type": "block__section",
           "settings": {
             "question_title": "Gibt es eine Garantie auf CHUCK und wie lange dauert sie?",
-            "content": "Ja, wir bieten 2 Jahre Garantie auf CHUCK."
+            "content": "<p>Ja, wir bieten 2 Jahre Garantie auf CHUCK.</p>"
           }
         },
         "block_section_e8b9qj": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie robust ist das Floorformat von CHUCK?",
-            "content": "CHUCK ist extrem robust. Das Floorformat wurde speziell für Stabilität und Langlebigkeit entwickelt, um auch den härtesten Bühnenbedingungen standzuhalten."
+            "content": "<p>CHUCK ist extrem robust. Das Floorformat wurde speziell für Stabilität und Langlebigkeit entwickelt, um auch den härtesten Bühnenbedingungen standzuhalten.</p>"
           }
         },
         "block_section_bB4deH": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie pflege und reinige ich CHUCK richtig?",
-            "content": "Reinige CHUCK am besten mit einem trockenen Tuch, um Staub und Schmutz zu entfernen. Wenn nötig, kannst du ein leicht feuchtes Tuch mit etwas mildem Reinigungsmittel, wie z.B. Geschirrspülmittel, verwenden. Achte darauf, dass CHUCK vorher vom Stromnetz getrennt ist."
+            "content": "<p>Reinige CHUCK am besten mit einem trockenen Tuch, um Staub und Schmutz zu entfernen. Wenn nötig, kannst du ein leicht feuchtes Tuch mit etwas mildem Reinigungsmittel, wie z.B. Geschirrspülmittel, verwenden. Achte darauf, dass CHUCK vorher vom Stromnetz getrennt ist.</p>"
           }
         },
         "block_section_txCURG": {
           "type": "block__section",
           "settings": {
             "question_title": "Sind Ersatzteile für CHUCK erhältlich?",
-            "content": "Ja, du kannst Ersatzteile über unsere Support-Adresse anfordern: <a>support@underdog-audio.com</a>."
+            "content": "<p>Ja, du kannst Ersatzteile über unsere Support-Adresse anfordern: <a>support@underdog-audio.com</a>.</p>"
           }
         },
         "block_title_WnmGWH": {
@@ -340,42 +340,42 @@
           "type": "block__section",
           "settings": {
             "question_title": "Gibt es eine Möglichkeit, CHUCK vor dem Kauf auszuprobieren?",
-            "content": "Ja, du kannst CHUCK in den bekannten Musikhäusern vor Ort testen. Auf unserer Webseite findest du eine Liste der Händler, bei denen CHUCK verfügbar ist."
+            "content": "<p>Ja, du kannst CHUCK in den bekannten Musikhäusern vor Ort testen. Auf unserer Webseite findest du eine Liste der Händler, bei denen CHUCK verfügbar ist.</p>"
           }
         },
         "block_section_wDAgHN": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie funktioniert die Vorbestellung für CHUCK?",
-            "content": "Die Vorbestellung läuft wie ein ganz normaler Kaufvorgang ab. Einfach auf „Vorbestellen“ klicken und den Bestellvorgang über den Warenkorb abschließen."
+            "content": "<p>Die Vorbestellung läuft wie ein ganz normaler Kaufvorgang ab. Einfach auf „Vorbestellen“ klicken und den Bestellvorgang über den Warenkorb abschließen.</p>"
           }
         },
         "block_section_RFWAEK": {
           "type": "block__section",
           "settings": {
             "question_title": "Welche Zahlungsmethoden werden für die Vorbestellung akzeptiert?",
-            "content": "Wir bieten eine Vielzahl an Zahlungsmethoden an, darunter PayPal, Apple Pay, Google Pay, Amex, Maestro (EC), Mastercard und Visacard. Da ist für jeden etwas dabei!"
+            "content": "<p>Wir bieten eine Vielzahl an Zahlungsmethoden an, darunter PayPal, Apple Pay, Google Pay, Amex, Maestro (EC), Mastercard und Visacard. Da ist für jeden etwas dabei!</p>"
           }
         },
         "block_section_3q9mbV": {
           "type": "block__section",
           "settings": {
             "question_title": "Kann ich meine Vorbestellung stornieren oder ändern?",
-            "content": "Ja, du kannst deine Vorbestellung ganz normal über das Widerrufsrecht stornieren. Falls du Änderungen an deiner Bestellung vornehmen möchtest, kontaktiere uns einfach direkt – wir helfen dir gerne weiter!"
+            "content": "<p>Ja, du kannst deine Vorbestellung ganz normal über das Widerrufsrecht stornieren. Falls du Änderungen an deiner Bestellung vornehmen möchtest, kontaktiere uns einfach direkt – wir helfen dir gerne weiter!</p>"
           }
         },
         "block_section_AfwLXQ": {
           "type": "block__section",
           "settings": {
             "question_title": "Welche Vorteile habe ich, wenn ich CHUCK vorbestelle?",
-            "content": "Bei einer Vorbestellung erhältst du exklusives Merchandise wie eine robuste Transporttasche, drei underdog Plektren und ein exklusives Merchset. Außerdem profitierst du von kostenlosem Versand."
+            "content": "<p>Bei einer Vorbestellung erhältst du exklusives Merchandise wie eine robuste Transporttasche, drei underdog Plektren und ein exklusives Merchset. Außerdem profitierst du von kostenlosem Versand.</p>"
           }
         },
         "block_section_RCePqB": {
           "type": "block__section",
           "settings": {
             "question_title": "Wann wird CHUCK geliefert, wenn ich vorbestelle?",
-            "content": "Die Lieferzeit hängt vom Bestellzeitpunkt und der aktuellen Produktionskapazität ab. Wir bemühen uns, alle Vorbestellungen so schnell wie möglich auszuliefern. Sobald deine Bestellung bestätigt ist, erhältst du eine Information zum voraussichtlichen Liefertermin."
+            "content": "<p>Die Lieferzeit hängt vom Bestellzeitpunkt und der aktuellen Produktionskapazität ab. Wir bemühen uns, alle Vorbestellungen so schnell wie möglich auszuliefern. Sobald deine Bestellung bestätigt ist, erhältst du eine Information zum voraussichtlichen Liefertermin.</p>"
           }
         },
         "block_title_Fw3M7P": {
@@ -388,35 +388,35 @@
           "type": "block__section",
           "settings": {
             "question_title": "Werden internationale Lieferungen angeboten?",
-            "content": "Aktuell liefern wir in die DACH-Region (Deutschland, Österreich, Schweiz). In Zukunft planen wir jedoch auch Lieferungen in andere europäische Länder."
+            "content": "<p>Aktuell liefern wir in die DACH-Region (Deutschland, Österreich, Schweiz). In Zukunft planen wir jedoch auch Lieferungen in andere europäische Länder.</p>"
           }
         },
         "block_section_3kEWmg": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie hoch sind die Versandkosten für CHUCK?",
-            "content": "In unserem Shop zahlst du keine Versandkosten – der Versand ist für dich komplett kostenlos."
+            "content": "<p>In unserem Shop zahlst du keine Versandkosten – der Versand ist für dich komplett kostenlos.</p>"
           }
         },
         "block_section_mpQ4Ki": {
           "type": "block__section",
           "settings": {
             "question_title": "Was passiert, wenn meine Lieferung beschädigt ankommt?",
-            "content": "Sollte deine Lieferung beschädigt bei dir ankommen, kontaktiere bitte umgehend unseren Support. Wir sorgen dafür, dass das Problem schnellstmöglich behoben wird."
+            "content": "<p>Sollte deine Lieferung beschädigt bei dir ankommen, kontaktiere bitte umgehend unseren Support. Wir sorgen dafür, dass das Problem schnellstmöglich behoben wird.</p>"
           }
         },
         "block_section_8gf39d": {
           "type": "block__section",
           "settings": {
             "question_title": "Wie erfahre ich, wann meine Bestellung versandt wird?",
-            "content": "Sobald deine Bestellung versandt wurde, erhältst du eine E-Mail mit allen wichtigen Informationen."
+            "content": "<p>Sobald deine Bestellung versandt wurde, erhältst du eine E-Mail mit allen wichtigen Informationen.</p>"
           }
         },
         "block_section_taFj4b": {
           "type": "block__section",
           "settings": {
             "question_title": "Gibt es eine Rückerstattung, wenn ich mit CHUCK nicht zufrieden bin?",
-            "content": "Ja, eine Rückerstattung ist prinzipiell möglich. Die genauen Details findest du in unseren AGBs. Aber bevor du dich entscheidest, kontaktiere gerne unseren Support – vielleicht finden wir gemeinsam den perfekten Sound für dich!"
+            "content": "<p>Ja, eine Rückerstattung ist prinzipiell möglich. Die genauen Details findest du in unseren AGBs. Aber bevor du dich entscheidest, kontaktiere gerne unseren Support – vielleicht finden wir gemeinsam den perfekten Sound für dich!</p>"
           }
         },
         "block_title_tMJPrT": {
@@ -429,14 +429,14 @@
           "type": "block__section",
           "settings": {
             "question_title": "Wie kann ich den Kundenservice bei Fragen zur Vorbestellung erreichen?",
-            "content": "Du kannst uns jederzeit per E-Mail unter <a><strong>support@underdog-audio.com</strong></a> erreichen.Für telefonischen Support wähle aus Deutschland kostenlos die <strong>0800-underdog (0800 / 86337364)</strong> oder aus dem Ausland die <strong>+49 03727 6205-153</strong>. Wir sind von Montag bis Freitag zwischen 9:00 und 15:00 Uhr (CET) für dich da."
+            "content": "<p>Du kannst uns jederzeit per E-Mail unter <a><strong>support@underdog-audio.com</strong></a> erreichen.Für telefonischen Support wähle aus Deutschland kostenlos die <strong>0800-underdog (0800 / 86337364)</strong> oder aus dem Ausland die <strong>+49 03727 6205-153</strong>. Wir sind von Montag bis Freitag zwischen 9:00 und 15:00 Uhr (CET) für dich da.</p>"
           }
         },
         "block_section_fBpWmn": {
           "type": "block__section",
           "settings": {
             "question_title": "Benötige ich ein Account um bei euch zu bestellen?",
-            "content": "Ja, um bei uns zu bestellen, benötigst du ein Kundenkonto."
+            "content": "<p>Ja, um bei uns zu bestellen, benötigst du ein Kundenkonto.</p>"
           }
         },
         "block_title_FmHjfG": {
@@ -449,21 +449,21 @@
           "type": "block__section",
           "settings": {
             "question_title": "Welche Arten von Musikern profitieren am meisten von CHUCK?",
-            "content": "Vor allem Gitarristen. Egal, ob du gerade erst anfängst oder schon ein Profi bist – mit CHUCK findest du garantiert deinen Sound. Die einfache Bedienung bietet dir jede Menge Möglichkeiten, ohne dich zu überfordern, und lässt dir Raum für kreative Entfaltung."
+            "content": "<p>Vor allem Gitarristen. Egal, ob du gerade erst anfängst oder schon ein Profi bist – mit CHUCK findest du garantiert deinen Sound. Die einfache Bedienung bietet dir jede Menge Möglichkeiten, ohne dich zu überfordern, und lässt dir Raum für kreative Entfaltung.</p>"
           }
         },
         "block_section_tbWCHN": {
           "type": "block__section",
           "settings": {
             "question_title": "Was macht CHUCK so besonders im Vergleich zu anderen Verstärkern?",
-            "content": "CHUCK kombiniert das Beste aus beiden Welten: eine analoge Röhren-Vorstufe für den warmen, authentischen Sound und digitale Manipulation für maximale Flexibilität. Dazu kommen integrierte Effekte, Preset-Speicherung und zahlreiche Schnittstellen, die CHUCK zu einem echten Alleskönner machen."
+            "content": "<p>CHUCK kombiniert das Beste aus beiden Welten: eine analoge Röhren-Vorstufe für den warmen, authentischen Sound und digitale Manipulation für maximale Flexibilität. Dazu kommen integrierte Effekte, Preset-Speicherung und zahlreiche Schnittstellen, die CHUCK zu einem echten Alleskönner machen.</p>"
           }
         },
         "block_section_rFDXrq": {
           "type": "block__section",
           "settings": {
             "question_title": "Ist CHUCK für den Einsatz auf der Bühne und im Studio geeignet?",
-            "content": "Ja, absolut! CHUCK ist für Bühne und Studio gleichermaßen gemacht. Seine robuste Bauweise hält den härtesten Gigs stand, und seine flexible Ausstattung sorgt für Top-Sound – live wie im Studio."
+            "content": "<p>Ja, absolut! CHUCK ist für Bühne und Studio gleichermaßen gemacht. Seine robuste Bauweise hält den härtesten Gigs stand, und seine flexible Ausstattung sorgt für Top-Sound – live wie im Studio.</p>"
           }
         }
       },
