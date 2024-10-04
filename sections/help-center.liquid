@@ -44,6 +44,7 @@
             <div class='twcss-grid twcss-gap-2'>
               <p class='twcss-underline'>{{ block.settings.question_title }}</p>
               <p>{{ block.settings.content }}</p>
+              <p>{{ block.settings.content2 }}</p>
             </div>
           {%- endif -%}
         {%- endfor -%}
@@ -151,6 +152,11 @@
           "id": "content",
           "label": "Answer Content",
           "default": "This is the content of the answer."
+        },
+        {
+          "type": "richtext",
+          "id": "content2",
+          "label": "Answer Content",
         }
       ]
     }
