@@ -85,10 +85,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Download Mac",
-            "button_link_1": "",
+            "button_link_1": "https://download.underdog-audio.com/studio/underdog-studio-1.1.2.dmg",
             "button_style_secondary_1": false,
             "button_label_2": "Download Windows",
-            "button_link_2": "",
+            "button_link_2": "https://download.underdog-audio.com/studio/underdog-studio-1.1.2-setup.exe",
             "button_style_secondary_2": false
           }
         }
