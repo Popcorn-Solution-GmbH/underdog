@@ -99,7 +99,7 @@
         "buttons_GMczPV"
       ],
       "settings": {
-        "image": "shopify://shop_images/Download_Background.jpg",
+        "image": "shopify://shop_images/Download_BG.jpg",
         "image_overlay_opacity": 60,
         "image_height": "large",
         "desktop_content_position": "bottom-left",
