@@ -304,6 +304,7 @@
         },
         "block_section_JNhjVJ": {
           "type": "block__section",
+          "disabled": true,
           "settings": {
             "question_title": "Gibt es eine Garantie auf CHUCK und wie lange dauert sie?",
             "content": "<p>Ja, wir bieten 2 Jahre Garantie auf CHUCK.</p>"
