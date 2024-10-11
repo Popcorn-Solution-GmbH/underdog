@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -77,7 +77,7 @@
         "text_MVBhED": {
           "type": "text",
           "settings": {
-            "text": "Egal ob du auf Mac oder Windows unterwegs bist – mit unserer Studio-Software hast du das perfekte Tool, um deine Kreativität auszuleben. Optimiert für Musiker, die keine Kompromisse eingehen, liefert \"Studio\" alles, was du brauchst, um deine Tracks zu komponieren, zu mischen und zu perfektionieren. Hol dir jetzt die Power ins Studio oder auf in deinen Proberaum.",
+            "text": "Egal ob du auf Mac oder Windows unterwegs bist – mit unserer Studio-Software hast du das perfekte Tool, um deine Kreativität auszuleben. Optimiert für Musiker, die keine Kompromisse eingehen, liefert \"Studio\" alles, was du brauchst, um deine Tracks zu komponieren, zu mischen und zu perfektionieren. Hol dir jetzt die Power ins Studio oder in deinen Proberaum.",
             "text_style": "body"
           }
         },
