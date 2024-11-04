@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_9EcJK6": {
@@ -21,12 +21,14 @@
         },
         "countdown_Q3FrJU": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "timer": "November 03, 2024 00:00:00"
           }
         },
         "text_GiXnzk": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>CHUCK - Nur für kurze Zeit vorbestellbar!</p>"
           }
@@ -34,7 +36,7 @@
         "button_WhQkDh": {
           "type": "button",
           "settings": {
-            "button_label": "Jetzt vorbestellen und abrocken!",
+            "button_label": "Jetzt bestellen und abrocken!",
             "button_link": "shopify://products/chuck-gitarrenverstaerker",
             "button_style_secondary": false,
             "button_label_2": "",
