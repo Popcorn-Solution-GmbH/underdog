@@ -347,13 +347,266 @@
           "type": "content",
           "settings": {
             "name1": "Typ",
-            "description1": "<p>Beschreibung für Typ</p>",
+            "description1": "<p>6,35mm Klinkenbuchse unsymm. / symm.</p>",
             "name2": "Impedanz",
-            "description2": "<p>Beschreibung für Impedanz</p>",
+            "description2": "<p>8 kOhm unsymm. / 10 kOhm symm.</p>",
             "name3": "Eingangspegel max.",
-            "description3": "<p>Beschreibung für Eingangspegel max.</p>",
-            "name4": "Leistung",
-            "description4": "<p>Beschreibung für Leistung</p>"
+            "description3": "<p>6 dBu unsymm. / 6 dBu symm.</p>",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_XRhFtP": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_VLCiLY": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Out 1 & 2"
+          }
+        },
+        "content_enerkE": {
+          "type": "content",
+          "settings": {
+            "name1": "Typ",
+            "description1": "<ul><li>6,35mm Klinkenbuchse unsymm. / symm.</li><li>XLR-Einbaustecker symm.</li></ul>",
+            "name2": "Impedanz",
+            "description2": "<p>75 Ohm unsymm. / 150 Ohm symm,</p>",
+            "name3": "Ausgangspegel max.",
+            "description3": "<p>12 dBu unsymm. / 12 dBu symm.</p>",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_EACBgM": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_6j4Ngt": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Speaker"
+          }
+        },
+        "content_krL9Xt": {
+          "type": "content",
+          "settings": {
+            "name1": "Typ",
+            "description1": "<p>6,35mm Klinkenbuchse unsymm.</p>",
+            "name2": "Leistung @ 4 Ohm",
+            "description2": "<p>25W</p>",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_xQjffy": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_UtK7HT": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Kopfhörer"
+          }
+        },
+        "content_MYzD74": {
+          "type": "content",
+          "settings": {
+            "name1": "Typ",
+            "description1": "<p>3,5mm Klinkenbuchse Stereo</p>",
+            "name2": "Leistung @ 32 Ohm",
+            "description2": "<p>40mW / Kanal</p>",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_rX3A8r": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_mmTNQd": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Aux In"
+          }
+        },
+        "content_fMPxUn": {
+          "type": "content",
+          "settings": {
+            "name1": "Impedanz",
+            "description1": "<p>10 kOhm</p>",
+            "name2": "Eingangspegel max.",
+            "description2": "<p>9 dBu</p>",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_giJaVG": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_GmKRwf": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "USB"
+          }
+        },
+        "content_QTPKQ9": {
+          "type": "content",
+          "settings": {
+            "name1": "Typ",
+            "description1": "<p>USB 2.0, Typ B</p>",
+            "name2": "Audio",
+            "description2": "<p>2 In/2 Out, 48 kHz, ASIO unterstützt</p>",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_YejRF3": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_NKFPp4": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Midi"
+          }
+        },
+        "content_7AMwxN": {
+          "type": "content",
+          "settings": {
+            "name1": "Typ",
+            "description1": "<p>DIN 5 Buchse, 180°</p>",
+            "name2": "",
+            "description2": "",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_kgpUJe": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_g4MDrY": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "DSP"
+          }
+        },
+        "content_eYftTU": {
+          "type": "content",
+          "settings": {
+            "name1": "Latenz",
+            "description1": "<p>&lt;1ms Grundverzögerung (ohne IR und Amp)</p>",
+            "name2": "Auflösung",
+            "description2": "<p>24bit</p>",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_a4crCF": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_HAwdGm": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Speicher"
+          }
+        },
+        "content_MjFR9J": {
+          "type": "content",
+          "settings": {
+            "name1": "Presets",
+            "description1": "<p>7</p>",
+            "name2": "IR",
+            "description2": "<p>12 Werks-IR‘s, 20 User IR‘s</p>",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_HYGXTR": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_kJ4Ta8": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "IR-Loader"
+          }
+        },
+        "content_eKJ48C": {
+          "type": "content",
+          "settings": {
+            "name1": "Dateiformat",
+            "description1": "<p>.wav</p>",
+            "name2": "Samplingrate",
+            "description2": "<p>48 kHz Intern, 44,1 kHz bis 192 kHz unterstützt</p>",
+            "name3": "Auflösung",
+            "description3": "<p>24 bit</p>",
+            "name4": "Punkte",
+            "description4": "<p>512/1024/2048*</p>"
+          }
+        },
+        "divider_rhFYfb": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_KhpxnH": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Power"
+          }
+        },
+        "content_zCiCqN": {
+          "type": "content",
+          "settings": {
+            "name1": "Input",
+            "description1": "<p>24V/2A</p>",
+            "name2": "Output",
+            "description2": "<p>9V/0,8A</p>",
+            "name3": "",
+            "description3": "",
+            "name4": "",
+            "description4": ""
+          }
+        },
+        "divider_jJgQaE": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_qxyUBL": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "Sonstiges"
+          }
+        },
+        "content_MzXGyi": {
+          "type": "content",
+          "settings": {
+            "name1": "Abmessungen",
+            "description1": "<p>B/H/T 500 x 65 x 156 mm</p>",
+            "name2": "Gewicht",
+            "description2": "<p>3.2kg</p>",
+            "name3": "Zubehör",
+            "description3": "<p>USB Kabel Typ A auf Typ B, Netzteil, Quick-Start</p>",
+            "name4": "",
+            "description4": ""
           }
         }
       },
@@ -365,7 +618,40 @@
         "section_subheadline_LF7yVh",
         "content_73U4QK",
         "section_subheadline_HHjJ69",
-        "content_XLXNpT"
+        "content_XLXNpT",
+        "divider_XRhFtP",
+        "section_headline_VLCiLY",
+        "content_enerkE",
+        "divider_EACBgM",
+        "section_headline_6j4Ngt",
+        "content_krL9Xt",
+        "divider_xQjffy",
+        "section_headline_UtK7HT",
+        "content_MYzD74",
+        "divider_rX3A8r",
+        "section_headline_mmTNQd",
+        "content_fMPxUn",
+        "divider_giJaVG",
+        "section_headline_GmKRwf",
+        "content_QTPKQ9",
+        "divider_YejRF3",
+        "section_headline_NKFPp4",
+        "content_7AMwxN",
+        "divider_kgpUJe",
+        "section_headline_g4MDrY",
+        "content_eYftTU",
+        "divider_a4crCF",
+        "section_headline_HAwdGm",
+        "content_MjFR9J",
+        "divider_HYGXTR",
+        "section_headline_kJ4Ta8",
+        "content_eKJ48C",
+        "divider_rhFYfb",
+        "section_headline_KhpxnH",
+        "content_zCiCqN",
+        "divider_jJgQaE",
+        "section_headline_qxyUBL",
+        "content_MzXGyi"
       ],
       "settings": {
         "heading": "Technische Daten",
