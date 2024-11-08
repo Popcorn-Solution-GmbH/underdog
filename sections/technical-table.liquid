@@ -5,20 +5,19 @@
   }
 
   .section-{{ section.id }}-padding h5 {
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
   }
 
   .section-{{ section.id }}-padding .content_table {
     border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
   }
   .section-{{ section.id }}-padding .content_table > table {
-    margin-bottom: 8rem
+    margin-bottom: 8rem;
   }
   .section-{{ section.id }}-padding .content_table td {
     width: 50%;
     padding: 16px 0;
   }
-
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -38,304 +37,26 @@
       <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
 
-    <div class='content_table'>
-      <h5>Gitarren-Eingang</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Typ</p>
-          </td>
-          <td><p>6.35mm Klinkenbuchse unsymm.</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Impedanz</p>
-          </td>
-          <td><p>1 MOhm</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Eingangspegel max.</p>
-          </td>
-          <td><p>12 dBu</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>FX-Loop</h5>
-      <div class='twcss-grid twcss-gap-8 twcss-mb-32'>
-        <div>
-          <p class='twcss-font-heading'>Send</p>
-          <table class='twcss-table-auto twcss-w-full'>
-            <tr>
-              <td>
-                <p>Typ</p>
-              </td>
-              <td><p>6,35mm Klinkenbuchse unsymm. / symm.</p></td>
-            </tr>
-            <tr>
-              <td>
-                <p>Impedanz</p>
-              </td>
-              <td><p>75 Ohm unsymm. / 150 Ohm symm,</p></td>
-            </tr>
-            <tr>
-              <td>
-                <p>Ausgangspedel max.</p>
-              </td>
-              <td><p>6 dBu unsymm. / 6 dBu symm.</p></td>
-            </tr>
-          </table>
-        </div>
-        <div>
-          <p class='twcss-font-heading'>Return</p>
-          <table class='twcss-table-auto twcss-w-full'>
-            <tr>
-              <td>
-                <p>Typ</p>
-              </td>
-              <td><p>6,35mm Klinkenbuchse unsymm. / symm.</p></td>
-            </tr>
-
-            <tr>
-              <td>
-                <p>Impredanz</p>
-              </td>
-              <td><p>8 kOhm unsymm. / 10 kOhm symm.</p></td>
-            </tr>
-
-            <tr>
-              <td>
-                <p>Eingangspegel max.</p>
-              </td>
-              <td><p>6 dBu unsymm. / 6 dBu symm.</p></td>
-            </tr>
-          </table>
-        </div>
+    {%- for table in section.blocks -%}
+      <div class='content_table'>
+        <h5>{{ table.settings.title }}</h5>
+        <table class='twcss-table-auto twcss-w-full'>
+          <tr>
+            <td><p>{{ table.settings.row1_label }}</p></td>
+            <td><p>{{ table.settings.row1_value }}</p></td>
+          </tr>
+          <tr>
+            <td><p>{{ table.settings.row2_label }}</p></td>
+            <td><p>{{ table.settings.row2_value }}</p></td>
+          </tr>
+          <tr>
+            <td><p>{{ table.settings.row3_label }}</p></td>
+            <td><p>{{ table.settings.row3_value }}</p></td>
+          </tr>
+          <!-- Weitere Zeilen können hier hinzugefügt werden -->
+        </table>
       </div>
-    </div>
-
-    <div class='content_table'>
-      <h5>Out 1 & 2</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Typ</p>
-          </td>
-          <td>
-            <ul>
-              <li>6,35mm Klinkenbuchse unsymm. / symm.</li>
-              <li>XLR-Einbaustecker symm.</li>
-            </ul>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>Impedanz</p>
-          </td>
-          <td><p>75 Ohm unsymm. / 150 Ohm symm,</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Ausgangspegel max.</p>
-          </td>
-          <td><p>12 dBu unsymm. / 12 dBu symm.</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>Speaker</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Typ</p>
-          </td>
-          <td><p>6,35mm Klinkenbuchse unsymm.</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Leistung @ 4 Ohm</p>
-          </td>
-          <td><p>25W</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>Kopfhörer</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Typ</p>
-          </td>
-          <td><p>3,5mm Klinkenbuchse Stereo</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Leistung @ 32 Ohm</p>
-          </td>
-          <td><p>40mW / Kanal</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>Aux In</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Impedanz</p>
-          </td>
-          <td><p>10 kOhm</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Eingangspegel max.</p>
-          </td>
-          <td><p>9 dBu</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>USB</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Typ</p>
-          </td>
-          <td><p>USB 2.0, Typ B</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Audio</p>
-          </td>
-          <td><p>2 In/2 Out, 48 kHz, ASIO unterstützt</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>Midi</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Typ</p>
-          </td>
-          <td><p>DIN 5 Buchse, 180°</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>DSP</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Latenz</p>
-          </td>
-          <td><p>&lt;1ms Grundverzögerung (ohne IR und Amp)</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Auflösung</p>
-          </td>
-          <td><p>24bit</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>Speicher</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Presets</p>
-          </td>
-          <td><p>7</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>IR</p>
-          </td>
-          <td><p>12 Werks-IR‘s, 20 User IR‘s</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>IR-Loader</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Dateiformat</p>
-          </td>
-          <td><p>.wav</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Samplingrate</p>
-          </td>
-          <td><p>48 kHz Intern, 44,1 kHz bis 192 kHz unterstützt</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Auflösung</p>
-          </td>
-          <td><p>24 bit</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Punkte</p>
-          </td>
-          <td><p>512/1024/2048*</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>Power</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Input</p>
-          </td>
-          <td><p>24V/2A</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Output</p>
-          </td>
-          <td><p>9V/0,8A</p></td>
-        </tr>
-      </table>
-    </div>
-
-    <div class='content_table'>
-      <h5>Sonstiges</h5>
-      <table class='twcss-table-auto twcss-w-full'>
-        <tr>
-          <td>
-            <p>Abmessungen</p>
-          </td>
-          <td><p>B/H/T 500 x 65 x 156 mm</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Gewicht</p>
-          </td>
-          <td><p>3.2kg</p></td>
-        </tr>
-        <tr>
-          <td>
-            <p>Zubehör</p>
-          </td>
-          <td><p>USB Kabel Typ A auf Typ B, Netzteil, Quick-Start</p></td>
-        </tr>
-      </table>
-    </div>
+    {%- endfor -%}
   </div>
 </div>
 
@@ -408,6 +129,57 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "table",
+      "name": "Tabelle",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Tabellen Titel",
+          "default": "Gitarren-Eingang"
+        },
+        {
+          "type": "text",
+          "id": "row1_label",
+          "label": "Zeile 1 Label",
+          "default": "Typ"
+        },
+        {
+          "type": "text",
+          "id": "row1_value",
+          "label": "Zeile 1 Wert",
+          "default": "6.35mm Klinkenbuchse unsymm."
+        },
+        {
+          "type": "text",
+          "id": "row2_label",
+          "label": "Zeile 2 Label",
+          "default": "Impedanz"
+        },
+        {
+          "type": "text",
+          "id": "row2_value",
+          "label": "Zeile 2 Wert",
+          "default": "1 MOhm"
+        },
+        {
+          "type": "text",
+          "id": "row3_label",
+          "label": "Zeile 3 Label",
+          "default": "Eingangspegel max."
+        },
+        {
+          "type": "text",
+          "id": "row3_value",
+          "label": "Zeile 3 Wert",
+          "default": "12 dBu"
+        }
+        // Weitere Zeilen können bei Bedarf hinzugefügt werden
+      ]
     }
   ],
   "presets": [
