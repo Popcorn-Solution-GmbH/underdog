@@ -37,32 +37,31 @@
       <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
 
-    {%- for table in section.blocks -%}
-      <div class='content_table'>
-        <h5>{{ table.settings.title }}</h5>
-        <table class='twcss-table-auto twcss-w-full'>
-          <tr>
-            <td><p>{{ table.settings.row1_label }}</p></td>
-            <td><p>{{ table.settings.row1_value }}</p></td>
-          </tr>
-          <tr>
-            <td><p>{{ table.settings.row2_label }}</p></td>
-            <td><p>{{ table.settings.row2_value }}</p></td>
-          </tr>
-          <tr>
-            <td><p>{{ table.settings.row3_label }}</p></td>
-            <td><p>{{ table.settings.row3_value }}</p></td>
-          </tr>
-          <!-- Weitere Zeilen können hier hinzugefügt werden -->
-        </table>
-      </div>
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when 'divider' -%}
+          <hr class="content-divider" />
+
+        {%- when 'section_headline' -%}
+          <h3 class="section-headline">{{ block.settings.headline }}</h3>
+
+        {%- when 'two_column_content' -%}
+          <div class="content-two-columns">
+            <div class="column-left">
+              {{ block.settings.left_content }}
+            </div>
+            <div class="column-right">
+              {{ block.settings.right_content }}
+            </div>
+          </div>
+      {%- endcase -%}
     {%- endfor -%}
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "CHUCK Tabelle",
+  "name": "Flexible Content Section",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -133,58 +132,44 @@
   ],
   "blocks": [
     {
-      "type": "table",
-      "name": "Tabelle",
+      "type": "divider",
+      "name": "Trennlinie",
+      "settings": []
+    },
+    {
+      "type": "section_headline",
+      "name": "Section Headline",
       "settings": [
         {
           "type": "text",
-          "id": "title",
-          "label": "Tabellen Titel",
-          "default": "Gitarren-Eingang"
-        },
-        {
-          "type": "text",
-          "id": "row1_label",
-          "label": "Zeile 1 Label",
-          "default": "Typ"
-        },
-        {
-          "type": "text",
-          "id": "row1_value",
-          "label": "Zeile 1 Wert",
-          "default": "6.35mm Klinkenbuchse unsymm."
-        },
-        {
-          "type": "text",
-          "id": "row2_label",
-          "label": "Zeile 2 Label",
-          "default": "Impedanz"
-        },
-        {
-          "type": "text",
-          "id": "row2_value",
-          "label": "Zeile 2 Wert",
-          "default": "1 MOhm"
-        },
-        {
-          "type": "text",
-          "id": "row3_label",
-          "label": "Zeile 3 Label",
-          "default": "Eingangspegel max."
-        },
-        {
-          "type": "text",
-          "id": "row3_value",
-          "label": "Zeile 3 Wert",
-          "default": "12 dBu"
+          "id": "headline",
+          "label": "Überschrift",
+          "default": "Section Headline"
         }
-        // Weitere Zeilen können bei Bedarf hinzugefügt werden
+      ]
+    },
+    {
+      "type": "two_column_content",
+      "name": "Inhalte mit zwei Spalten",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "left_content",
+          "label": "Linke Spalte",
+          "default": "<p>Linker Inhalt</p>"
+        },
+        {
+          "type": "richtext",
+          "id": "right_content",
+          "label": "Rechte Spalte",
+          "default": "<p>Rechter Inhalt</p>"
+        }
       ]
     }
   ],
   "presets": [
     {
-      "name": "CHUCK Tabelle"
+      "name": "Flexible Content Section"
     }
   ]
 }
