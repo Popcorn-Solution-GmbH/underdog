@@ -59,6 +59,12 @@
         "text_6AP4PX"
       ],
       "settings": {
+        "advantage1_headline": "Gratis Versand",
+        "advantage1_content": "Genieße kostenlosen Versand für alle Bestellungen.",
+        "advantage2_headline": "Europaweit versandbereit",
+        "advantage2_content": "Dein CHUCK kommt direkt zu dir – wohin auch immer in Europa.",
+        "advantage3_headline": "Made in Germany",
+        "advantage3_content": "CHUCK wird in Deutschland gefertigt – Qualität, auf die du dich verlassen kannst.",
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Hol dir den underdog-Insider für echten Sound und fette Deals:",
