@@ -38,6 +38,25 @@
     {%- endif -%}
 
     {%- for block in section.blocks -%}
+      <div class='content_table'>
+        {%- case block.type -%}
+          {%- when 'section_headline' -%}
+            <h5>{{ block.settings.headline }}</h5>
+          
+        {%- when 'two_column_content' -%}
+          <table class='twcss-table-auto twcss-w-full'>
+            <tr>
+              <td>
+                <p>{{ block.settings.left_content }}</p>
+              </td>
+              <td><p>{{ block.settings.right_content }}</p></td>
+            </tr>
+          </table>
+        {%- endcase -%}
+      </div>
+    {%- endfor -%}
+    
+    {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'divider' -%}
           <hr class="content-divider" />
@@ -51,7 +70,6 @@
               {{ block.settings.left_content }}
             </div>
             <div class="column-right">
-              {{ block.settings.right_content }}
             </div>
           </div>
       {%- endcase -%}
