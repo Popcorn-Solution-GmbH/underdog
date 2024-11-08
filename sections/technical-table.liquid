@@ -11,13 +11,6 @@
   .section-{{ section.id }}-padding .content_table {
     border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
   }
-  .section-{{ section.id }}-padding .content_table > table {
-    margin-bottom: 2rem;
-  }
-  .section-{{ section.id }}-padding .content_table td {
-    width: 50%;
-    padding: 16px 0;
-  }
 
   .section-{{ section.id }}-padding .content-divider {
     border-top: 1px solid rgba(var(--color-foreground), 0.1);
@@ -25,23 +18,17 @@
   }
 
   .section-{{ section.id }}-padding .section-headline {
+    font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
 
-  .section-{{ section.id }}-padding .subheadline {
+  .section-{{ section.id }}-padding .section-subheadline {
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
 
-  .section-{{ section.id }}-padding .content-two-columns {
-    display: flex;
-    gap: 2rem;
+  .section-{{ section.id }}-padding .content-group {
     margin-bottom: 2rem;
-  }
-
-  .section-{{ section.id }}-padding .column-left,
-  .section-{{ section.id }}-padding .column-right {
-    flex: 1;
   }
 
   @media screen and (min-width: 750px) {
@@ -58,6 +45,8 @@
       <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         {{ section.settings.heading }}
       </h2>
+    {%- else -%}
+      <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
 
     {%- for block in section.blocks -%}
@@ -68,19 +57,27 @@
         {%- when 'section_headline' -%}
           <h3 class="section-headline">{{ block.settings.headline }}</h3>
 
-        {%- when 'two_column_content' -%}
-          <div class="content-two-columns">
-            <div class="column-left">
-              {{ block.settings.left_content }}
-            </div>
-            <div class="column-right">
-              {{ block.settings.right_content }}
-            </div>
-          </div>
+        {%- when 'section_subheadline' -%}
+          <h4 class="section-subheadline">{{ block.settings.subheadline }}</h4>
 
-        {%- when 'subheadline_content' -%}
-          <div class="subheadline-content">
-            <h4 class="subheadline">{{ block.settings.subheadline }}</h4>
+        {%- when 'content' -%}
+          <div class="content-group">
+            <div class="content-item">
+              <strong>{{ block.settings.name1 }}</strong>
+              <div>{{ block.settings.description1 }}</div>
+            </div>
+            <div class="content-item">
+              <strong>{{ block.settings.name2 }}</strong>
+              <div>{{ block.settings.description2 }}</div>
+            </div>
+            <div class="content-item">
+              <strong>{{ block.settings.name3 }}</strong>
+              <div>{{ block.settings.description3 }}</div>
+            </div>
+            <div class="content-item">
+              <strong>{{ block.settings.name4 }}</strong>
+              <div>{{ block.settings.description4 }}</div>
+            </div>
           </div>
       {%- endcase -%}
     {%- endfor -%}
@@ -177,32 +174,68 @@
       ]
     },
     {
-      "type": "two_column_content",
-      "name": "Inhalte mit zwei Spalten",
-      "settings": [
-        {
-          "type": "richtext",
-          "id": "left_content",
-          "label": "Linke Spalte",
-          "default": "<p>Linker Inhalt</p>"
-        },
-        {
-          "type": "richtext",
-          "id": "right_content",
-          "label": "Rechte Spalte",
-          "default": "<p>Rechter Inhalt</p>"
-        }
-      ]
-    },
-    {
-      "type": "subheadline_content",
-      "name": "Subheadline Content",
+      "type": "section_subheadline",
+      "name": "Section Subheadline",
       "settings": [
         {
           "type": "text",
           "id": "subheadline",
           "label": "Subheadline",
-          "default": "Send / Return"
+          "default": "Section Subheadline"
+        }
+      ]
+    },
+    {
+      "type": "content",
+      "name": "Content",
+      "settings": [
+        {
+          "type": "text",
+          "id": "name1",
+          "label": "Name 1",
+          "default": "Typ"
+        },
+        {
+          "type": "richtext",
+          "id": "description1",
+          "label": "Beschreibung 1",
+          "default": "<p>Beschreibung für Typ</p>"
+        },
+        {
+          "type": "text",
+          "id": "name2",
+          "label": "Name 2",
+          "default": "Impedanz"
+        },
+        {
+          "type": "richtext",
+          "id": "description2",
+          "label": "Beschreibung 2",
+          "default": "<p>Beschreibung für Impedanz</p>"
+        },
+        {
+          "type": "text",
+          "id": "name3",
+          "label": "Name 3",
+          "default": "Eingangspegel max."
+        },
+        {
+          "type": "richtext",
+          "id": "description3",
+          "label": "Beschreibung 3",
+          "default": "<p>Beschreibung für Eingangspegel max.</p>"
+        },
+        {
+          "type": "text",
+          "id": "name4",
+          "label": "Name 4",
+          "default": "Leistung"
+        },
+        {
+          "type": "richtext",
+          "id": "description4",
+          "label": "Beschreibung 4",
+          "default": "<p>Beschreibung für Leistung</p>"
         }
       ]
     }
