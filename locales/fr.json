@@ -150,5 +150,106 @@
       "search": "Chercher",
       "reset": "Réinitialiser le terme de recherche"
     }
+  },
+  "customer": {
+    "login_page": {
+      "email": "e-mail",
+      "forgot_password": "Avez-vous oublié votre mot de passe ?",
+      "guest_continue": "Continuer",
+      "guest_title": "Continuer en tant qu'invité",
+      "password": "mot de passe",
+      "title": "Se connecter",
+      "sign_in": "Registre",
+      "submit": "Envoyer",
+      "alternate_provider_separator": "ou"
+    },
+    "orders": {
+      "title": "Historique des commandes",
+      "order_number": "Commande",
+      "order_number_link": "Numéro de commande {{ number }}",
+      "date": "Date",
+      "payment_status": "Statut de paiement",
+      "fulfillment_status": "Statut d'exécution",
+      "total": "total",
+      "none": "Vous n'avez pas encore passé de commande."
+    },
+    "recover_password": {
+      "title": "Réinitialisez votre mot de passe",
+      "subtext": "Nous vous enverrons un email pour réinitialiser votre mot de passe",
+      "success": "Nous vous avons envoyé un e-mail avec un lien pour mettre à jour votre mot de passe."
+    },
+    "register": {
+      "title": "Créer un compte",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "email": "e-mail",
+      "password": "mot de passe",
+      "submit": "Créer"
+    },
+    "reset_password": {
+      "title": "Réinitialiser le mot de passe du compte",
+      "subtext": "Entrez le nouveau mot de passe",
+      "password": "mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "Réinitialiser le mot de passe"
+    },
+    "order": {
+      "title": "Commande {{ name }}",
+      "date_html": "Publié le {{ date }}",
+      "cancelled_html": "Commande annulée le {{ date }}",
+      "cancelled_reason": "Raison : {{ reason }}",
+      "billing_address": "Adresse de facturation",
+      "payment_status": "Statut de paiement",
+      "shipping_address": "Adresse de livraison",
+      "fulfillment_status": "Statut d'exécution",
+      "discount": "Rabais",
+      "shipping": "Expédition",
+      "tax": "Impôt",
+      "product": "produit",
+      "sku": "UGS",
+      "price": "Prix",
+      "quantity": "Foule",
+      "total": "total",
+      "fulfilled_at_html": "Exécuté le {{ date }}",
+      "track_shipment": "Suivre l'expédition",
+      "tracking_url": "Lien de suivi",
+      "tracking_company": "Prestataire de services d'expédition",
+      "tracking_number": "Numéro de suivi",
+      "subtotal": "Total",
+      "total_duties": "Frais de douane",
+      "total_refunded": "Remboursé"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Voici votre chèque cadeau de {{ value }} pour {{ shop }} !",
+      "subtext": "Votre chèque cadeau",
+      "gift_card_code": "Code promo",
+      "shop_link": "Visitez la boutique en ligne",
+      "add_to_apple_wallet": "Ajouter à Apple Wallet",
+      "qr_image_alt": "Code QR – Scannez pour utiliser un chèque-cadeau",
+      "copy_code": "Copier le code du chèque cadeau",
+      "expired": "Expiré",
+      "copy_code_success": "Code copié avec succès",
+      "how_to_use_gift_card": "Utilisez ce code chèque cadeau en ligne ou utilisez le code QR en boutique",
+      "expiration_date": "Valable jusqu'au {{ expires_on }}"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "Je voudrais l'envoyer en cadeau",
+      "email_label": "E-mail du destinataire",
+      "email": "e-mail",
+      "name_label": "Nom du destinataire (facultatif)",
+      "name": "nom",
+      "message_label": "Message (facultatif)",
+      "message": "Nouvelles",
+      "max_characters": "Maximum de {{ max_chars }} caractères",
+      "email_label_optional_for_no_js_behavior": "Adresse e-mail du destinataire (facultatif)",
+      "send_on": "AAAA-MM-JJ",
+      "send_on_label": "Envoyer (facultatif)",
+      "expanded": "Formulaire élargi pour le destinataire du chèque cadeau",
+      "collapsed": "Formulaire du destinataire du chèque-cadeau réduit"
+    }
   }
 }
