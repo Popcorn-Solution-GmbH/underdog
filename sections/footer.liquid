@@ -44,21 +44,21 @@
         {% render 'icon-send' %}
       </div>
       <h5>{{ section.settings.advantage1_headline }}</h5>
-      <p>Genieße kostenlosen Versand für alle Bestellungen.</p>
+      <p>{{ section.settings.advantage1_content }}</p>
     </div>
     <div class='twcss-grid-cols-1 twcss-gap-y-12 twcss-flex twcss-flex-col'>
       <div class='footer-icon'>
         {% render 'icon-launch' %}
       </div>
-      <h5>Europaweit versandbereit</h5>
-      <p>Dein CHUCK kommt direkt zu dir – wohin auch immer in Europa.</p>
+      <h5>{{ section.settings.advantage2_headline }}</h5>
+      <p>{{ section.settings.advantage2_content }}</p>
     </div>
     <div class='twcss-grid-cols-1 twcss-gap-y-12 twcss-flex twcss-flex-col'>
       <div class='footer-icon'>
         {% render 'icon-flag' %}
       </div>
-      <h5>Made in Germany</h5>
-      <p>CHUCK wird in Deutschland gefertigt – Qualität, auf die du dich verlassen kannst.</p>
+      <h5>{{ section.settings.advantage3_headline }}</h5>
+      <p>{{ section.settings.advantage3_content }}</p>
     </div>
   </div>
   <footer class='footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding'>
