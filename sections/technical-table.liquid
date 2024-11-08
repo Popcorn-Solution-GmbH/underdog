@@ -1,3 +1,4 @@
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -5,19 +6,20 @@
   }
 
   .section-{{ section.id }}-padding h5 {
-    margin-bottom: 2rem;
+    margin-bottom: 2rem
   }
 
   .section-{{ section.id }}-padding .content_table {
     border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
   }
   .section-{{ section.id }}-padding .content_table > table {
-    margin-bottom: 8rem;
+    margin-bottom: 8rem
   }
   .section-{{ section.id }}-padding .content_table td {
     width: 50%;
     padding: 16px 0;
   }
+
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -33,8 +35,6 @@
       <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         {{ section.settings.heading }}
       </h2>
-    {%- else -%}
-      <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
 
     {%- for block in section.blocks -%}
