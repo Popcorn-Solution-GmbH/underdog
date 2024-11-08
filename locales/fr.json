@@ -149,6 +149,23 @@
     "search": {
       "search": "Chercher",
       "reset": "Réinitialiser le terme de recherche"
+    },
+    "cart": {
+      "view": "Afficher le panier ( {{ count }} )",
+      "item_added": "L'article a été ajouté au panier",
+      "view_empty_cart": "Voir le panier"
+    },
+    "share": {
+      "copy_to_clipboard": "Copier le lien",
+      "share_url": "lien",
+      "success_message": "Lien copié dans le presse-papier",
+      "close": "Partager fermer"
+    },
+    "slider": {
+      "of": "depuis",
+      "next_slide": "Glisser vers la droite",
+      "previous_slide": "Glisser vers la gauche",
+      "name": "Curseurs"
     }
   },
   "customer": {
@@ -295,12 +312,76 @@
   "products": {
     "product": {
       "volume_pricing": {
-        "price_at_each": "à {{ price }} /pièce"
+        "price_at_each": "à {{ price }} /pièce",
+        "title": "Tarification basée sur le volume",
+        "note": "Tarifs de volume disponibles",
+        "minimum": "{{ quantity }} +"
       },
       "product_variants": "Variantes de produits",
       "taxes_included": "Y compris les taxes.",
       "duties_included": "Y compris les frais de douane.",
-      "duties_and_taxes_included": "Y compris les droits de douane et taxes."
+      "duties_and_taxes_included": "Y compris les droits de douane et taxes.",
+      "add_to_cart": "Précommandez maintenant",
+      "description": "Description",
+      "on_sale": "Vente",
+      "quantity": {
+        "label": "Nombre",
+        "input_label": "Nombre de {{ product }}",
+        "increase": "Augmenter la quantité pour {{ product }}",
+        "decrease": "Diminuez la quantité pour {{ product }}",
+        "minimum_of": "Au moins {{ quantity }}",
+        "maximum_of": "Maximum {{ quantity }}",
+        "multiples_of": "En {{ quantity }} étapes",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span> dans le panier",
+        "note": "Afficher les règles de quantité",
+        "min_of": "Au moins {{ quantity }}",
+        "max_of": "Au maximum {{ quantity }}"
+      },
+      "price": {
+        "from_price_html": "À partir de {{ price }}",
+        "regular_price": "Prix ​​normal",
+        "sale_price": "Prix ​​de vente",
+        "unit_price": "Prix ​​de base"
+      },
+      "share": "Partager ce produit",
+      "sold_out": "Épuisé",
+      "unavailable": "Pas disponible",
+      "vendor": "Fournisseur",
+      "video_exit_message": "{{ title }} ouvre la vidéo sur la même page en mode plein écran.",
+      "xr_button": "Voir dans votre région",
+      "xr_button_label": "« Voir dans votre chambre » charge l'article dans une fenêtre de réalité augmentée",
+      "pickup_availability": {
+        "view_store_info": "Afficher les informations sur la boutique",
+        "check_other_stores": "Vérifier la disponibilité dans d'autres magasins",
+        "pick_up_available": "Collection disponible",
+        "pick_up_available_at_html": "Prise en charge disponible à <span class=\"color-foreground\">{{ location_name }}</span>",
+        "pick_up_unavailable_at_html": "Le retrait à partir de <span class=\"color-foreground\">{{ location_name }}</span> n'est actuellement pas disponible",
+        "unavailable": "La disponibilité pour les ramassages n'a pas pu être chargée",
+        "refresh": "Mise à jour"
+      },
+      "media": {
+        "open_media": "Ouvrir le média {{ index }} en modal",
+        "play_model": "Jouer à la visionneuse 3D",
+        "play_video": "Lire la vidéo",
+        "gallery_viewer": "Visionneuse de galerie",
+        "load_image": "Charger l'image {{ index }} dans la vue galerie",
+        "load_model": "Charger le modèle 3D {{ index }} dans la vue galerie",
+        "load_video": "Lire la vidéo {{ index }} dans la vue Galerie",
+        "image_available": "L'image {{ index }} est désormais disponible en vue galerie"
+      },
+      "view_full_details": "Afficher tous les détails",
+      "shipping_policy_html": "Y compris <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">l'expédition</a>",
+      "choose_options": "Sélectionnez les options",
+      "choose_product_options": "Sélectionnez les options pour {{ product_name }}",
+      "value_unavailable": "{{ option_value }} – non disponible",
+      "variant_sold_out_or_unavailable": "Variante épuisée ou non disponible",
+      "inventory_in_stock": "En stock",
+      "inventory_in_stock_show_count": "{{ quantity }} en stock",
+      "inventory_low_stock": "Faible inventaire",
+      "inventory_low_stock_show_count": "Stock faible : {{ quantity }} restant",
+      "inventory_out_of_stock": "En rupture de stock",
+      "inventory_out_of_stock_continue_selling": "En stock",
+      "sku": "UGS"
     },
     "modal": {
       "label": "Galerie Média"
@@ -395,5 +476,52 @@
     "search": "Chercher",
     "popular_countries_regions": "Pays/régions populaires",
     "country_results_count": "{{ count }} pays/régions trouvés"
+  },
+  "newsletter": {
+    "label": "e-mail",
+    "success": "Merci pour votre inscription",
+    "button_label": "S'abonner"
+  },
+  "accessibility": {
+    "skip_to_text": "Accédez directement au contenu",
+    "close": "Fermer",
+    "unit_price_separator": "par",
+    "vendor": "Fournisseur:",
+    "error": "Erreur",
+    "refresh_page": "Si vous faites une sélection, la page sera complètement mise à jour.",
+    "link_messages": {
+      "new_window": "Ouvre dans une nouvelle fenêtre.",
+      "external": "Ouvre un site Web externe."
+    },
+    "loading": "Est en train de charger...",
+    "skip_to_product_info": "Accéder aux informations sur le produit",
+    "total_reviews": "Notes globales",
+    "star_reviews_info": "{{ rating_value }} sur {{ rating_max }} étoiles",
+    "collapsible_content_title": "Contenu pliable",
+    "complementary_products": "Produits complémentaires"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Blogue",
+      "read_more_title": "Lire la suite : {{ title }}",
+      "comments": {
+        "one": "{{ count }} Commentaire",
+        "other": "{{ count }} commentaires"
+      },
+      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant publication.",
+      "comment_form_title": "Laisser un commentaire",
+      "name": "nom",
+      "email": "e-mail",
+      "message": "commentaire",
+      "post": "Poster un commentaire",
+      "back_to_blog": "Retour au blog",
+      "share": "Partagez cet article",
+      "success": "Votre commentaire a été publié avec succès ! Merci!",
+      "success_moderated": "Votre commentaire a été publié avec succès. Notre blog étant modéré, nous ne le publierons que peu de temps après."
+    }
+  },
+  "onboarding": {
+    "product_title": "Exemple de titre de produit",
+    "collection_title": "Nom de votre collection"
   }
 }
