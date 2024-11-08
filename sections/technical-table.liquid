@@ -30,17 +30,17 @@
     margin-bottom: 2rem;
   }
 
-  .section-{{ section.id }}-padding .content-item {
-    font-size: 1rem; /* Consistent font size */
-    line-height: 1.6; /* Consistent line-height */
+  .section-{{ section.id }}-padding .content-two-columns {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
   }
 
-  .section-{{ section.id }}-padding .content-item strong {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+  .section-{{ section.id }}-padding .column-left,
+  .section-{{ section.id }}-padding .column-right {
+    flex: 1;
   }
-
+  
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
