@@ -307,11 +307,44 @@
             "name4": "",
             "description4": ""
           }
+        },
+        "divider_JFNFqd": {
+          "type": "divider",
+          "settings": {}
+        },
+        "section_headline_QxUBAB": {
+          "type": "section_headline",
+          "settings": {
+            "headline": "FX-Loop"
+          }
+        },
+        "section_subheadline_LF7yVh": {
+          "type": "section_subheadline",
+          "settings": {
+            "subheadline": "Send"
+          }
+        },
+        "content_73U4QK": {
+          "type": "content",
+          "settings": {
+            "name1": "Typ",
+            "description1": "<p>6,35mm Klinkenbuchse unsymm. / symm.</p>",
+            "name2": "Impedanz",
+            "description2": "<p>75 Ohm unsymm. / 150 Ohm symm,</p>",
+            "name3": "Ausgangspedel max.",
+            "description3": "<p>6 dBu unsymm. / 6 dBu symm.</p>",
+            "name4": "",
+            "description4": ""
+          }
         }
       },
       "block_order": [
         "section_headline_pX7Di7",
-        "content_wayR9B"
+        "content_wayR9B",
+        "divider_JFNFqd",
+        "section_headline_QxUBAB",
+        "section_subheadline_LF7yVh",
+        "content_73U4QK"
       ],
       "settings": {
         "heading": "Technische Daten",
