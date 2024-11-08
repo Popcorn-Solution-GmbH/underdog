@@ -17,21 +17,13 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Presale only: Chuck sichern und limitierte Goodies abstauben!",
-            "link": "shopify://products/chuck-gitarrenverstaerker"
-          }
-        },
-        "announcement_cJB9te": {
-          "type": "announcement",
-          "settings": {
-            "text": "Presale Countdown: Bestell bis 03.11.2024 - Versand ab 08.11.2024",
+            "text": "Unser nächster Versand startet am 25.11. – für Euch volle Power on stage!",
             "link": "shopify://products/chuck-gitarrenverstaerker"
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_cJB9te"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "scheme-3",
