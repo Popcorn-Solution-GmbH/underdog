@@ -1,4 +1,3 @@
-
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -6,20 +5,40 @@
   }
 
   .section-{{ section.id }}-padding h5 {
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
   }
 
   .section-{{ section.id }}-padding .content_table {
     border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
   }
   .section-{{ section.id }}-padding .content_table > table {
-    margin-bottom: 8rem
+    margin-bottom: 8rem;
   }
   .section-{{ section.id }}-padding .content_table td {
     width: 50%;
     padding: 16px 0;
   }
 
+  .section-{{ section.id }}-padding .content-divider {
+    border-top: 1px solid rgba(var(--color-foreground), 0.1);
+    margin: 2rem 0;
+  }
+
+  .section-{{ section.id }}-padding .section-headline {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-{{ section.id }}-padding .content-two-columns {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-{{ section.id }}-padding .column-left,
+  .section-{{ section.id }}-padding .column-right {
+    flex: 1;
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
@@ -35,27 +54,10 @@
       <h2 class='title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'>
         {{ section.settings.heading }}
       </h2>
+    {%- else -%}
+      <h2 class='visually-hidden'>{{ 'templates.contact.form.title' | t }}</h2>
     {%- endif -%}
 
-    {%- for block in section.blocks -%}
-      <div class='content_table'>
-        {%- case block.type -%}
-          {%- when 'section_headline' -%}
-            <h5>{{ block.settings.headline }}</h5>
-          
-        {%- when 'two_column_content' -%}
-          <table class='twcss-table-auto twcss-w-full'>
-            <tr>
-              <td>
-                <p>{{ block.settings.left_content }}</p>
-              </td>
-              <td><p>{{ block.settings.right_content }}</p></td>
-            </tr>
-          </table>
-        {%- endcase -%}
-      </div>
-    {%- endfor -%}
-    
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'divider' -%}
@@ -70,6 +72,7 @@
               {{ block.settings.left_content }}
             </div>
             <div class="column-right">
+              {{ block.settings.right_content }}
             </div>
           </div>
       {%- endcase -%}
