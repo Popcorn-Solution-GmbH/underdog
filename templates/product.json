@@ -336,6 +336,25 @@
             "name4": "",
             "description4": ""
           }
+        },
+        "section_subheadline_HHjJ69": {
+          "type": "section_subheadline",
+          "settings": {
+            "subheadline": "Return"
+          }
+        },
+        "content_XLXNpT": {
+          "type": "content",
+          "settings": {
+            "name1": "Typ",
+            "description1": "<p>Beschreibung für Typ</p>",
+            "name2": "Impedanz",
+            "description2": "<p>Beschreibung für Impedanz</p>",
+            "name3": "Eingangspegel max.",
+            "description3": "<p>Beschreibung für Eingangspegel max.</p>",
+            "name4": "Leistung",
+            "description4": "<p>Beschreibung für Leistung</p>"
+          }
         }
       },
       "block_order": [
@@ -344,7 +363,9 @@
         "divider_JFNFqd",
         "section_headline_QxUBAB",
         "section_subheadline_LF7yVh",
-        "content_73U4QK"
+        "content_73U4QK",
+        "section_subheadline_HHjJ69",
+        "content_XLXNpT"
       ],
       "settings": {
         "heading": "Technische Daten",
