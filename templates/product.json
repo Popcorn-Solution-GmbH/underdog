@@ -326,10 +326,12 @@
             "headline": "FX-Loop"
           }
         },
-        "section_headline_hdp4zj": {
-          "type": "section_headline",
+        "subheadline_content_pP4pcY": {
+          "type": "subheadline_content",
           "settings": {
-            "headline": "Section Headline"
+            "subheadline": "Send",
+            "left_content": "<p>Linker Inhalt</p>",
+            "right_content": "<p>Rechter Inhalt</p>"
           }
         },
         "two_column_content_9DRHLJ": {
@@ -361,7 +363,7 @@
         "two_column_content_MyNNgL",
         "divider_AhtXL7",
         "section_headline_tzc8wf",
-        "section_headline_hdp4zj",
+        "subheadline_content_pP4pcY",
         "two_column_content_9DRHLJ",
         "two_column_content_AWMHHD",
         "two_column_content_PDPhLR"
