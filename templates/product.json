@@ -289,87 +289,32 @@
     "technical_table_JeVGR9": {
       "type": "technical-table",
       "blocks": {
-        "section_headline_VjiXiV": {
+        "section_headline_pX7Di7": {
           "type": "section_headline",
           "settings": {
-            "headline": "Section Headline"
+            "headline": "Gitarren-Eingang"
           }
         },
-        "two_column_content_pw6pjr": {
-          "type": "two_column_content",
+        "content_wayR9B": {
+          "type": "content",
           "settings": {
-            "left_content": "<p>Typ</p>",
-            "right_content": "<p>6.35mm Klinkenbuchse unsymm.</p>"
-          }
-        },
-        "two_column_content_j4eTaT": {
-          "type": "two_column_content",
-          "settings": {
-            "left_content": "<p>Impedanz</p>",
-            "right_content": "<p>1 MOhm</p>"
-          }
-        },
-        "two_column_content_MyNNgL": {
-          "type": "two_column_content",
-          "settings": {
-            "left_content": "<p>Eingangspegel max.</p>",
-            "right_content": "<p>12 dBu</p>"
-          }
-        },
-        "divider_AhtXL7": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_tzc8wf": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "FX-Loop"
-          }
-        },
-        "subheadline_content_pP4pcY": {
-          "type": "subheadline_content",
-          "settings": {
-            "subheadline": "Send",
-            "left_content": "<p>Linker Inhalt</p>",
-            "right_content": "<p>Rechter Inhalt</p>"
-          }
-        },
-        "two_column_content_9DRHLJ": {
-          "type": "two_column_content",
-          "settings": {
-            "left_content": "<p>Typ</p>",
-            "right_content": "<p>6,35mm Klinkenbuchse unsymm. / symm.</p>"
-          }
-        },
-        "two_column_content_AWMHHD": {
-          "type": "two_column_content",
-          "settings": {
-            "left_content": "<p>Impedanz</p>",
-            "right_content": "<p>75 Ohm unsymm. / 150 Ohm symm,</p>"
-          }
-        },
-        "two_column_content_PDPhLR": {
-          "type": "two_column_content",
-          "settings": {
-            "left_content": "<p>Ausgangspedal max.</p>",
-            "right_content": "<p>6 dBu unsymm. / 6 dBu symm.</p>"
+            "name1": "Typ",
+            "description1": "<p>6.35mm Klinkenbuchse unsymm.</p><p></p><p></p><p></p><p></p>",
+            "name2": "Impedanz",
+            "description2": "<p>1 MOhm</p>",
+            "name3": "Eingangspegel max.",
+            "description3": "<p>12 dBu</p>",
+            "name4": "",
+            "description4": ""
           }
         }
       },
       "block_order": [
-        "section_headline_VjiXiV",
-        "two_column_content_pw6pjr",
-        "two_column_content_j4eTaT",
-        "two_column_content_MyNNgL",
-        "divider_AhtXL7",
-        "section_headline_tzc8wf",
-        "subheadline_content_pP4pcY",
-        "two_column_content_9DRHLJ",
-        "two_column_content_AWMHHD",
-        "two_column_content_PDPhLR"
+        "section_headline_pX7Di7",
+        "content_wayR9B"
       ],
       "settings": {
-        "heading": "Send",
+        "heading": "Technische Daten",
         "heading_size": "h1",
         "color_scheme": "",
         "padding_top": 120,
