@@ -13,5 +13,15 @@
     "market": "eu"
   },
   "sections": {
+    "announcement-bar": {
+      "settings": {},
+      "blocks": {
+        "announcement-bar-0": {
+          "settings": {
+            "text": "Presale only: Secure Chuck and get limited goodies!"
+          }
+        }
+      }
+    }
   }
 }

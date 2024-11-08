@@ -13,5 +13,15 @@
     "market": "eu"
   },
   "sections": {
+    "rich_text_9EcJK6": {
+      "settings": {},
+      "blocks": {
+        "heading_ABG9LL": {
+          "settings": {
+            "heading": "Your ticket to immortal sound!"
+          }
+        }
+      }
+    }
   }
 }
