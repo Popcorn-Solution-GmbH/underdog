@@ -72,21 +72,41 @@
 
         {%- when 'content' -%}
           <div class="content-group">
-            <div class="content-item">
-              <strong>{{ block.settings.name1 }}</strong>
-              <div>{{ block.settings.description1 }}</div>
+            
+            <div class="content-two-columns">
+              <div class="column-left">
+                {{ block.settings.name1 }}
+              </div>
+              <div class="column-right">
+                {{ block.settings.description1 }}
+              </div>
             </div>
-            <div class="content-item">
-              <strong>{{ block.settings.name2 }}</strong>
-              <div>{{ block.settings.description2 }}</div>
+            
+            <div class="content-two-columns">
+              <div class="column-left">
+                {{ block.settings.name2 }}
+              </div>
+              <div class="column-right">
+                {{ block.settings.description2 }}
+              </div>
             </div>
-            <div class="content-item">
-              <strong>{{ block.settings.name3 }}</strong>
-              <div>{{ block.settings.description3 }}</div>
+            
+            <div class="content-two-columns">
+              <div class="column-left">
+                {{ block.settings.name3 }}
+              </div>
+              <div class="column-right">
+                {{ block.settings.description3 }}
+              </div>
             </div>
-            <div class="content-item">
-              <strong>{{ block.settings.name4 }}</strong>
-              <div>{{ block.settings.description4 }}</div>
+            
+            <div class="content-two-columns">
+              <div class="column-left">
+                {{ block.settings.name4 }}
+              </div>
+              <div class="column-right">
+                {{ block.settings.description4 }}
+              </div>
             </div>
           </div>
       {%- endcase -%}
