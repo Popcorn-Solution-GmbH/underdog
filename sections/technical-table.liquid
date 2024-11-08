@@ -8,10 +8,6 @@
     margin-bottom: 2rem;
   }
 
-  .section-{{ section.id }}-padding .content_table {
-    border-bottom: 1px solid rgba(var(--color-foreground), 0.08);
-  }
-
   .section-{{ section.id }}-padding .content-divider {
     border-top: 1px solid rgba(var(--color-foreground), 0.1);
     margin: 2rem 0;
@@ -28,7 +24,22 @@
   }
 
   .section-{{ section.id }}-padding .content-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .section-{{ section.id }}-padding .content-item {
+    flex: 1 1 45%; /* 45% width to allow two items per row with spacing */
+    font-size: 1rem; /* Consistent font size */
+    line-height: 1.6; /* Consistent line-height */
+  }
+
+  .section-{{ section.id }}-padding .content-item strong {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
   }
 
   @media screen and (min-width: 750px) {
@@ -193,49 +204,41 @@
           "type": "text",
           "id": "name1",
           "label": "Name 1",
-          "default": "Typ"
         },
         {
           "type": "richtext",
           "id": "description1",
           "label": "Beschreibung 1",
-          "default": "<p>Beschreibung für Typ</p>"
         },
         {
           "type": "text",
           "id": "name2",
           "label": "Name 2",
-          "default": "Impedanz"
         },
         {
           "type": "richtext",
           "id": "description2",
           "label": "Beschreibung 2",
-          "default": "<p>Beschreibung für Impedanz</p>"
         },
         {
           "type": "text",
           "id": "name3",
           "label": "Name 3",
-          "default": "Eingangspegel max."
         },
         {
           "type": "richtext",
           "id": "description3",
           "label": "Beschreibung 3",
-          "default": "<p>Beschreibung für Eingangspegel max.</p>"
         },
         {
           "type": "text",
           "id": "name4",
           "label": "Name 4",
-          "default": "Leistung"
         },
         {
           "type": "richtext",
           "id": "description4",
           "label": "Beschreibung 4",
-          "default": "<p>Beschreibung für Leistung</p>"
         }
       ]
     }
