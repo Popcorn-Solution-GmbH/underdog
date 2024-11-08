@@ -1,0 +1,154 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "header": {
+      "announcement": "annonce",
+      "menu": "menu",
+      "cart_count": {
+        "one": "{{ count }} articles",
+        "other": "{{ count }} articles"
+      }
+    },
+    "cart": {
+      "title": "Votre panier",
+      "caption": "Articles dans le panier",
+      "remove_title": "Supprimer {{ title }}",
+      "note": "Instructions de commande spéciales",
+      "checkout": "Vérifier",
+      "empty": "Votre panier est vide",
+      "cart_error": "Une erreur s'est produite lors de la mise à jour de votre panier. Veuillez réessayer.",
+      "cart_quantity_error_html": "Vous ne pouvez ajouter que {{ quantity }} pièces de cet article à votre panier.",
+      "headings": {
+        "product": "produit",
+        "price": "Prix",
+        "total": "total",
+        "quantity": "Nombre",
+        "image": "Image du produit"
+      },
+      "update": "Mise à jour",
+      "login": {
+        "title": "Avez-vous un compte ?",
+        "paragraph_html": "<a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\" class=\"link underlined-link\">Connectez-vous</a> pour accélérer le paiement."
+      },
+      "estimated_total": "Coût total estimé",
+      "new_estimated_total": "Nouveau montant total estimé",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "Y compris les droits de douane et taxes. Les réductions et <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">les frais d'expédition</a> sont calculés à la caisse.",
+      "duties_and_taxes_included_shipping_at_checkout_without_policy": "Y compris les droits de douane et taxes. Les réductions et les frais d'expédition sont calculés à la caisse.",
+      "taxes_included_shipping_at_checkout_with_policy_html": "Y compris les taxes. Les réductions et <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">les frais d'expédition</a> sont calculés à la caisse.",
+      "taxes_included_shipping_at_checkout_without_policy": "Y compris les taxes. Les réductions et les frais d'expédition sont calculés à la caisse.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "Y compris les frais de douane. Les taxes, les réductions et <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">les frais d'expédition</a> sont calculés à la caisse.",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "Y compris les frais de douane. Les taxes, les réductions et les frais d'expédition sont calculés à la caisse.",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "Les taxes, les réductions et <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">les frais d'expédition</a> sont calculés à la caisse.",
+      "taxes_at_checkout_shipping_at_checkout_without_policy": "Les taxes, les réductions et les frais d'expédition sont calculés à la caisse."
+    },
+    "footer": {
+      "payment": "Modes de paiement"
+    },
+    "featured_blog": {
+      "view_all": "Voir tout",
+      "onboarding_title": "Article de blog",
+      "onboarding_content": "Donnez à vos clients un aperçu de votre article de blog"
+    },
+    "featured_collection": {
+      "view_all": "Voir tout",
+      "view_all_label": "Afficher tous les produits de la collection {{ collection_name }}"
+    },
+    "collection_list": {
+      "view_all": "Voir tout"
+    },
+    "collection_template": {
+      "title": "catégorie",
+      "empty": "Aucun produit trouvé",
+      "use_fewer_filters_html": "Utilisez moins de filtres ou <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;/span&gt;\">supprimez-les tous</a>"
+    },
+    "video": {
+      "load_video": "Charger la vidéo : {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Charger la diapositive",
+      "previous_slideshow": "Diapositive précédente",
+      "next_slideshow": "Diapositive suivante",
+      "pause_slideshow": "Suspendre le diaporama",
+      "play_slideshow": "Lire le diaporama",
+      "carousel": "carrousel",
+      "slide": "film"
+    },
+    "page": {
+      "title": "Titre de la page"
+    },
+    "announcements": {
+      "previous_announcement": "Annonce précédente",
+      "next_announcement": "Prochaine annonce",
+      "carousel": "carrousel",
+      "announcement": "annonce",
+      "announcement_bar": "Barre d'annonce"
+    },
+    "quick_order_list": {
+      "product_total": "Sous-total du produit",
+      "view_cart": "Voir le panier",
+      "each": "{{ money }} /pièce",
+      "product": "produit",
+      "variant": "variante",
+      "variant_total": "Variantes au total",
+      "items_added": {
+        "one": "{{ quantity }} article ajouté",
+        "other": "{{ quantity }} article ajouté"
+      },
+      "items_removed": {
+        "one": "{{ quantity }} Article supprimé",
+        "other": "{{ quantity }} Article supprimé"
+      },
+      "product_variants": "Variantes de produits",
+      "total_items": "Total des articles",
+      "remove_all_items_confirmation": "Supprimer tous les {{ quantity }} articles de votre panier ?",
+      "remove_all": "Supprimer tout",
+      "cancel": "Annuler",
+      "remove_all_single_item_confirmation": "1 Supprimer l'article du panier ?",
+      "min_error": "Cet article a un minimum de {{ min }}",
+      "max_error": "Cet article a un maximum de {{ max }}",
+      "step_error": "Vous ne pouvez ajouter cet élément que par incréments de {{ step }} ."
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Entrez dans la boutique avec le mot de passe :",
+      "login_password_button": "Entrez avec le mot de passe",
+      "login_form_password_label": "mot de passe",
+      "login_form_password_placeholder": "Votre mot de passe",
+      "login_form_error": "Mauvais mot de passe !",
+      "login_form_submit": "Saisir",
+      "admin_link_html": "Êtes-vous le propriétaire du magasin? <a href=\"/admin\" class=\"link underlined-link\">Connectez-vous ici</a>",
+      "powered_by_shopify_html": "Cette boutique est prise en charge par {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Partager sur Facebook",
+        "share_on_twitter": "Partager sur X",
+        "share_on_pinterest": "Épingler sur Pinterest"
+      },
+      "links": {
+        "vimeo": "Viméo",
+        "tiktok": "Tik Tok"
+      }
+    },
+    "continue_shopping": "Continuez vos achats",
+    "pagination": {
+      "label": "Numérotation des pages",
+      "page": "Page {{ number }}",
+      "next": "Page suivante",
+      "previous": "Page précédente"
+    },
+    "search": {
+      "search": "Chercher",
+      "reset": "Réinitialiser le terme de recherche"
+    }
+  }
+}
