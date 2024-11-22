@@ -137,7 +137,7 @@
         "text_kRNfHj": {
           "type": "text",
           "settings": {
-            "text": "<p>Du möchtest Deine kreative Session mit der neuesten Version von <strong>Studio</strong> starten oder benötigst Unterstützung mit einem älteren Setup? Kein Problem, wir haben alles für Dich parat!</p><p>👉 Für alle vorherigen Versionen von Studio: <a href=\"https://download.underdog-audio.com/studio/all-releases.php\">Hier geht’s zu den Versionen</a><br/>👉 Für den aktuellen <strong>ASIO-Treiber</strong> (Windows): <a href=\"https://download.underdog-audio.com/asio/underdog_UsbAudio_v5.70.0_2024-11-04_setup.exe\">Lade ihn hier herunter</a></p><p>Denn was zählt, ist Dein Sound – und wir sorgen dafür, dass Deine Technik Dich niemals hängen lässt. Rock on! 🎸</p>"
+            "text": "<p>Du möchtest Deine kreative Session mit der neuesten Version von <strong>Studio</strong> starten oder benötigst Unterstützung mit einem älteren Setup? Kein Problem, wir haben alles für Dich parat!</p><p>👉 Für alle vorherigen Versionen von Studio: <a href=\"https://download.underdog-audio.com/studio/all-releases.php\"><em>Hier geht’s zu den Versionen</em></a><br/>👉 Für den aktuellen <strong>ASIO-Treiber</strong> (Windows): <a href=\"https://download.underdog-audio.com/asio/underdog_UsbAudio_v5.70.0_2024-11-04_setup.exe\"><em>Lade ihn hier herunter</em></a></p><p>Denn was zählt, ist Dein Sound – und wir sorgen dafür, dass Deine Technik Dich niemals hängen lässt. Rock on! 🎸</p>"
           }
         }
       },
