@@ -123,12 +123,43 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "rich_text_BMTmjA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hmrxda": {
+          "type": "heading",
+          "settings": {
+            "heading": "Weitere Downloads",
+            "heading_size": "h2"
+          }
+        },
+        "text_kRNfHj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Du möchtest Deine kreative Session mit der neuesten Version von <strong>Studio</strong> starten oder benötigst Unterstützung mit einem älteren Setup? Kein Problem, wir haben alles für Dich parat!</p><p>👉 Für alle vorherigen Versionen von Studio: <a href=\"https://download.underdog-audio.com/studio/all-releases.php\">Hier geht’s zu den Versionen</a><br/>👉 Für den aktuellen <strong>ASIO-Treiber</strong> (Windows): <a href=\"https://download.underdog-audio.com/asio/underdog_UsbAudio_v5.70.0_2024-11-04_setup.exe\">Lade ihn hier herunter</a></p><p>Denn was zählt, ist Dein Sound – und wir sorgen dafür, dass Deine Technik Dich niemals hängen lässt. Rock on! 🎸</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hmrxda",
+        "text_kRNfHj"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "image_with_text_m6EYTr",
     "image_banner_k6gFwc",
-    "custom_liquid_xqkApb"
+    "custom_liquid_xqkApb",
+    "rich_text_BMTmjA"
   ]
 }
