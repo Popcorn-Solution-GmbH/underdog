@@ -70,26 +70,26 @@
         "heading_NKyJEi": {
           "type": "heading",
           "settings": {
-            "heading": "Downloads",
+            "heading": "Alles, was du brauchst – immer griffbereit.",
             "heading_size": "h0"
           }
         },
         "text_MVBhED": {
           "type": "text",
           "settings": {
-            "text": "Egal ob du auf Mac oder Windows unterwegs bist – mit unserer Studio-Software hast du das perfekte Tool, um deine Kreativität auszuleben. Optimiert für Musiker, die keine Kompromisse eingehen, liefert \"Studio\" alles, was du brauchst, um deine Tracks zu komponieren, zu mischen und zu perfektionieren. Hol dir jetzt die Power ins Studio oder auch in deinen Proberaum.",
+            "text": "Ob auf der Bühne oder im Studio – hier findest Du genau die Unterstützung, die Du brauchst. Hol Dir den Quick Start Guide für den schnellen Einstieg oder tauche mit der Bedienungsanleitung in alle Details ein. Egal, welchen Weg Du wählst: Dein Sound steht im Rampenlicht.",
             "text_style": "body"
           }
         },
         "buttons_GMczPV": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Download Mac",
-            "button_link_1": "https://download.underdog-audio.com/studio/latest-mac.php",
+            "button_label_1": "Download Quick Start Guide",
+            "button_link_1": "https://cdn.shopify.com/s/files/1/0644/0180/1367/files/QuickStartGuide.pdf?v=1732692581",
             "button_style_secondary_1": false,
-            "button_label_2": "Download Windows",
-            "button_link_2": "https://download.underdog-audio.com/studio/latest-win.php",
-            "button_style_secondary_2": false
+            "button_label_2": "Download Bedinungsanleitung",
+            "button_link_2": "https://cdn.shopify.com/s/files/1/0644/0180/1367/files/Bedienungsanleitung.pdf?v=1732692581",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -99,7 +99,7 @@
         "buttons_GMczPV"
       ],
       "settings": {
-        "image": "shopify://shop_images/Download_BG.jpg",
+        "image": "shopify://shop_images/DSCF8592_e2dd1823-ba7b-49f3-af8d-bb4c88322df1.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-left",
@@ -145,6 +145,7 @@
         "heading_hmrxda",
         "text_kRNfHj"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
