@@ -54,7 +54,17 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Beschreibung",
+            "icon": "heart",
+            "content": "<p>{{ product.description }}</p>",
+            "page": ""
+          }
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
@@ -65,13 +75,12 @@
             "page": ""
           }
         },
-        "collapsible-row-3": {
+        "collapsible_tab_Vc9mfj": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Garantie",
-            "icon": "heart",
-            "content": "<p>Ja, wir bieten 2 Jahre Garantie auf CHUCK.</p>",
+            "heading": "Bedienungsanleitun",
+            "icon": "clipboard",
+            "content": "<p>Egal ob auf Tour oder im Studio – hier findest Du alles, was Du brauchst, um direkt loszulegen. Schnapp Dir unsere Bedienungsanleitung und den Quick Start Guide – die Lead Sheets für Deine perfekte Performance!</p><p><a href=\"/pages/chuck-downloads\" target=\"_blank\" title=\"CHUCK Downloads\"><strong>Zu den Unterlagen</strong></a></p>",
             "page": ""
           }
         }
@@ -85,8 +94,9 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "collapsible-row-3",
         "collapsible-row-2",
-        "collapsible-row-3"
+        "collapsible_tab_Vc9mfj"
       ],
       "settings": {
         "enable_sticky_info": true,
