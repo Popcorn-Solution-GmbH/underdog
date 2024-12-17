@@ -78,8 +78,7 @@
         },
         "email_form_mKbDjL": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -97,9 +96,7 @@
     },
     "video_gCfjGc": {
       "type": "video",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -236,6 +233,7 @@
         "text_yBMaKN",
         "buttons_3zUzND"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/DSCF8329.jpg",
         "image_overlay_opacity": 30,
@@ -433,8 +431,7 @@
         },
         "email_form_iiwUPR": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

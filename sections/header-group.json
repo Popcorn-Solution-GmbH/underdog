@@ -17,15 +17,14 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Unser nächster Versand startet am 25.11. – für Euch volle Power on stage!",
-            "link": "shopify://products/chuck-gitarrenverstaerker"
+            "text": "Bestellungen werden ab dem 6. Januar wieder versendet. Zwischen 24. Dezember und 5. Januar machen wir eine kurze Tourpause.",
+            "link": ""
           }
         }
       },
       "block_order": [
         "announcement-bar-0"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "show_line_separator": true,
