@@ -130,7 +130,7 @@
         "heading_WWpAWi": {
           "type": "heading",
           "settings": {
-            "heading": "Erzähle etwas über deine Marke",
+            "heading": "",
             "heading_size": "h1"
           }
         },
@@ -139,23 +139,14 @@
           "settings": {
             "text": "{{ product.description }}"
           }
-        },
-        "button_TxEfWL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_WWpAWi",
-        "text_3NWdU9",
-        "button_TxEfWL"
+        "text_3NWdU9"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {max-width: 100%;}"
       ],
       "settings": {
         "desktop_content_position": "left",
