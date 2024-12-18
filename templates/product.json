@@ -59,6 +59,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Beschreibung",
             "icon": "heart",
@@ -74,15 +75,6 @@
             "content": "<p>B/H/T 500 x 65 x 156 mm</p>",
             "page": ""
           }
-        },
-        "collapsible_tab_Vc9mfj": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Bedienungsanleitung",
-            "icon": "clipboard",
-            "content": "<p>Egal ob auf Tour oder im Studio – hier findest Du alles, was Du brauchst, um direkt loszulegen. Schnapp Dir unsere Bedienungsanleitung und den Quick Start Guide – die Lead Sheets für Deine perfekte Performance!</p><p><a href=\"/pages/chuck-downloads\" target=\"_blank\" title=\"CHUCK Downloads\"><strong>Zu den Unterlagen</strong></a></p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -95,8 +87,7 @@
         "buy_buttons",
         "description",
         "collapsible-row-3",
-        "collapsible-row-2",
-        "collapsible_tab_Vc9mfj"
+        "collapsible-row-2"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -114,565 +105,9 @@
         "padding_bottom": 120
       }
     },
-    "multirow_QxaAXU": {
-      "type": "multirow",
-      "blocks": {
-        "row_8dXEUy": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSCF0314.jpg",
-            "caption": "",
-            "heading": "Analog trifft Digital",
-            "text": "<p>Analoge Röhren-Vorstufe, die digital manipuliert wird. Für den perfekten Mix aus warmem Klang und modernem Twist.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_YgwDcQ": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSCF8329.jpg",
-            "caption": "",
-            "heading": "Effekte an Bord",
-            "text": "<p>Stimmgerät und IR Loader inklusive. Alle Effekte direkt im Gerät – kein extra Kram nötig.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_bC6T9N": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSCF8406.jpg",
-            "caption": "",
-            "heading": "Power ohne Ende",
-            "text": "<p>Mit USB ASIO und Endstufe für kraftvollen Sound. Deine neue Geheimwaffe für fette Riffs und Solos.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_FPtiU3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSCF8472_e13d30d8-8ca9-478c-9390-75c32676fc50.jpg",
-            "caption": "",
-            "heading": "Built to Last",
-            "text": "<p>Robustes Floorformat für die Bühne gemacht. Hält deinen härtesten Gigs stand.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_fAtHV7": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSCF8592_e2dd1823-ba7b-49f3-af8d-bb4c88322df1.jpg",
-            "caption": "",
-            "heading": "Alles unter Kontrolle",
-            "text": "<p>Speichere und rufe deine Settings als Presets ab. Immer der perfekte Sound auf Knopfdruck.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_3XYbPU": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/DSCF8566_99d81f49-98a5-4981-8fa8-7a2ac11ad44b.jpg",
-            "caption": "",
-            "heading": "Voll vernetzt",
-            "text": "<p>Schnittstellen ohne Ende: FX-Loop, MIDI, USB, Kopfhörer. Für maximale Flexibilität auf und neben der Bühne.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_8dXEUy",
-        "row_YgwDcQ",
-        "row_bC6T9N",
-        "row_FPtiU3",
-        "row_fAtHV7",
-        "row_3XYbPU"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "small",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-1",
-        "row_color_scheme": "scheme-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 120,
-        "padding_bottom": 120
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "scheme-2",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column-0": {
-          "type": "column",
-          "settings": {
-            "bg_color": "",
-            "opacity": 0.5,
-            "color": "",
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column-1": {
-          "type": "column",
-          "settings": {
-            "bg_color": "",
-            "opacity": 0.5,
-            "color": "",
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column-0",
-        "column-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "technical_table_JeVGR9": {
-      "type": "technical-table",
-      "blocks": {
-        "section_headline_pX7Di7": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Gitarren-Eingang"
-          }
-        },
-        "content_wayR9B": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<p>6.35mm Klinkenbuchse unsymm.</p><p></p><p></p><p></p><p></p>",
-            "name2": "Impedanz",
-            "description2": "<p>1 MOhm</p>",
-            "name3": "Eingangspegel max.",
-            "description3": "<p>12 dBu</p>",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_JFNFqd": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_QxUBAB": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "FX-Loop"
-          }
-        },
-        "section_subheadline_LF7yVh": {
-          "type": "section_subheadline",
-          "settings": {
-            "subheadline": "Send"
-          }
-        },
-        "content_73U4QK": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<p>6,35mm Klinkenbuchse unsymm. / symm.</p>",
-            "name2": "Impedanz",
-            "description2": "<p>75 Ohm unsymm. / 150 Ohm symm,</p>",
-            "name3": "Ausgangspedel max.",
-            "description3": "<p>6 dBu unsymm. / 6 dBu symm.</p>",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "section_subheadline_HHjJ69": {
-          "type": "section_subheadline",
-          "settings": {
-            "subheadline": "Return"
-          }
-        },
-        "content_XLXNpT": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<p>6,35mm Klinkenbuchse unsymm. / symm.</p>",
-            "name2": "Impedanz",
-            "description2": "<p>8 kOhm unsymm. / 10 kOhm symm.</p>",
-            "name3": "Eingangspegel max.",
-            "description3": "<p>6 dBu unsymm. / 6 dBu symm.</p>",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_XRhFtP": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_VLCiLY": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Out 1 & 2"
-          }
-        },
-        "content_enerkE": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<ul><li>6,35mm Klinkenbuchse unsymm. / symm.</li><li>XLR-Einbaustecker symm.</li></ul>",
-            "name2": "Impedanz",
-            "description2": "<p>75 Ohm unsymm. / 150 Ohm symm,</p>",
-            "name3": "Ausgangspegel max.",
-            "description3": "<p>12 dBu unsymm. / 12 dBu symm.</p>",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_EACBgM": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_6j4Ngt": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Speaker"
-          }
-        },
-        "content_krL9Xt": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<p>6,35mm Klinkenbuchse unsymm.</p>",
-            "name2": "Leistung @ 4 Ohm",
-            "description2": "<p>25W</p>",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_xQjffy": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_UtK7HT": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Kopfhörer"
-          }
-        },
-        "content_MYzD74": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<p>3,5mm Klinkenbuchse Stereo</p>",
-            "name2": "Leistung @ 32 Ohm",
-            "description2": "<p>40mW / Kanal</p>",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_rX3A8r": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_mmTNQd": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Aux In"
-          }
-        },
-        "content_fMPxUn": {
-          "type": "content",
-          "settings": {
-            "name1": "Impedanz",
-            "description1": "<p>10 kOhm</p>",
-            "name2": "Eingangspegel max.",
-            "description2": "<p>9 dBu</p>",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_giJaVG": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_GmKRwf": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "USB"
-          }
-        },
-        "content_QTPKQ9": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<p>USB 2.0, Typ B</p>",
-            "name2": "Audio",
-            "description2": "<p>2 In/2 Out, 48 kHz, ASIO unterstützt</p>",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_YejRF3": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_NKFPp4": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Midi"
-          }
-        },
-        "content_7AMwxN": {
-          "type": "content",
-          "settings": {
-            "name1": "Typ",
-            "description1": "<p>DIN 5 Buchse, 180°</p>",
-            "name2": "",
-            "description2": "",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_kgpUJe": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_g4MDrY": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "DSP"
-          }
-        },
-        "content_eYftTU": {
-          "type": "content",
-          "settings": {
-            "name1": "Latenz",
-            "description1": "<p>&lt;1ms Grundverzögerung (ohne IR und Amp)</p>",
-            "name2": "Auflösung",
-            "description2": "<p>24bit</p>",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_a4crCF": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_HAwdGm": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Speicher"
-          }
-        },
-        "content_MjFR9J": {
-          "type": "content",
-          "settings": {
-            "name1": "Presets",
-            "description1": "<p>7</p>",
-            "name2": "IR",
-            "description2": "<p>12 Werks-IR‘s, 20 User IR‘s</p>",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_HYGXTR": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_kJ4Ta8": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "IR-Loader"
-          }
-        },
-        "content_eKJ48C": {
-          "type": "content",
-          "settings": {
-            "name1": "Dateiformat",
-            "description1": "<p>.wav</p>",
-            "name2": "Samplingrate",
-            "description2": "<p>48 kHz Intern, 44,1 kHz bis 192 kHz unterstützt</p>",
-            "name3": "Auflösung",
-            "description3": "<p>24 bit</p>",
-            "name4": "Punkte",
-            "description4": "<p>512/1024/2048*</p>"
-          }
-        },
-        "divider_rhFYfb": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_KhpxnH": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Power"
-          }
-        },
-        "content_zCiCqN": {
-          "type": "content",
-          "settings": {
-            "name1": "Input",
-            "description1": "<p>24V/2A</p>",
-            "name2": "Output",
-            "description2": "<p>9V/0,8A</p>",
-            "name3": "",
-            "description3": "",
-            "name4": "",
-            "description4": ""
-          }
-        },
-        "divider_jJgQaE": {
-          "type": "divider",
-          "settings": {}
-        },
-        "section_headline_qxyUBL": {
-          "type": "section_headline",
-          "settings": {
-            "headline": "Sonstiges"
-          }
-        },
-        "content_MzXGyi": {
-          "type": "content",
-          "settings": {
-            "name1": "Abmessungen",
-            "description1": "<p>B/H/T 500 x 65 x 156 mm</p>",
-            "name2": "Gewicht",
-            "description2": "<p>3.2kg</p>",
-            "name3": "Zubehör",
-            "description3": "<p>USB Kabel Typ A auf Typ B, Netzteil, Quick-Start</p>",
-            "name4": "",
-            "description4": ""
-          }
-        }
-      },
-      "block_order": [
-        "section_headline_pX7Di7",
-        "content_wayR9B",
-        "divider_JFNFqd",
-        "section_headline_QxUBAB",
-        "section_subheadline_LF7yVh",
-        "content_73U4QK",
-        "section_subheadline_HHjJ69",
-        "content_XLXNpT",
-        "divider_XRhFtP",
-        "section_headline_VLCiLY",
-        "content_enerkE",
-        "divider_EACBgM",
-        "section_headline_6j4Ngt",
-        "content_krL9Xt",
-        "divider_xQjffy",
-        "section_headline_UtK7HT",
-        "content_MYzD74",
-        "divider_rX3A8r",
-        "section_headline_mmTNQd",
-        "content_fMPxUn",
-        "divider_giJaVG",
-        "section_headline_GmKRwf",
-        "content_QTPKQ9",
-        "divider_YejRF3",
-        "section_headline_NKFPp4",
-        "content_7AMwxN",
-        "divider_kgpUJe",
-        "section_headline_g4MDrY",
-        "content_eYftTU",
-        "divider_a4crCF",
-        "section_headline_HAwdGm",
-        "content_MjFR9J",
-        "divider_HYGXTR",
-        "section_headline_kJ4Ta8",
-        "content_eKJ48C",
-        "divider_rhFYfb",
-        "section_headline_KhpxnH",
-        "content_zCiCqN",
-        "divider_jJgQaE",
-        "section_headline_qxyUBL",
-        "content_MzXGyi"
-      ],
-      "settings": {
-        "heading": "Technische Daten",
-        "heading_size": "h1",
-        "color_scheme": "",
-        "padding_top": 120,
-        "padding_bottom": 120
-      }
-    },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -688,14 +123,53 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "rich_text_fwNqb6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WWpAWi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Erzähle etwas über deine Marke",
+            "heading_size": "h1"
+          }
+        },
+        "text_3NWdU9": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.description }}"
+          }
+        },
+        "button_TxEfWL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WWpAWi",
+        "text_3NWdU9",
+        "button_TxEfWL"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "multirow_QxaAXU",
-    "image-with-text",
-    "multicolumn",
-    "technical_table_JeVGR9",
-    "related-products"
+    "related-products",
+    "rich_text_fwNqb6"
   ]
 }
