@@ -10,38 +10,44 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .video-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+
+  .video-item {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    border-radius: 8px;
+    background: #000;
+  }
+
+  .video-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 {%- endstyle -%}
 
-<div class='page-width color-{{ section.settings.color_scheme }} gradient'>
-  <div class='isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding'>
-    <div class='twcss-flex twcss-justify-center twcss-gap-5 twcss-py-4 sm:twcss-gap-8'>
+<div class="page-width color-{{ section.settings.color_scheme }} gradient">
+  <div class="isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding">
+    <div class="video-list">
       {% for block in section.blocks %}
-        <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl'>
-          <img
-            src='{{ block.settings.image | image_url }}'
-            width='auto'
-            height='auto'
-            class='twcss-absolute twcss-inset-0 twcss-h-full twcss-w-full twcss-object-cover'
-          >
-          
-          {{
-            block.settings.video
-            | video_tag:
-              image_size: '1100x',
-              autoplay: true,
-              loop: true,
-              controls: true,
-              muted: false
-          }}
-          {{ block.settings.video 
-          | video_tag: 
-            autoplay: false, 
-            loop: true, 
-            muted: false, 
-            controls: true, 
-            image_size: "600x", 
-            poster: block.settings.video.preview_image | default: block.settings.cover_image
-          }}
+        <div class="video-item">
+          {%- if block.settings.video != blank -%}
+            {{
+              block.settings.video
+              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata"
+            }}
+          {%- else -%}
+            <p>Kein Video verfügbar</p>
+          {%- endif -%}
         </div>
       {% endfor %}
     </div>
@@ -50,19 +56,15 @@
 
 {% schema %}
 {
-  "name": "Video Wall",
+  "name": "Video-Liste",
   "tag": "section",
   "class": "section",
   "settings": [
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
+      "label": "Farbschema",
       "default": "scheme-1"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
     },
     {
       "type": "range",
@@ -71,7 +73,7 @@
       "max": 400,
       "step": 4,
       "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
+      "label": "Abstand oben",
       "default": 36
     },
     {
@@ -81,28 +83,26 @@
       "max": 400,
       "step": 4,
       "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
+      "label": "Abstand unten",
       "default": 36
     }
   ],
-  "max_blocks": 4,
   "blocks": [
     {
-      "type": "logo",
-      "name": "Logo",
+      "type": "video",
+      "name": "Video",
       "settings": [
         {
           "type": "video",
-          "id": "image",
-          "label": "Video",
-          "info": "Select an video to display."
+          "id": "video",
+          "label": "Video hochladen"
         }
       ]
     }
   ],
   "presets": [
     {
-      "name": "Video Wall"
+      "name": "Video-Liste"
     }
   ]
 }
