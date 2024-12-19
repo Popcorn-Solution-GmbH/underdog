@@ -62,7 +62,7 @@
                 {%- render 'icon-play' -%}
               </span>
               <img src="{{ block.settings.cover_image | image_url: width: 1100  }}" alt="Video Vorschaubild" width="100%" height="100%">
-            </div
+            </div>
           {%- endif -%}
           {%- if block.settings.video != blank -%}
             {{
@@ -78,7 +78,7 @@
 
 <script>
   function playVideo(videoItem) {
-    const img = videoItem.querySelector('img');
+    const img = videoItem.querySelector('div');
     const video = videoItem.querySelector('video');
 
     if (img) {
