@@ -16,7 +16,7 @@
   <div class='isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding'>
     <div class='twcss-flex twcss-justify-center twcss-gap-5 twcss-py-4 sm:twcss-gap-8'>
       {% for block in section.blocks %}
-        <div class='twcss-relative twcss-aspect-square twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl'>
+        <div class='twcss-relative twcss-aspect-[4/3] twcss-w-[24%] twcss-flex-none twcss-overflow-hidden twcss-rounded-xl sm:twcss-rounded-2xl'>
           <img
             src='{{ block.settings.image | image_url }}'
             width='auto'
