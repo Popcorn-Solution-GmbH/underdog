@@ -110,25 +110,6 @@
         "padding_bottom": 120
       }
     },
-    "video_wall_APeQcH": {
-      "type": "video-wall",
-      "blocks": {
-        "logo_XmnbJm": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://files/videos/VIDEO-2024-07-02-21-53-15.mp4"
-          }
-        }
-      },
-      "block_order": [
-        "logo_XmnbJm"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "logo_wall_a7zAar": {
       "type": "logo-wall",
       "blocks": {
@@ -464,13 +445,31 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "video_wall_APeQcH": {
+      "type": "video-wall",
+      "blocks": {
+        "logo_XmnbJm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://files/videos/VIDEO-2024-07-02-21-53-15.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "logo_XmnbJm"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "rich_text_9EcJK6",
     "newsletter_KycmFr",
     "video_gCfjGc",
-    "video_wall_APeQcH",
     "logo_wall_a7zAar",
     "image_with_text_KEdHkJ",
     "image_banner_qap8UB",
@@ -478,6 +477,7 @@
     "image_wall2_3Va8zc",
     "rich_text_6NWwPB",
     "image_banner",
-    "newsletter_gLEN43"
+    "newsletter_gLEN43",
+    "video_wall_APeQcH"
   ]
 }
