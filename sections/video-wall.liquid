@@ -22,7 +22,7 @@
   .video-item {
     position: relative;
     flex: 1 1 calc(33.333% - 16px); /* Drei Videos pro Reihe */
-    aspect-ratio: 2/3; /* Breitbild-Seitenverhältnis */
+    aspect-ratio: 4/6; /* Breitbild-Seitenverhältnis */
     overflow: hidden;
     border-radius: 8px;
     background: #000;
@@ -36,26 +36,10 @@
     }
   }
 
-  .video-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    inset: 0;
-    transition: opacity 0.3s ease;
-  }
-
   .video-item video {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    position: relative;
-    z-index: 1;
-  }
-
-  .video-item img.hidden {
-    opacity: 0;
-    pointer-events: none;
   }
 {%- endstyle -%}
 
@@ -65,25 +49,10 @@
       {% for block in section.blocks %}
         <div class="video-item">
           {%- if block.settings.video != blank -%}
-            <img
-              src="{{ block.settings.video.preview_image | image_url: width: 1200, height: 675, crop: 'center' }}"
-              alt="Video Vorschau"
-              class="video-preview"
-              width="100%"
-              height="100%"
-              data-video-id="video-{{ block.id }}"
-            >
-            <video
-              id="video-{{ block.id }}"
-              controls
-              preload="metadata"
-              loop
-              muted
-              onclick="playVideo('{{ block.id }}')"
-            >
-              <source src="{{ block.settings.video | file_url }}" type="video/mp4">
-              Dein Browser unterstützt dieses Videoformat nicht.
-            </video>
+            {{
+              block.settings.video
+              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata"
+            }}
           {%- else -%}
             <p>Kein Video verfügbar</p>
           {%- endif -%}
@@ -92,17 +61,6 @@
     </div>
   </div>
 </div>
-
-<script>
-  function playVideo(id) {
-    const video = document.getElementById(`video-${id}`);
-    const preview = document.querySelector(`img[data-video-id="video-${id}"]`);
-    if (video && preview) {
-      preview.classList.add('hidden'); // Versteckt das Vorschaubild
-      video.play(); // Startet das Video
-    }
-  }
-</script>
 
 {% schema %}
 {
