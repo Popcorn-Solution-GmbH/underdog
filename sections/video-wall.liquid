@@ -15,17 +15,25 @@
     display: flex;
     flex-wrap: wrap;
     gap: 16px;
-    justify-content: center;
+    justify-content: space-between; /* Nutzt die gesamte Breite aus */
+    align-items: flex-start;
   }
 
   .video-item {
     position: relative;
-    width: 100%;
-    max-width: 300px;
-    aspect-ratio: 9/16;
+    flex: 1 1 calc(33.333% - 16px); /* Drei Videos pro Reihe */
+    aspect-ratio: 16/9; /* Breitbild-Seitenverhältnis */
     overflow: hidden;
     border-radius: 8px;
     background: #000;
+    max-width: calc(33.333% - 16px);
+  }
+
+  @media screen and (max-width: 750px) {
+    .video-item {
+      flex: 1 1 calc(100% - 16px); /* Ein Video pro Reihe bei kleineren Bildschirmen */
+      max-width: calc(100% - 16px);
+    }
   }
 
   .video-item video {
