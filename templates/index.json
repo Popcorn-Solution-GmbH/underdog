@@ -125,16 +125,16 @@
             "video": "shopify://files/videos/HardRock.mp4"
           }
         },
-        "video_C3qHh7": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Rock-G-Dur.mp4"
-          }
-        },
         "video_nQbzKE": {
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/Country.mp4"
+          }
+        },
+        "video_C3qHh7": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Rock-G-Dur.mp4"
           }
         },
         "video_ndP7pw": {
@@ -153,8 +153,8 @@
       "block_order": [
         "video_anPcAh",
         "video_WAynmJ",
-        "video_C3qHh7",
         "video_nQbzKE",
+        "video_C3qHh7",
         "video_ndP7pw",
         "video_qpYQyz"
       ],
