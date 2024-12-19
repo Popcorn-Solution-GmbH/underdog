@@ -57,6 +57,12 @@
       {% for block in section.blocks %}
         <div class="video-item">
           
+{%- liquid
+  assign video_id = block.settings.video.id | default: block.settings.video_url.id
+  assign video_alt = block.settings.video.alt | default: block.settings.description
+  assign poster = block.settings.video.preview_image | default: block.settings.cover_image
+-%}
+          
     <deferred-media
       class='video-section__media deferred-media gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if fix_ratio %} media-fit-cover{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
       data-media-id='{{ video_id }}'
@@ -84,21 +90,15 @@
         </span>
       </button>
       <template>
-      </template>
-      </deferred-media>
-          
-          {%- if block.settings.cover_image != blank -%}
-            <span class='deferred-media__poster-button motion-reduce'>
-              {%- render 'icon-play' -%}
-            </span>
-            <img src="{{ block.settings.cover_image | image_url: width: 1280  }}" alt="Video Vorschaubild" width="100%" height="100%">
-          {%- endif -%}
           {%- if block.settings.video != blank -%}
             {{
               block.settings.video
               | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata"
             }}
           {%- endif -%}
+      </template>
+      </deferred-media>
+          
         </div>
       {% endfor %}
     </div>
