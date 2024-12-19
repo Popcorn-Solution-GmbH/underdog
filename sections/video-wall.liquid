@@ -51,7 +51,7 @@
           {%- if block.settings.video != blank -%}
             {{
               block.settings.video
-              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata", poster: block.settings.video.preview_image | default: block.settings.cover_image
+              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata", poster: block.settings.cover_image
             }}
           {%- endif -%}
         </div>
