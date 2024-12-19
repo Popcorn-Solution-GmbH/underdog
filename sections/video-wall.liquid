@@ -53,6 +53,7 @@
               block.settings.video
               | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata", poster: block.settings.cover_image, image_size: '1100x'
             }}
+            {{ block.settings.cover_image }}
           {%- endif -%}
         </div>
       {% endfor %}
