@@ -57,10 +57,12 @@
       {% for block in section.blocks %}
         <div class="video-item" onclick="playVideo(this)">
           {%- if block.settings.cover_image != blank -%}
-            <span class='deferred-media__poster-button motion-reduce'>
-              {%- render 'icon-play' -%}
-            </span>
-            <img src="{{ block.settings.cover_image | image_url: width: 1100  }}" alt="Video Vorschaubild" width="100%" height="100%">
+            <div class="button_link">
+              <span class='deferred-media__poster-button motion-reduce'>
+                {%- render 'icon-play' -%}
+              </span>
+              <img src="{{ block.settings.cover_image | image_url: width: 1100  }}" alt="Video Vorschaubild" width="100%" height="100%">
+            </div
           {%- endif -%}
           {%- if block.settings.video != blank -%}
             {{
@@ -76,7 +78,7 @@
 
 <script>
   function playVideo(videoItem) {
-    const img = videoItem.querySelector('img');
+    const img = videoItem.querySelector('button_link');
     const video = videoItem.querySelector('video');
 
     if (img) {
