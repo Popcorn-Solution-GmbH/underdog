@@ -131,7 +131,7 @@
           "type": "video",
           "settings": {
             "video": "shopify://files/videos/Country.mp4",
-            "cover_image": "shopify://shop_images/706df4f9cd9f4da8b94343966471afc9.thumbnail.0000000000.webp"
+            "cover_image": "shopify://shop_images/cover.jpg"
           }
         },
         "video_C3qHh7": {
