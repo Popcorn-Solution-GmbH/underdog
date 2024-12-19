@@ -115,14 +115,12 @@
       "blocks": {
         "video_anPcAh": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Rock-E-Dur.mp4"
           }
         },
         "video_WAynmJ": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/HardRock.mp4"
           }
@@ -136,21 +134,18 @@
         },
         "video_C3qHh7": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Rock-G-Dur.mp4"
           }
         },
         "video_ndP7pw": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/14_Metall.mp4"
           }
         },
         "video_qpYQyz": {
           "type": "video",
-          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/Funk.mp4"
           }
