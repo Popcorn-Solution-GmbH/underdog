@@ -55,21 +55,13 @@
   <div class="isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding">
     <div class="video-list">
       {% for block in section.blocks %}
-        <div class="video-item">
-          
-          {%- if block.settings.video != blank -%}
-            {{
-              block.settings.video
-              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata"
-            }}
-          {%- endif -%}
 {%- liquid
   assign video_id = block.settings.video.id | default: block.settings.video_url.id
   assign poster = block.settings.cover_image
 -%}
           
     <deferred-media
-      class='video-section__media deferred-media gradient global-media-settings{% if section.settings.full_width %} global-media-settings--full-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}'
+      class='video-item'
       data-media-id='{{ video_id }}'
       {% if poster != null %}
         style='--ratio-percent: {{ 1 | divided_by: poster.aspect_ratio | times: 100 }}%;'
@@ -94,7 +86,6 @@
       </template>
       </deferred-media>
           
-        </div>
       {% endfor %}
     </div>
   </div>
