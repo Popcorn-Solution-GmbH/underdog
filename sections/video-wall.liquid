@@ -27,6 +27,7 @@
     border-radius: 8px;
     background: #000;
     max-width: calc(33.333% - 16px);
+    cursor: pointer;
   }
 
   @media screen and (max-width: 750px) {
@@ -40,6 +41,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: none; /* Video wird standardmäßig versteckt */
+  }
+
+  .video-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 {%- endstyle -%}
 
@@ -47,7 +55,10 @@
   <div class="isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding">
     <div class="video-list">
       {% for block in section.blocks %}
-        <div class="video-item">
+        <div class="video-item" onclick="playVideo(this)">
+          {%- if block.settings.cover_image != blank -%}
+            <img src="{{ block.settings.cover_image }}" alt="Video Vorschaubild">
+          {%- endif -%}
           {%- if block.settings.video != blank -%}
             {{
               block.settings.video
@@ -59,6 +70,21 @@
     </div>
   </div>
 </div>
+
+<script>
+  function playVideo(videoItem) {
+    const img = videoItem.querySelector('img');
+    const video = videoItem.querySelector('video');
+
+    if (img) {
+      img.style.display = 'none';
+    }
+    if (video) {
+      video.style.display = 'block';
+      video.play();
+    }
+  }
+</script>
 
 {% schema %}
 {
