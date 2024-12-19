@@ -116,13 +116,15 @@
         "video_anPcAh": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Rock-E-Dur.mp4"
+            "video": "shopify://files/videos/Rock-E-Dur.mp4",
+            "cover_image": "shopify://shop_images/video1.webp"
           }
         },
         "video_WAynmJ": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/HardRock.mp4"
+            "video": "shopify://files/videos/HardRock.mp4",
+            "cover_image": "shopify://shop_images/video2.webp"
           }
         },
         "video_nQbzKE": {
@@ -135,19 +137,22 @@
         "video_C3qHh7": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Rock-G-Dur.mp4"
+            "video": "shopify://files/videos/Rock-G-Dur.mp4",
+            "cover_image": "shopify://shop_images/video4.webp"
           }
         },
         "video_ndP7pw": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/14_Metall.mp4"
+            "video": "shopify://files/videos/14_Metall.mp4",
+            "cover_image": "shopify://shop_images/video5.webp"
           }
         },
         "video_qpYQyz": {
           "type": "video",
           "settings": {
-            "video": "shopify://files/videos/Funk.mp4"
+            "video": "shopify://files/videos/Funk.mp4",
+            "cover_image": "shopify://shop_images/video6.webp"
           }
         }
       },
