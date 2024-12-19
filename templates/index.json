@@ -451,14 +451,48 @@
       "blocks": {
         "video_WAynmJ": {
           "type": "video",
-          "disabled": true,
           "settings": {
-            "video": "shopify://files/videos/VIDEO-2024-07-02-21-53-15.mp4"
+            "video": "shopify://files/videos/HardRock.mp4"
+          }
+        },
+        "video_ndP7pw": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/14_Metall.mp4"
+          }
+        },
+        "video_anPcAh": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Rock-E-Dur.mp4"
+          }
+        },
+        "video_C3qHh7": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Rock-G-Dur.mp4"
+          }
+        },
+        "video_qpYQyz": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Funk.mp4"
+          }
+        },
+        "video_nQbzKE": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Country.mp4"
           }
         }
       },
       "block_order": [
-        "video_WAynmJ"
+        "video_WAynmJ",
+        "video_ndP7pw",
+        "video_anPcAh",
+        "video_C3qHh7",
+        "video_qpYQyz",
+        "video_nQbzKE"
       ],
       "settings": {
         "color_scheme": "",
