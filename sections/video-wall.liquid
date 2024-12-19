@@ -33,6 +33,15 @@
               controls: true,
               muted: false
           }}
+          {{ block.settings.video 
+          | video_tag: 
+            autoplay: false, 
+            loop: true, 
+            muted: false, 
+            controls: true, 
+            image_size: "600x", 
+            poster: block.settings.video.preview_image | default: block.settings.cover_image
+          }}
         </div>
       {% endfor %}
     </div>
