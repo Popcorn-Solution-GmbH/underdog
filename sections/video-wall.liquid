@@ -49,18 +49,10 @@
       {% for block in section.blocks %}
         <div class="video-item">
           {%- if block.settings.video != blank -%}
-            <video
-  playsinline
-  controls
-  loop
-  preload="metadata"
-  poster="{{ block.settings.video.preview_image | image_url: width: 1920 }}"
->
-  <source src="{{ block.settings.video | file_url }}" type="video/mp4">
-  <img src="{{ block.settings.video.preview_image | image_url: width: 1920 }}" alt="Video Vorschau">
-</video>
-          {%- else -%}
-            <p>Kein Video verfügbar</p>
+            {{
+              block.settings.video
+              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata"
+            }}
           {%- endif -%}
         </div>
       {% endfor %}
