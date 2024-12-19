@@ -53,6 +53,7 @@
               block.settings.video
               | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata" 
             }}
+            {{ block.settings.video.preview_image }}
           {%- else -%}
             <p>Kein Video verfügbar</p>
           {%- endif -%}
