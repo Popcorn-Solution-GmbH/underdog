@@ -42,12 +42,20 @@
     object-fit: cover;
     position: absolute;
     inset: 0;
+    transition: opacity 0.3s ease;
   }
 
   .video-item video {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    position: relative;
+    z-index: 1;
+  }
+
+  .video-item img.hidden {
+    opacity: 0;
+    pointer-events: none;
   }
 {%- endstyle -%}
 
@@ -63,11 +71,19 @@
               class="video-preview"
               width="100%"
               height="100%"
+              data-video-id="video-{{ block.id }}"
             >
-            {{
-              block.settings.video
-              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata"
-            }}
+            <video
+              id="video-{{ block.id }}"
+              controls
+              preload="metadata"
+              loop
+              muted
+              onclick="playVideo('{{ block.id }}')"
+            >
+              <source src="{{ block.settings.video | file_url }}" type="video/mp4">
+              Dein Browser unterstützt dieses Videoformat nicht.
+            </video>
           {%- else -%}
             <p>Kein Video verfügbar</p>
           {%- endif -%}
@@ -76,6 +92,17 @@
     </div>
   </div>
 </div>
+
+<script>
+  function playVideo(id) {
+    const video = document.getElementById(`video-${id}`);
+    const preview = document.querySelector(`img[data-video-id="video-${id}"]`);
+    if (video && preview) {
+      preview.classList.add('hidden'); // Versteckt das Vorschaubild
+      video.play(); // Startet das Video
+    }
+  }
+</script>
 
 {% schema %}
 {
