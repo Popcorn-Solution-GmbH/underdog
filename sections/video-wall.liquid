@@ -24,7 +24,7 @@
     flex: 1 1 calc(33.333% - 16px); /* Drei Videos pro Reihe */
     aspect-ratio: 4/6; /* Breitbild-Seitenverhältnis */
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: 8px;
     background: #000;
     max-width: calc(33.333% - 16px);
     cursor: pointer;
@@ -55,7 +55,10 @@
   <div class="isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding">
     <div class="video-list">
       {% for block in section.blocks %}
-        <div class="video-item">
+        <div class="video-item" onclick="playVideo(this)">
+          {%- if block.settings.cover_image != blank -%}
+            <img src="{{ block.settings.cover_image }}" alt="Video Vorschaubild">
+          {%- endif -%}
           {%- if block.settings.video != blank -%}
             {{
               block.settings.video
