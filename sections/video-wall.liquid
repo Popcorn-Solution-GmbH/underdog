@@ -51,7 +51,8 @@
           {%- if block.settings.video != blank -%}
             {{
               block.settings.video
-              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata", poster: "https://underdog-audio.de/cdn/shop/files/underdog_CHUCK_4.jpg?v=1727109212&width=1284"}}
+              | video_tag: autoplay: false, controls: true, loop: true, muted: false, preload: "metadata" 
+            }}
           {%- else -%}
             <p>Kein Video verfügbar</p>
           {%- endif -%}
