@@ -449,15 +449,16 @@
     "video_wall_APeQcH": {
       "type": "video-wall",
       "blocks": {
-        "logo_XmnbJm": {
-          "type": "logo",
+        "video_WAynmJ": {
+          "type": "video",
+          "disabled": true,
           "settings": {
-            "image": "shopify://files/videos/VIDEO-2024-07-02-21-53-15.mp4"
+            "video": "shopify://files/videos/VIDEO-2024-07-02-21-53-15.mp4"
           }
         }
       },
       "block_order": [
-        "logo_XmnbJm"
+        "video_WAynmJ"
       ],
       "settings": {
         "color_scheme": "",
