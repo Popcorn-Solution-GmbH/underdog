@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Maße",
             "icon": "ruler",
-            "content": "<p>{{ block.settings.page.metafields.custom.size | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.size | metafield_tag }}</p>",
             "page": ""
           }
         }
