@@ -55,9 +55,9 @@
   <div class="isolate scroll-trigger animate--slide-in section-{{ section.id }}-padding">
     <div class="video-list">
       {% for block in section.blocks %}
-        <div class="video-item" onclick="playVideo(this)">
+        <div class="video-item">
           {%- if block.settings.cover_image != blank -%}
-            <div class="button_link">
+            <div class="button_link" onclick="playVideo(this)">
               <span class='deferred-media__poster-button motion-reduce'>
                 {%- render 'icon-play' -%}
               </span>
