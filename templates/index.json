@@ -9,6 +9,57 @@
  */
 {
   "sections": {
+    "image_banner_nLm3hq": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_PKjgeB": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHUCK Weihnachts-bundle",
+            "heading_size": "h2"
+          }
+        },
+        "text_CmqzWf": {
+          "type": "text",
+          "settings": {
+            "text": "Kauf CHUCK – unseren einzigartigen Verstärker – und wir schenken dir die passende Transporttasche im Wert von 199 € obendrauf!",
+            "text_style": "body"
+          }
+        },
+        "buttons_YEDfNL": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Zum Bundle",
+            "button_link_1": "shopify://collections/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PKjgeB",
+        "text_CmqzWf",
+        "buttons_YEDfNL"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/chuck-transporttasche-gitarrenverstaerker-underdog-14.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "large",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "margin_top": 0,
+        "margin_bottom": 36
+      }
+    },
     "rich_text_9EcJK6": {
       "type": "rich-text",
       "blocks": {
@@ -508,6 +559,7 @@
     }
   },
   "order": [
+    "image_banner_nLm3hq",
     "rich_text_9EcJK6",
     "newsletter_KycmFr",
     "video_gCfjGc",
