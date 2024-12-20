@@ -77,16 +77,37 @@
 </div>
 
 <script>
+  let currentlyPlaying = null;
+
   function playVideo(videoItem) {
     const img = videoItem.querySelector('.button_link');
     const video = videoItem.querySelector('video');
 
+    // Stop the currently playing video if any
+    if (currentlyPlaying && currentlyPlaying !== video) {
+      currentlyPlaying.pause();
+      currentlyPlaying.currentTime = 0;
+      currentlyPlaying.parentElement.querySelector('.button_link').style.display = 'block';
+      currentlyPlaying.style.display = 'none';
+    }
+
     if (img) {
       img.style.display = 'none';
     }
+
     if (video) {
-      video.style.display = 'block';
-      video.play();
+      if (video === currentlyPlaying) {
+        // Pause if the same video is clicked again
+        video.pause();
+        video.currentTime = 0;
+        img.style.display = 'block';
+        video.style.display = 'none';
+        currentlyPlaying = null;
+      } else {
+        video.style.display = 'block';
+        video.play();
+        currentlyPlaying = video;
+      }
     }
   }
 </script>
