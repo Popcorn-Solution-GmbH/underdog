@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_banner_gTREA7": {
@@ -64,8 +64,8 @@
             "bg_color": "#e9e1d9",
             "opacity": 1,
             "color": "",
-            "title": "presale",
-            "text": "<p>Die Vorbestellung läuft wie ein ganz normaler Kaufvorgang ab. Einfach auf „Vorbestellen“ klicken und den Bestellvorgang über den Warenkorb abschließen.</p>",
+            "title": "Ambassador",
+            "text": "<p>Du bist Gitarrist oder Teil einer Band und willst die Bühnen rocken? Wir suchen dich als Gesicht von underdog! Zeig der Welt, wie Leidenschaft und High-Tech zusammen klingen. Schreib uns per Mail oder DM.</p>",
             "link_label": "",
             "link": ""
           }
