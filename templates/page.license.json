@@ -11,57 +11,9 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "image_with_text_m6EYTr": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_wDRk3x": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bild mit Text",
-            "heading_size": "h1"
-          }
-        },
-        "text_FU4VjU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kombiniere Text mit einem Bild, um den Fokus auf dein Produkt, deine Kollektion oder deinen Blog-Beitrag zu richten. Du kannst außerdem weitere Details über die Verfügbarkeit oder den Stil und sogar eine Bewertung hinzufügen.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_q4xzrf": {
-          "type": "button",
-          "settings": {
-            "button_label": "Schaltflächenbeschriftung",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_wDRk3x",
-        "text_FU4VjU",
-        "button_q4xzrf"
-      ],
-      "disabled": true,
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "image_banner_k6gFwc": {
@@ -98,6 +50,7 @@
         "text_MVBhED",
         "buttons_GMczPV"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/DSCF8592_e2dd1823-ba7b-49f3-af8d-bb4c88322df1.jpg",
         "image_overlay_opacity": 40,
@@ -114,53 +67,52 @@
         "margin_bottom": 0
       }
     },
-    "custom_liquid_xqkApb": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<script src=\"https://cdn.jsdelivr.net/npm/js-yaml@4.0.0/dist/js-yaml.min.js\"></script>\n\n<script>\n  // Funktion zum Abrufen und Parsen der YML-Datei\n  async function fetchLatestDmgLink() {\n    try {\n      // Lade die YML-Datei mit aktiviertem CORS\n      const response = await fetch('https://download.underdog-audio.com/test.yml', {\n        method: 'GET',\n        headers: {\n          'Content-Type': 'application/x-yaml',\n          'Accept': 'application/x-yaml'\n        }\n      });\n\n      // Überprüfen, ob die Anfrage erfolgreich war\n      if (!response.ok) {\n        throw new Error(`HTTP-Fehler! Status: ${response.status}`);\n      }\n\n      // Textinhalt der YML-Datei holen\n      const ymlText = await response.text();\n\n      // YML zu JSON konvertieren\n      const parsedYml = jsyaml.load(ymlText);\n\n      // Finde den Link zur .dmg-Datei (oder passe die Logik für deine Struktur an)\n      const dmgLink = parsedYml.links.find(link => link.endsWith('.dmg'));\n\n      // Wenn ein .dmg-Link gefunden wurde, füge ihn in den Button ein\n      if (dmgLink) {\n        document.getElementById('download-button').setAttribute('href', dmgLink);\n        console.log('Neueste .dmg-Version:', dmgLink);\n      } else {\n        console.error(\"Kein .dmg-Link gefunden.\");\n      }\n    } catch (error) {\n      console.error(\"Fehler beim Abrufen der YML-Datei:\", error);\n    }\n  }\n\n  // Starte die Funktion, wenn die Seite geladen wird\n  document.addEventListener('DOMContentLoaded', fetchLatestDmgLink);\n</script>\n\n<!-- Download-Button, der dynamisch den neuesten .dmg-Link erhält -->\n<a id=\"download-button\" href=\"#\">Neueste Mac-Version herunterladen</a>",
-        "color_scheme": "",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_BMTmjA": {
+    "rich_text_zqJw8F": {
       "type": "rich-text",
       "blocks": {
-        "heading_hmrxda": {
+        "heading_EYqN8C": {
           "type": "heading",
           "settings": {
-            "heading": "Weitere Downloads",
-            "heading_size": "h2"
+            "heading": "Erzähle etwas über deine Marke",
+            "heading_size": "h1"
           }
         },
-        "text_kRNfHj": {
+        "text_rhXKaX": {
           "type": "text",
           "settings": {
-            "text": "<p>Du möchtest Deine kreative Session mit der neuesten Version von <strong>Studio</strong> starten oder benötigst Unterstützung mit einem älteren Setup? Kein Problem, wir haben alles für Dich parat!</p><p>👉 Für alle vorherigen Versionen von Studio: <a href=\"https://download.underdog-audio.com/studio/all-releases.php\"><em>Hier geht’s zu den Versionen</em></a><br/>👉 Für den aktuellen <strong>ASIO-Treiber</strong> (Windows): <a href=\"https://download.underdog-audio.com/asio/underdog_UsbAudio_v5.70.0_2024-11-04_setup.exe\"><em>Lade ihn hier herunter</em></a></p><p>Denn was zählt, ist Dein Sound – und wir sorgen dafür, dass Deine Technik Dich niemals hängen lässt. Rock on! 🎸</p>"
+            "text": "<p>Teile Infos über deine Marke mit deinen Kunden. Beschreibe ein Produkt, kündige etwas an oder heiße Kunden willkommen.</p>"
+          }
+        },
+        "button_3FkqdH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Schaltflächenbeschriftung",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_hmrxda",
-        "text_kRNfHj"
+        "heading_EYqN8C",
+        "text_rhXKaX",
+        "button_3FkqdH"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
-        "color_scheme": "",
+        "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 120,
+        "padding_bottom": 120
       }
     }
   },
   "order": [
     "main",
-    "image_with_text_m6EYTr",
     "image_banner_k6gFwc",
-    "custom_liquid_xqkApb",
-    "rich_text_BMTmjA"
+    "rich_text_zqJw8F"
   ]
 }
